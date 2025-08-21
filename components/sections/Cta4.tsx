@@ -15,7 +15,7 @@
 // 						<div className="col-lg-6 text-center">
 // 							<div className="text-center rounded-4 position-relative d-inline-flex">
 // 								<div className="zoom-img rounded-4 position-relative z-1">
-// 									<img className="rounded-4" src="/assets/imgs/cta-4/img-1.png" alt="infinia" />
+// 									<img className="rounded-4" src="/assets/imgs/cta-4/img-1.png" alt="limpiar" />
 // 									<div className="position-absolute top-50 start-50 translate-middle z-2">
 // 										<Link href="#" onClick={() => setOpen(true)} scroll={false} className="d-inline-flex align-items-center rounded-4 text-nowrap backdrop-filter px-3 py-2 popup-video hover-up me-3 shadow-1">
 // 											<span className="backdrop-filter me-2 icon-shape icon-md rounded-circle">
@@ -30,7 +30,7 @@
 // 									</div>
 // 								</div>
 // 								<div className="position-absolute top-100 start-0 translate-middle z-0 pt-5">
-// 									<img className="alltuchtopdown" src="/assets/imgs/cta-4/vector.svg" alt="infinia" />
+// 									<img className="alltuchtopdown" src="/assets/imgs/cta-4/vector.svg" alt="limpiar" />
 // 								</div>
 // 							</div>
 // 						</div>
@@ -42,21 +42,21 @@
 // 							<div className="d-md-flex align-items-center mt-4 mb-5">
 // 								<ul className="list-unstyled phase-items mb-0">
 // 									<li className="d-flex align-items-center mt-3">
-// 										<img src="/assets/imgs/cta-2/check.svg" alt="infinia" />
+// 										<img src="/assets/imgs/cta-2/check.svg" alt="limpiar" />
 // 										<span className="ms-2 text-900">Creative Ideas</span>
 // 									</li>
 // 									<li className="d-flex align-items-center mt-3">
-// 										<img src="/assets/imgs/cta-2/check.svg" alt="infinia" />
+// 										<img src="/assets/imgs/cta-2/check.svg" alt="limpiar" />
 // 										<span className="ms-2 text-900">Web Development</span>
 // 									</li>
 // 								</ul>
 // 								<ul className="list-unstyled phase-items ms-md-5 mb-0">
 // 									<li className="d-flex align-items-center mt-3">
-// 										<img src="/assets/imgs/cta-2/check.svg" alt="infinia" />
+// 										<img src="/assets/imgs/cta-2/check.svg" alt="limpiar" />
 // 										<span className="ms-2 text-900">Digital Marketing</span>
 // 									</li>
 // 									<li className="d-flex align-items-center mt-3">
-// 										<img src="/assets/imgs/cta-2/check.svg" alt="infinia" />
+// 										<img src="/assets/imgs/cta-2/check.svg" alt="limpiar" />
 // 										<span className="ms-2 text-900">App Development</span>
 // 									</li>
 // 								</ul>
@@ -102,7 +102,7 @@ export default function Cta4() {
                         <div className="col-lg-6 text-center">
                             <div className="text-center rounded-4 position-relative d-inline-flex">
                                 <div className="zoom-img rounded-4 position-relative z-1">
-                                    <img className="rounded-4" src="/assets/imgs/cta-4/img-1.png" alt="infinia" />
+                                    <img className="rounded-4" src="/assets/imgs/cta-4/img-1.png" alt="limpiar" />
                                     <div className="position-absolute top-50 start-50 translate-middle z-2">
                                         <Link
                                             href="#"
@@ -122,33 +122,33 @@ export default function Cta4() {
                                     </div>
                                 </div>
                                 <div className="position-absolute top-100 start-0 translate-middle z-0 pt-5">
-                                    <img className="alltuchtopdown" src="/assets/imgs/cta-4/vector.svg" alt="infinia" />
+                                    <img className="alltuchtopdown" src="/assets/imgs/cta-4/vector.svg" alt="limpiar" />
                                 </div>
                             </div>
                         </div>
                         <div className="col-lg-6 mt-lg-0 mt-8">
                             <h6 className="text-primary">What We Do</h6>
-                            <h5 className="ds-5 my-3">Move from reactive to autonomous</h5>
-                            <p className="fs-5 text-500">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                            <h5 className="ds-5 my-3">Move from Reactive to Autonomous</h5>
+                            <p className="fs-5 text-500"> Most facilities react to problems after they happen. Limpiar’s AI platform predicts, prevents, and resolves issues automatically, keeping your properties optimized, compliant, and profitable without constant oversight.</p>
                             <div className="d-md-flex align-items-center mt-4 mb-5">
                                 <ul className="list-unstyled phase-items mb-0">
                                     <li className="d-flex align-items-center mt-3">
-                                        <img src="/assets/imgs/cta-2/check.svg" alt="infinia" />
-                                        <span className="ms-2 text-900">property automation</span>
+                                        <img src="/assets/imgs/cta-2/check.svg" alt="limpiar" />
+                                        <span className="ms-2 text-900"> Property Automation</span>
                                     </li>
                                     <li className="d-flex align-items-center mt-3">
-                                        <img src="/assets/imgs/cta-2/check.svg" alt="infinia" />
-                                        <span className="ms-2 text-900">work syncronization</span>
+                                        <img src="/assets/imgs/cta-2/check.svg" alt="limpiar" />
+                                        <span className="ms-2 text-900">Mobile Access</span>
                                     </li>
                                 </ul>
                                 <ul className="list-unstyled phase-items ms-md-5 mb-0">
                                     <li className="d-flex align-items-center mt-3">
-                                        <img src="/assets/imgs/cta-2/check.svg" alt="infinia" />
-                                        <span className="ms-2 text-900">Mobile access</span>
+                                        <img src="/assets/imgs/cta-2/check.svg" alt="limpiar" />
+                                        <span className="ms-2 text-900"> Work Synchronization</span>
                                     </li>
                                     <li className="d-flex align-items-center mt-3">
-                                        <img src="/assets/imgs/cta-2/check.svg" alt="infinia" />
-                                        <span className="ms-2 text-900">Predictive AI scheduling</span>
+                                        <img src="/assets/imgs/cta-2/check.svg" alt="limpiar" />
+                                        <span className="ms-2 text-900"> Predictive AI Scheduling</span>
                                     </li>
                                 </ul>
                             </div>

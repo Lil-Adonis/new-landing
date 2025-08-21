@@ -8,19 +8,19 @@ export default function Services1() {
 				<div className="container">
 					<div className="text-center">
 						<div className="d-flex align-items-center justify-content-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-4 py-2" data-aos="zoom-in" data-aos-delay={100}>
-							<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
-							<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">What we offers</span>
+							<img src="/assets/imgs/features-1/dots.png" alt="limpiar" />
+							<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">What we offer</span>
 						</div>
-						<h3 className="ds-3 my-3" data-aos="fade-zoom-in" data-aos-delay={300}>Explore Our Services</h3>
+						<h3 className="ds-3 my-3" data-aos="fade-zoom-in" data-aos-delay={300}>The Future of Property Operations is Autonomous</h3>
 						<p data-aos="fade-zoom-in" data-aos-delay={100}>By doing a financial analysis of these statements, you can see <br /> whether you have enough working capital.</p>
 					</div>
 					<div className="row mt-6 position-relative">
 						<div className="col-lg-4">
 							<div className="p-2 mt-lg-8 rounded-4 shadow-1 bg-white position-relative z-1 hover-up" data-aos="fade-zoom-in" data-aos-delay={100}>
 								<div className="card-service bg-white p-6 border rounded-4">
-									<img src="/assets/imgs/service-1/icon-1.svg" alt="infinia" />
-									<h6 className="my-3">Research planning</h6>
-									<p className="mb-6">Separating your work from your home life can improve work-life balance and coworking spaces provide a dedicated place to work</p>
+									<img src="/assets/imgs/service-1/icon-1.svg" alt="limpiar" />
+									<h6 className="my-3">Automated Work Order Flows</h6>
+									<p className="mb-6">AI routes, tracks, and updates every request—no manual steps, no downtime. Full visibility and control across all sites.</p>
 									<Link href="#" className="rounded-pill border icon-shape d-inline-flex gap-3 icon-learn-more">
 										<svg className="plus" xmlns="http://www.w3.org/2000/svg" width={16} height={16} viewBox="0 0 16 16" fill="none">
 											<g clipPath="url(#clip0_226_5470)">
@@ -39,11 +39,13 @@ export default function Services1() {
 									</Link>
 								</div>
 							</div>
+
+
 							<div className="p-2 mt-5 rounded-4 shadow-1 bg-white position-relative z-1 hover-up" data-aos="fade-zoom-in" data-aos-delay={200}>
 								<div className="card-service bg-white p-6 border rounded-3">
-									<img src="/assets/imgs/service-1/icon-2.svg" alt="infinia" />
-									<h6 className="my-3">Strategy Lab</h6>
-									<p className="mb-6">Separating your work from your home life can improve work-life balance and coworking spaces provide a dedicated place to work</p>
+									<img src="/assets/imgs/service-1/icon-2.svg" alt="limpiar" />
+									<h6 className="my-3">Sustainability & Compliance Tracking</h6>
+									<p className="mb-6">  Automated ESG reporting and compliance logs to meet environmental and operational goals..</p>
 									<Link href="#" className="rounded-pill border icon-shape d-inline-flex gap-3 icon-learn-more">
 										<svg className="plus" xmlns="http://www.w3.org/2000/svg" width={16} height={16} viewBox="0 0 16 16" fill="none">
 											<g clipPath="url(#clip0_226_5470)">
@@ -63,12 +65,14 @@ export default function Services1() {
 								</div>
 							</div>
 						</div>
+
+
 						<div className="col-lg-4">
 							<div className="p-2 mt-5 rounded-4 shadow-1 bg-white position-relative z-1 hover-up" data-aos="fade-zoom-in" data-aos-delay={300}>
 								<div className="card-service bg-white p-6 border rounded-3">
-									<img src="/assets/imgs/service-1/icon-3.svg" alt="infinia" />
-									<h6 className="my-3">Business Consultancy</h6>
-									<p className="mb-6">Separating your work from your home life can improve work-life balance and coworking spaces provide a dedicated place to work</p>
+									<img src="/assets/imgs/service-1/icon-3.svg" alt="limpiar" />
+									<h6 className="my-3">Predictive Maintenance Insights</h6>
+									<p className="mb-6">Proactive scheduling and inventory forecasts prevent costly issues before they start</p>
 									<Link href="#" className="rounded-pill border icon-shape d-inline-flex gap-3 icon-learn-more">
 										<svg className="plus" xmlns="http://www.w3.org/2000/svg" width={16} height={16} viewBox="0 0 16 16" fill="none">
 											<g clipPath="url(#clip0_226_5470)">
@@ -89,9 +93,9 @@ export default function Services1() {
 							</div>
 							<div className="p-2 mt-5 rounded-4 shadow-1 bg-white position-relative z-1 hover-up" data-aos="fade-zoom-in" data-aos-delay={100}>
 								<div className="card-service bg-white p-6 border rounded-3">
-									<img src="/assets/imgs/service-1/icon-4.svg" alt="infinia" />
-									<h6 className="my-3">Business promotion</h6>
-									<p className="mb-6">Separating your work from your home life can improve work-life balance and coworking spaces provide a dedicated place to work</p>
+									<img src="/assets/imgs/service-1/icon-4.svg" alt="limpiar" />
+									<h6 className="my-3">Centralized Operations Dashboard</h6>
+									<p className="mb-6">All your property data, KPIs, and alerts in one mobile-first hub.</p>
 									<Link href="#" className="rounded-pill border icon-shape d-inline-flex gap-3 icon-learn-more">
 										<svg className="plus" xmlns="http://www.w3.org/2000/svg" width={16} height={16} viewBox="0 0 16 16" fill="none">
 											<g clipPath="url(#clip0_226_5470)">
@@ -111,12 +115,14 @@ export default function Services1() {
 								</div>
 							</div>
 						</div>
+
+
 						<div className="col-lg-4">
 							<div className="p-2 mt-lg-8 mt-5 rounded-4 shadow-1 bg-white position-relative z-1 hover-up hover-up" data-aos="fade-zoom-in" data-aos-delay={200}>
 								<div className="card-service bg-white p-6 border rounded-3">
-									<img src="/assets/imgs/service-1/icon-5.svg" alt="infinia" />
-									<h6 className="my-3">Finance Advisory </h6>
-									<p className="mb-6">Separating your work from your home life can improve work-life balance and coworking spaces provide a dedicated place to work</p>
+									<img src="/assets/imgs/service-1/icon-5.svg" alt="limpiar" />
+									<h6 className="my-3">Intelligent Vendor Dispatch</h6>
+									<p className="mb-6"> Match, dispatch, and monitor vendors instantly with real-time tracking.</p>
 									<Link href="#" className="rounded-pill border icon-shape d-inline-flex gap-3 icon-learn-more">
 										<svg className="plus" xmlns="http://www.w3.org/2000/svg" width={16} height={16} viewBox="0 0 16 16" fill="none">
 											<g clipPath="url(#clip0_226_5470)">
@@ -137,9 +143,9 @@ export default function Services1() {
 							</div>
 							<div className="p-2 mt-5 rounded-4 shadow-1 bg-white position-relative z-1 hover-up" data-aos="fade-zoom-in" data-aos-delay={300}>
 								<div className="card-service bg-white p-6 border rounded-3">
-									<img src="/assets/imgs/service-1/icon-6.svg" alt="infinia" />
-									<h6 className="my-3">Revenue generation</h6>
-									<p className="mb-6">Separating your work from your home life can improve work-life balance and coworking spaces provide a dedicated place to work</p>
+									<img src="/assets/imgs/service-1/icon-6.svg" alt="limpiar" />
+									<h6 className="my-3">Revenue & Efficiency Optimization</h6>
+									<p className="mb-6"> Maximize asset performance while reducing operational costs.</p>
 									<Link href="#" className="rounded-pill border icon-shape d-inline-flex gap-3 icon-learn-more">
 										<svg className="plus" xmlns="http://www.w3.org/2000/svg" width={16} height={16} viewBox="0 0 16 16" fill="none">
 											<g clipPath="url(#clip0_226_5470)">
@@ -160,7 +166,7 @@ export default function Services1() {
 							</div>
 						</div>
 						<div className="position-absolute top-50 start-50 translate-middle z-0">
-							<img src="/assets/imgs/service-1/img-bg.png" alt="infinia" />
+							<img src="/assets/imgs/service-1/img-bg.png" alt="limpiar" />
 						</div>
 					</div>
 				</div>

@@ -18,6 +18,7 @@ import Features4 from "@/components/sections/Features4";
 
 import Static1 from "@/components/sections/Static1";
 import Project2 from "@/components/sections/Project2";
+import Cta8 from "@/components/sections/Cta8";
 export default function Home4() {
   return (
     <>
@@ -30,12 +31,14 @@ export default function Home4() {
         <Cta4 />
         <Static1 />
 
-        <Services5 />
+        {/* <Services5 /> */}
+         <Cta8 />
         <Project2 />
         <Features4 />
         <Testimonial1 />
         {/* <Features9 /> */}
         {/* <HowItWork2 /> */}
+        
         <Faqs3 />
         <Newsletter3 />
       </Layout>

@@ -19,7 +19,7 @@ export default function Features4() {
 								<div className="feature-item mb-5 bg-neutral-100 p-7 rounded-4 hover-up">
 									<div className="icon-flip position-relative icon-shape icon-xxl rounded-3 mb-4">
 										<div className="icon">
-											<img className="filter-invert" src="/assets/imgs/service-1/icon-6.svg" alt="infinia" />
+											<img className="filter-invert" src="/assets/imgs/service-1/icon-6.svg" alt="limpiar" />
 										</div>
 									</div>
 									<h4>Customers First</h4>
@@ -45,7 +45,7 @@ export default function Features4() {
 								<div className="feature-item mb-5 bg-neutral-100 p-7 rounded-4 hover-up">
 									<div className="icon-flip position-relative icon-shape icon-xxl rounded-3 mb-4">
 										<div className="icon">
-											<img className="filter-invert" src="/assets/imgs/service-1/icon-5.svg" alt="infinia" />
+											<img className="filter-invert" src="/assets/imgs/service-1/icon-5.svg" alt="limpiar" />
 										</div>
 									</div>
 									<h4>Commitment to Excellence</h4>
@@ -73,7 +73,7 @@ export default function Features4() {
 								<div className="feature-item mb-5 bg-neutral-100 p-7 rounded-4 hover-up">
 									<div className="icon-flip position-relative icon-shape icon-xxl rounded-3 mb-4">
 										<div className="icon">
-											<img className="filter-invert" src="/assets/imgs/service-1/icon-4.svg" alt="infinia" />
+											<img className="filter-invert" src="/assets/imgs/service-1/icon-4.svg" alt="limpiar" />
 										</div>
 									</div>
 									<h4>Personal Accountability</h4>
@@ -99,7 +99,7 @@ export default function Features4() {
 								<div className="feature-item mb-5 bg-neutral-100 p-7 rounded-4 hover-up">
 									<div className="icon-flip position-relative icon-shape icon-xxl rounded-3 mb-4">
 										<div className="icon">
-											<img className="filter-invert" src="/assets/imgs/service-1/icon-3.svg" alt="infinia" />
+											<img className="filter-invert" src="/assets/imgs/service-1/icon-3.svg" alt="limpiar" />
 										</div>
 									</div>
 									<h4>Team Empowerment</h4>

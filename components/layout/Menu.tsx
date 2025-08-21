@@ -7,11 +7,11 @@ export default function Menu() {
 
 			<div className="d-none d-lg-flex">
 				<ul className="navbar-nav mx-auto gap-4 align-items-lg-center">
-					<li className="nav-item  ">
+										<li className="nav-item dropdown menu-item-has-children">
 						<Link className="nav-link fw-bold d-flex align-items-center" href="#"   >
-							Solutions
+							Products
 						</Link>
-						{/* <div className="dropdown-menu fix">
+						<div className="dropdown-menu fix">
 							<ul className="list-unstyled">
 								<li className="position-relative z-1 border-bottom">
 									<Link className="dropdown-item position-relative z-1 d-flex align-items-start" href="/">
@@ -19,12 +19,12 @@ export default function Menu() {
 											<path d="M16.1143 9.19978H12.8916V2.14741C12.8916 1.99512 12.7913 1.86072 12.6452 1.81775C12.4977 1.77478 12.3416 1.83287 12.2591 1.96075L5.59417 12.2801C5.52577 12.386 5.52061 12.5204 5.58111 12.6311C5.64127 12.7414 5.75711 12.8102 5.88292 12.8102H9.10558V19.8522C9.10558 20.0045 9.20596 20.1389 9.35205 20.1819C9.38436 20.1912 9.41702 20.196 9.44933 20.196C9.5638 20.196 9.67346 20.1386 9.73808 20.0389L16.403 9.72984C16.4715 9.62397 16.4766 9.48956 16.4161 9.37887C16.356 9.26853 16.2401 9.19978 16.1143 9.19978Z" fill="#A38CFF" />
 										</svg>
 										<span className="ms-2">
-											<span className="d-block fw-bold fs-6">Home page v.1</span>
-											<span className="text-600 fs-7">Business Startup</span>
+											<span className="d-block fw-bold fs-6">Platform</span>
+											{/* <span className="text-600 fs-7">Business Startup</span> */}
 										</span>
 									</Link>
 								</li>
-								<li className="position-relative z-1 border-bottom">
+								{/* <li className="position-relative z-1 border-bottom">
 									<Link className="dropdown-item position-relative z-1 d-flex align-items-start" href="/home-2">
 										<svg className="mt-1" xmlns="http://www.w3.org/2000/svg" width={22} height={22} viewBox="0 0 22 22" fill="none">
 											<path fillRule="evenodd" clipRule="evenodd" d="M16.3205 8.75C16.752 8.457 17 7.991 17 7.5C17 7.009 16.752 6.543 16.3205 6.25C15.016 5.365 13.004 4 11.961 3.2915C11.3905 2.9045 10.6095 2.9045 10.039 3.2915C8.996 4 6.984 5.365 5.6795 6.25C5.248 6.543 5 7.009 5 7.5C5 7.991 5.248 8.457 5.6795 8.75C6.984 9.635 8.996 11 10.039 11.7085C10.6095 12.0955 11.3905 12.0955 11.961 11.7085L16.3205 8.75Z" fill="#A38CFF" />
@@ -75,15 +75,15 @@ export default function Menu() {
 											<span className="text-600 fs-7">Consulting Services</span>
 										</span>
 									</Link>
-								</li>
+								</li> */}
 							</ul>
 							<div className="ellipse-rotate-success-sm position-absolute top-0 start-0 translate-middle z-0" />
 							<div className="ellipse-rotate-primary-sm position-absolute top-50 z-0" />
-						</div> */}
+						</div>
 					</li>
 					<li className="nav-item  ">
 						<Link className="nav-link fw-bold d-flex align-items-center" href="#"   >
-							About
+							Industries
 						</Link>
 						{/* <div className="mega-menu fix start-50 translate-middle-x">
 							<div className="container">
@@ -190,12 +190,12 @@ export default function Menu() {
 													<div className="position-relative bg-4 rounded-3 mt-5">
 														<img className="rounded-3" src="/assets/imgs/template/bg-card.png" alt="" />
 														<div className="position-absolute top-50 start-50 translate-middle z-0">
-															<img className="ms-3" src="/assets/imgs/logo/logo-dark.svg" alt="infinia" />
+															<img className="ms-3" src="/assets/imgs/logo/logo-dark.svg" alt="limpiar" />
 															<p className="fs-7 fw-bold text-900 text-center my-3 text-nowrap">Multi-layout SaaS  <br /> Startup Website <br /> Template</p>
 															<div className="d-flex mt-3 ms-3">
-																<img src="/assets/imgs/other/avatar-1.png" alt="infinia" />
-																<img className="avt-hero" src="/assets/imgs/other/avatar-2.png" alt="infinia" />
-																<img className="avt-hero " src=" assets/imgs/other/avatar-3.png" alt="infinia" />
+																<img src="/assets/imgs/other/avatar-1.png" alt="limpiar" />
+																<img className="avt-hero" src="/assets/imgs/other/avatar-2.png" alt="limpiar" />
+																<img className="avt-hero " src=" assets/imgs/other/avatar-3.png" alt="limpiar" />
 															</div>
 															<Link href="#" className="btn btn-md btn-gradient fs-8 mt-3 text-nowrap">
 																Get this now
@@ -213,130 +213,45 @@ export default function Menu() {
 								</div>
 							</div>
 							<div className="position-absolute top-0 start-50 translate-middle-x z-0">
-								<img src="/assets/imgs/team-1/bg-line.png" alt="infinia" />
+								<img src="/assets/imgs/team-1/bg-line.png" alt="limpiar" />
 							</div>
 							<div className="ellipse-rotate-success-sm position-absolute top-0 start-0 translate-middle z-0" />
 							<div className="ellipse-rotate-primary-sm position-absolute top-0 end-0 translate-middle-y z-0" />
 						</div> */}
 					</li>
-					<li className="nav-item  ">
+							 <li className="nav-item dropdown menu-item-has-children"> 
 						<Link className="nav-link fw-bold d-flex align-items-center" href="#"   >
-							Blog
+							Resources
 						</Link>
-						{/* <div className="mega-menu fix">
-							<div className="d-flex flex-wrap gap-2 position-relative z-1">
-								<Link href="/section-navigation" className="btn btn-md btn-filter mb-2 me-2 rounded-pill py-2 d-inline-flex">
-									Navigation
-									<span className="rounded-pill ms-2 fs-9 bg-primary-soft text-dark px-2 py-1">
-										09
-									</span>
-								</Link>
-								<Link href="/section-hero" className="btn btn-md btn-filter mb-2 me-2 rounded-pill py-2 d-inline-flex">
-									Hero
-									<span className="rounded-pill ms-2 fs-9 bg-primary-soft text-dark px-2 py-1">
-										05
-									</span>
-								</Link>
-								<Link href="/section-logo-cloud" className="btn btn-md btn-filter mb-2 me-2 rounded-pill py-2 d-inline-flex">
-									Logo cloud
-									<span className="rounded-pill ms-2 fs-9 bg-primary-soft text-dark px-2 py-1">
-										05
-									</span>
-								</Link>
-								<Link href="/section-cta" className="btn btn-md btn-filter mb-2 me-2 rounded-pill py-2 d-inline-flex">
-									Call to action
-									<span className="rounded-pill ms-2 fs-9 bg-primary-soft text-dark px-2 py-1">
-										15
-									</span>
-								</Link>
-								<Link href="/section-how-it-work" className="btn btn-md btn-filter mb-2 me-2 rounded-pill py-2 d-inline-flex">
-									How it work
-									<span className="rounded-pill ms-2 fs-9 bg-primary-soft text-dark px-2 py-1">
-										02
-									</span>
-								</Link>
-								<Link href="/section-services" className="btn btn-md btn-filter mb-2 me-2 rounded-pill py-2 d-inline-flex">
-									Services
-									<span className="rounded-pill ms-2 fs-9 bg-primary-soft text-dark px-2 py-1">
-										04
-									</span>
-								</Link>
-								<Link href="/section-team" className="btn btn-md btn-filter mb-2 me-2 rounded-pill py-2 d-inline-flex">
-									Team
-									<span className="rounded-pill ms-2 fs-9 bg-primary-soft text-dark px-2 py-1">
-										07
-									</span>
-								</Link>
-								<Link href="/section-pricing" className="btn btn-md btn-filter mb-2 me-2 rounded-pill py-2 d-inline-flex">
-									Pricing
-									<span className="rounded-pill ms-2 fs-9 bg-primary-soft text-dark px-2 py-1">
-										05
-									</span>
-								</Link>
-								<Link href="/section-faqs" className="btn btn-md btn-filter mb-2 me-2 rounded-pill py-2 d-inline-flex">
-									FAQS
-									<span className="rounded-pill ms-2 fs-9 bg-primary-soft text-dark px-2 py-1">
-										03
-									</span>
-								</Link>
-								<Link href="/section-testimonial" className="btn btn-md btn-filter mb-2 me-2 rounded-pill py-2 d-inline-flex">
-									Testimonials
-									<span className="rounded-pill ms-2 fs-9 bg-primary-soft text-dark px-2 py-1">
-										04
-									</span>
-								</Link>
-								<Link href="/section-blog" className="btn btn-md btn-filter mb-2 me-2 rounded-pill py-2 d-inline-flex">
-									Blog
-									<span className="rounded-pill ms-2 fs-9 bg-primary-soft text-dark px-2 py-1">
-										05
-									</span>
-								</Link>
-								<Link href="/section-newsletter" className="btn btn-md btn-filter mb-2 me-2 rounded-pill py-2 d-inline-flex">
-									Newsletter
-									<span className="rounded-pill ms-2 fs-9 bg-primary-soft text-dark px-2 py-1">
-										03
-									</span>
-								</Link>
-								<Link href="/section-footer" className="btn btn-md btn-filter mb-2 me-2 rounded-pill py-2 d-inline-flex">
-									Footer
-									<span className="rounded-pill ms-2 fs-9 bg-primary-soft text-dark px-2 py-1">
-										05
-									</span>
-								</Link>
-								<Link href="/section-features" className="btn btn-md btn-filter mb-2 me-2 rounded-pill py-2 d-inline-flex">
-									Features
-									<span className="rounded-pill ms-2 fs-9 bg-primary-soft text-dark px-2 py-1">
-										13
-									</span>
-								</Link>
-								<Link href="/section-projects" className="btn btn-md btn-filter mb-2 me-2 rounded-pill py-2 d-inline-flex">
-									Projects
-									<span className="rounded-pill ms-2 fs-9 bg-primary-soft text-dark px-2 py-1">
-										02
-									</span>
-								</Link>
-								<Link href="/section-contact" className="btn btn-md btn-filter mb-2 me-2 rounded-pill py-2 d-inline-flex">
-									Contact
-									<span className="rounded-pill ms-2 fs-9 bg-primary-soft text-dark px-2 py-1">
-										06
-									</span>
-								</Link>
-								<Link href="/section-static" className="btn btn-md btn-filter mb-2 me-2 rounded-pill py-2 d-inline-flex">
-									Static
-									<span className="rounded-pill ms-2 fs-9 bg-primary-soft text-dark px-2 py-1">
-										03
-									</span>
-								</Link>
-							</div>
-							<div className="position-absolute bottom-0 end-0 z-0">
-								<img src="/assets/imgs/other/bg-line.png" alt="infinia" />
-							</div>
+								<div className="dropdown-menu p-4 fix">
+							<ul className="list-unstyled">
+								<li className="position-relative border-bottom z-1">
+									<Link className="dropdown-item position-relative z-1 d-flex align-items-start" href="/page-style-guide">
+										Podcast
+									</Link>
+								</li>
+								<li className="position-relative z-1 border-bottom">
+									<Link className="dropdown-item position-relative z-1 d-flex align-items-start" href="/page-elements">
+										Blog
+									</Link>
+								</li>
+										<li className="position-relative z-1">
+									<Link className="dropdown-item position-relative z-1 d-flex align-items-start" href="/page-elements">
+										case study
+									</Link>
+								</li>
+							</ul>
 							<div className="ellipse-rotate-success-sm position-absolute top-0 start-0 translate-middle z-0" />
-						</div> */}
+							<div className="ellipse-rotate-primary-sm position-absolute bottom-0 end-0 translate-middle z-0" />
+						</div>
+
+
+
+
 					</li>
 					<li className="nav-item ">
 						<Link className="nav-link fw-bold d-flex align-items-center" href="#"   >
-							Support
+							Service network
 						</Link>
 						{/* <div className="dropdown-menu p-4 fix">
 							<ul className="list-unstyled">
@@ -355,9 +270,11 @@ export default function Menu() {
 							<div className="ellipse-rotate-primary-sm position-absolute bottom-0 end-0 translate-middle z-0" />
 						</div> */}
 					</li>
-					<li className="nav-item">
-						<Link className="nav-link fw-bold d-flex align-items-center" href="#">Contact</Link>
-					</li>
+			{/* <li className="nav-item dropdown menu-item-has-children">
+						<Link className="nav-link fw-bold d-flex align-items-center" href="#">Resources</Link>
+
+						
+					</li> */}
 				</ul>
 			</div>
 		</>

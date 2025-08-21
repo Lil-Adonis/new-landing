@@ -58,13 +58,13 @@ Table of contents
   --tc-ds-xs-6: 24px;
   --tc-body-line-height: 1.5;
   --tc-heading-line-height: 1.2;
-  --tc-theme-primary: #6d4df2;
+  --tc-theme-primary: #0d6efd;
   --tc-theme-primary-light: #a38cff;
   --tc-theme-secondary: #7f7d88;
-  --tc-theme-primary-soft: #f5eeff;
-  --tc-theme-primary-dark: #6342ec;
-  --tc-theme-dark-primary: #6d4df2;
-  --tc-theme-dark-primary-light: #866dee;
+  --tc-theme-primary-soft: #e6eefd;
+  --tc-theme-primary-dark: #0d6efd;
+  --tc-theme-dark-primary: #0d6efd;
+  --tc-theme-dark-primary-light: #0d6efd;
   --tc-theme-dark-secondary: #7f7d88;
   --tc-theme-dark-primary-soft: #271c52;
   --tc-theme-dark-primary-dark: #baa9ff;
@@ -105,19 +105,19 @@ Table of contents
   --tc-bg-1: #f7f4ff;
   --tc-bg-2: #e1d6ff;
   --tc-bg-3: #f2fbf9;
-  --tc-bg-4: #eef2ff;
+  --tc-bg-4: #e3ebf7;
   --tc-bg-5: #fff7ee;
   --tc-bg-6: #374151;
   --tc-bg-7: #1f2937;
   --tc-bg-dark-1: #1c1b1f;
   --tc-bg-dark-2: #362e4f;
   --tc-bg-dark-3: #141817;
-  --tc-bg-dark-4: #131518;
+  --tc-bg-dark-4: #222d3e;
   --tc-bg-dark-5: #100f0e;
   --tc-bg-dark-6: #1a2028;
   --tc-bg-dark-7: #111822;
-  --tc-linear-1: linear-gradient(90deg, #d7cdff 0%, #f8e2ff 100%);
-  --tc-linear-2: linear-gradient(90deg, #0d6efd 0%, #3c1ad4 100%);
+  --tc-linear-1: linear-gradient(90deg, #e3ebf7 0%, #f8e2ff 100%);
+  --tc-linear-2: linear-gradient(90deg, #0d6efd 0%);
   --tc-linear-3: linear-gradient(180deg, #eeebf0 0%, #ffffff 100%);
   --tc-linear-4: linear-gradient(180deg, #ffffff 0%, #f4f4f4 100%);
   --tc-linear-dark-1: linear-gradient(90deg, #a89adb 0%, #e6ceee 100%);
@@ -2155,7 +2155,7 @@ textarea {
 }
 
 .dropdown-item {
-  padding: 0.5rem 2rem 0.5rem 0;
+  padding: 0.2rem 2rem 0.2rem 0;
   display: flex;
   align-items: center;
   font-weight: 400;
@@ -2660,7 +2660,7 @@ textarea {
 .navbar-stick {
   transform: translateY(0%);
   background-color: rgb(255, 255, 255);
-  background-color: rgba(255, 255, 255, 0.5);
+ 
   -webkit-backdrop-filter: blur(50px);
           backdrop-filter: blur(50px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);

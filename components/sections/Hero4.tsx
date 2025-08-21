@@ -32,11 +32,12 @@ export default function Hero4() {
 					<div className="row position-relative z-1">
 						<div className="col-lg-6 text-center text-lg-start">
 							<div className="position-relative d-inline-block">
-								<img className="rounded-5 border border-5 border-white" src="/assets/imgs/hero-4/img-1.png" alt="infinia" />
+								<img className="rounded-5 border border-5 border-white" src="/assets/imgs/hero-4/img-1.png" alt="limpiar" />
 								<div className="alltuchtopdown backdrop-filter rounded-4 text-center d-inline-block px-6 py-4 m-5 position-absolute bottom-0 end-0">
-									<h2 className="count text-900 fw-black">+<span className="odometer" /><CountUp end={23} enableScrollSpy={true} /><span>k</span></h2>
-									<h6 className="text-500">Professionals</h6>
-									<p className="text-500 fs-7">Love Our System</p>
+									{/* <h2 className="count text-900 fw-black">+<span className="odometer" /><CountUp end={23} enableScrollSpy={true} /><span>k</span></h2> */}
+									{/* <h6 className="text-500">Professionals</h6>
+									<p className="text-500 fs-7">Love Our System</p> */}
+									<p>Trusted by leading National brands</p>
 									<Link href="#" className="shadow-sm d-flex align-items-center bg-white d-inline-flex rounded-pill px-2 py-1 mb-3">
 										<span className=" fs-9 fw-bold rounded-pill px-2 py-1 text-white" style={{ backgroundColor: '#0d6efd' }}>Get</span>
 										<span className="fs-7 fw-medium mx-2" style={{ color: '#0d6efd' }}>Free Update</span>
@@ -44,7 +45,7 @@ export default function Hero4() {
 								</div>
 								<div className="position-absolute start-0 bottom-50 translate-middle-x">
 									<div className="alltuchtopdown">
-										<img src="/assets/imgs/hero-4/vector-1.svg" alt="infinia" />
+										<img src="/assets/imgs/hero-4/vector-1.svg" alt="limpiar" />
 									</div>
 								</div>
 							</div>
@@ -57,9 +58,9 @@ export default function Hero4() {
 									<span className=" fw-bold">IT <br />Solution</span>
 									For <span className=" fw-bold">Grow <br /></span> Your <span className=" fw-bold">Business</span> */}
 								</h3>
-								<p className="fs-5 text-500 py-3">AI platform for cleaning, maintenance, and vendor workflows—enabling self-optimizing properties at scale.</p>
+								<p className="fs-5 text-500 py-3">Limpiar’s AI platform transforms buildings into self-optimizing assets,  automating cleaning, maintenance, and vendor management to cut costs, increase uptime, and set a new standard for facility management.</p>
 								<Link href="#" className="fw-bold btn bg-neutral-100 d-inline-flex align-items-center text-900 hover-up">
-									<span className="me-10">Request Demo</span>
+									<span className="me-5">Get started</span>
 									<svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
 										<path className="fill-dark" d="M17.4177 5.41776L16.3487 6.48684L21.1059 11.2441H0V12.756H21.1059L16.3487 17.5132L17.4177 18.5823L24 12L17.4177 5.41776Z" fill="black" />
 									</svg>
@@ -101,15 +102,15 @@ export default function Hero4() {
 												<SwiperSlide className="swiper-slide">
 													<div className="d-flex">
 														<div className="img align-self-start">
-															<img className="rounded-circle" src="/assets/imgs/hero-4/avatar-1.png" alt="infinia" />
+															<img className="rounded-circle" src="/assets/imgs/hero-4/avatar-1.png" alt="limpiar" />
 														</div>
 														<div className="content ms-3">
 															<div className="d-flex">
-																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
-																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
-																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
-																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
-																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
+																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="limpiar" />
+																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="limpiar" />
+																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="limpiar" />
+																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="limpiar" />
+																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="limpiar" />
 															</div>
 															<p className="text-500 mt-2">
 																Access the same project through five different dynamic <br className="d-md-block d-none" />
@@ -122,15 +123,15 @@ export default function Hero4() {
 												<SwiperSlide className="swiper-slide">
 													<div className="d-flex">
 														<div className="img align-self-start">
-															<img className="rounded-circle" src="/assets/imgs/hero-4/avatar-1.png" alt="infinia" />
+															<img className="rounded-circle" src="/assets/imgs/hero-4/avatar-1.png" alt="limpiar" />
 														</div>
 														<div className="content ms-3">
 															<div className="d-flex">
-																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
-																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
-																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
-																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
-																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
+																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="limpiar" />
+																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="limpiar" />
+																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="limpiar" />
+																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="limpiar" />
+																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="limpiar" />
 															</div>
 															<p className="text-500 mt-2">
 																Access the same project through five different dynamic <br className="d-md-block d-none" />
@@ -143,15 +144,15 @@ export default function Hero4() {
 												<SwiperSlide className="swiper-slide">
 													<div className="d-flex">
 														<div className="img align-self-start">
-															<img className="rounded-circle" src="/assets/imgs/hero-4/avatar-1.png" alt="infinia" />
+															<img className="rounded-circle" src="/assets/imgs/hero-4/avatar-1.png" alt="limpiar" />
 														</div>
 														<div className="content ms-3">
 															<div className="d-flex">
-																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
-																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
-																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
-																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
-																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
+																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="limpiar" />
+																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="limpiar" />
+																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="limpiar" />
+																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="limpiar" />
+																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="limpiar" />
 															</div>
 															<p className="text-500 mt-2">
 																Access the same project through five different dynamic <br className="d-md-block d-none" />
@@ -164,15 +165,15 @@ export default function Hero4() {
 												<SwiperSlide className="swiper-slide">
 													<div className="d-flex">
 														<div className="img align-self-start">
-															<img className="rounded-circle" src="/assets/imgs/hero-4/avatar-1.png" alt="infinia" />
+															<img className="rounded-circle" src="/assets/imgs/hero-4/avatar-1.png" alt="limpiar" />
 														</div>
 														<div className="content ms-3">
 															<div className="d-flex">
-																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
-																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
-																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
-																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
-																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="infinia" />
+																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="limpiar" />
+																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="limpiar" />
+																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="limpiar" />
+																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="limpiar" />
+																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="limpiar" />
 															</div>
 															<p className="text-500 mt-2">
 																Access the same project through five different dynamic <br className="d-md-block d-none" />
@@ -188,16 +189,16 @@ export default function Hero4() {
 									</div>
 								</div>
 								<div className="position-absolute top-0 end-0 z-1 flickering pt-9 pe-4">
-									<img src="/assets/imgs/hero-4/star-1.svg" alt="infinia" />
+									<img src="/assets/imgs/hero-4/star-1.svg" alt="limpiar" />
 								</div>
 							</div>
 						</div>
 					</div>
 					<div className="position-absolute top-0 start-0 bottom-0 mb-5 bg-2 rounded-4 fix">
-						<img style={{ backgroundColor: '#0d6efd' }} className="h-100" src="/assets/imgs/hero-4/line-bg.png" alt="infinia" />
+						<img style={{ backgroundColor: '#0d6efd' }} className="h-100" src="/assets/imgs/hero-4/line-bg.png" alt="limpiar" />
 					</div>
 					{/* <div className="position-absolute bg-rotate d-none d-lg-block pb-10 ps-9 mb-8 z-0">
-						<img src="/assets/imgs/hero-4/favicon.svg" alt="infinia" />
+						<img src="/assets/imgs/hero-4/favicon.svg" alt="limpiar" />
 					</div> */}
 				</div>
 			</section>

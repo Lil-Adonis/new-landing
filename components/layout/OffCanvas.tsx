@@ -9,7 +9,7 @@ export default function OffCanvas({ isOffCanvas, handleOffCanvas }: any) {
 					<button onClick={handleOffCanvas}><i className="far fa-window-close" /></button>
 				</div>
 				{/* <div className="offCanvas__logo mb-30"> */}
-					<Link href="/">										<img src="assets/imgs/template/logo.png" alt="infinia"  style={{ width: '150px', height: 'auto' }}/></Link>
+					<Link href="/">										<img src="assets/imgs/template/logo.png" alt="limpiar"  style={{ width: '150px', height: 'auto' }}/></Link>
 				{/* </div> */}
 				<div className="offCanvas__side-info mb-30">
 					<div className="contact-list mb-30">
@@ -19,15 +19,15 @@ export default function OffCanvas({ isOffCanvas, handleOffCanvas }: any) {
 							available 24/7
 						</p>
 						<div className="d-flex mb-2">
-							<img src="/assets/imgs/contact-2/icon-1.svg" alt="infinia" />
+							<img src="/assets/imgs/contact-2/icon-1.svg" alt="limpiar" />
 							<Link className="ms-2 text-decoration-underline text-900 fs-7" href="#">Chat via Whatsapp</Link>
 						</div>
 						<div className="d-flex mb-2">
-							<img src="/assets/imgs/contact-2/icon-2.svg" alt="infinia" />
+							<img src="/assets/imgs/contact-2/icon-2.svg" alt="limpiar" />
 							<Link className="ms-2 text-decoration-underline text-900 fs-7" href="#">Chat via Viber</Link>
 						</div>
 						<div className="d-flex mb-2 mb-5">
-							<img src="/assets/imgs/contact-2/icon-3.svg" alt="infinia" />
+							<img src="/assets/imgs/contact-2/icon-3.svg" alt="limpiar" />
 							<Link className="ms-2 text-decoration-underline text-900 fs-7" href="#">Chat via Messager</Link>
 						</div>
 					</div>

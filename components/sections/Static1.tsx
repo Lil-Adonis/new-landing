@@ -29,16 +29,16 @@ export default function Static1() {
 							<div className="col-xl-3 col-lg-4 col-sm-6">
 								<div className="counter-item-cover counter-item">
 									<div className="content text-center mx-auto">
-									<span className="fw-bold lh-sm count ds-2 text-100">2024</span>
-										<p className="fs-5 text-100">AI platform launch, rapid enterprise adoption</p>
+									<span className="fw-bold lh-sm count ds-2 text-100">92%</span>
+										<p className="fs-5 text-100">Reduction in manual work order processing time.</p>
 									</div>
 								</div>
 							</div>
 							<div className="col-xl-3 col-lg-4 col-sm-6">
 								<div className="counter-item-cover counter-item">
 									<div className="content text-center mx-auto">
-										<span className="count lh-sm ds-2 fw-bold text-100"><span className="odometer" /><CountUp end={100} enableScrollSpy={true} />+</span>
-										<p className="fs-5 text-100">National brands automated at scale</p>
+										<span className="count lh-sm ds-2 fw-bold text-100"><span className="odometer" /><CountUp end={37} enableScrollSpy={true} />%</span>
+										<p className="fs-5 text-100">Average maintenance cost savings across properties.</p>
 									</div>
 								</div>
 							</div>
@@ -49,7 +49,7 @@ export default function Static1() {
 								<div className="counter-item-cover counter-item">
 									<div className="content text-center mx-auto">
 										<span className="count lh-sm ds-2 fw-bold text-100"><span className="odometer" /><CountUp end={10} enableScrollSpy={true} />x</span>
-										<p className="fs-5 text-100">Faster issue resolution via AI</p>
+										<p className="fs-5 text-100">Faster issue resolution through AI-driven dispatch.</p>
 									</div>
 								</div>
 							</div>
@@ -60,15 +60,15 @@ export default function Static1() {
 								<div className="counter-item-cover counter-item">
 									<div className="content text-center mx-auto">
 										<span className="count lh-sm ds-2 fw-bold text-100"><span className="odometer" /><CountUp end={200} enableScrollSpy={true} />%</span>
-										<p className="fs-5 text-100">Boost in real-time site visibility</p>
+										<p className="fs-5 text-100"> Increase in real-time site visibility for proactive decision-making.</p>
 									</div>
 								</div>
 							</div>
 							<div className="col-xl-3 col-lg-4 col-sm-6">
 								<div className="counter-item-cover counter-item">
 									<div className="content text-center mx-auto">
-										<span className="count lh-sm ds-2 fw-bold text-100"><span className="odometer" /><CountUp end={-27} enableScrollSpy={true} />%</span>
-										<p className="fs-5 text-100">Lower maintenance costs achieved</p>
+										<span className="count lh-sm ds-2 fw-bold text-100"><span className="odometer" /><CountUp end={65} enableScrollSpy={true} />%</span>
+										<p className="fs-5 text-100"> Less downtime from equipment failures due to predictive maintenance.</p>
 									</div>
 								</div>
 							</div>
@@ -76,7 +76,7 @@ export default function Static1() {
 					</div>
 				</div>
 				<div className="img-decorate position-absolute top-0 start-0">
-					<img src="/assets/imgs/static-1/img-decorate.png" alt="infinia" />
+					<img src="/assets/imgs/static-1/img-decorate.png" alt="limpiar" />
 				</div>
 				<div className="bouncing-blobs-container">
 					<div className="bouncing-blobs-glass bg-transparent" />
