@@ -51,7 +51,7 @@ export default function Header4({
               <div className="d-flex align-items-center ">
                 <Link
                   href="https://property-manager.limpiar.online/login"
-                  className="btn btn-gradient"
+                  className="btn btn-gradient login"
                 >
                   Login
                   <svg
