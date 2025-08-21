@@ -58,14 +58,14 @@ export default function Hero4() {
 									<span className=" fw-bold">IT <br />Solution</span>
 									For <span className=" fw-bold">Grow <br /></span> Your <span className=" fw-bold">Business</span> */}
 								</h3>
-								<p className="fs-5 text-500 py-3">Limpiar’s AI platform transforms buildings into self-optimizing assets,  automating cleaning, maintenance, and vendor management to cut costs, increase uptime, and set a new standard for facility management.</p>
+								<p className="fs-5  py-3 responsive-text">Limpiar’s AI platform transforms buildings into self-optimizing assets,  automating cleaning, maintenance, and vendor management to cut costs, increase uptime, and set a new standard for facility management.</p>
 								<Link href="#" className="fw-bold btn bg-neutral-100 d-inline-flex align-items-center text-900 hover-up">
 									<span className="me-5">Get started</span>
 									<svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
 										<path className="fill-dark" d="M17.4177 5.41776L16.3487 6.48684L21.1059 11.2441H0V12.756H21.1059L16.3487 17.5132L17.4177 18.5823L24 12L17.4177 5.41776Z" fill="black" />
 									</svg>
 								</Link>
-								<p className="text-500 fs-8 pt-3 pb-8">No Card Required. Cancel Anytime.</p>
+								<p className="text-900 fs-8 pt-3 pb-8 ">No Card Required. Cancel Anytime.</p>
 								<div className="row">
 									{/* <div className="row position-relative align-items-center justify-content-between">
 										<div className="col d-flex align-items-center">
@@ -93,7 +93,7 @@ export default function Hero4() {
 											</p>
 										</div>
 									</div> */}
-									<div className="row mt-8 mb-10">
+									<div className="row mt- mb-10">
 										<Swiper {...swiperOptions}
 											className="swiper slider-two pb-5 mt-lg-0 mt-5"
 											modules={[Keyboard, Autoplay, Pagination, Navigation]}
@@ -112,7 +112,7 @@ export default function Hero4() {
 																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="limpiar" />
 																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="limpiar" />
 															</div>
-															<p className="text-500 mt-2">
+															<p className="text- mt-2 responsive-text">
 																Access the same project through five different dynamic <br className="d-md-block d-none" />
 																views: a kanban board, Gantt chart, spreadsheet, calendar <br />
 																or simple task list.
@@ -133,7 +133,7 @@ export default function Hero4() {
 																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="limpiar" />
 																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="limpiar" />
 															</div>
-															<p className="text-500 mt-2">
+															<p className="text- mt-2 responsive-text">
 																Access the same project through five different dynamic <br className="d-md-block d-none" />
 																views: a kanban board, Gantt chart, spreadsheet, calendar <br />
 																or simple task list.
@@ -154,7 +154,7 @@ export default function Hero4() {
 																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="limpiar" />
 																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="limpiar" />
 															</div>
-															<p className="text-500 mt-2">
+															<p className="text- mt-2 responsive-text">
 																Access the same project through five different dynamic <br className="d-md-block d-none" />
 																views: a kanban board, Gantt chart, spreadsheet, calendar <br />
 																or simple task list.
@@ -175,7 +175,7 @@ export default function Hero4() {
 																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="limpiar" />
 																<img src="/assets/imgs/hero-4/star-yellow.svg" alt="limpiar" />
 															</div>
-															<p className="text-500 mt-2">
+															<p className="text- mt-2 responsive-text">
 																Access the same project through five different dynamic <br className="d-md-block d-none" />
 																views: a kanban board, Gantt chart, spreadsheet, calendar <br />
 																or simple task list.
