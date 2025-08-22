@@ -42,11 +42,14 @@ export default function Header4({
             <div className="d-flex align-items-center pe-5 pe-lg-0 me-5 me-lg-0">
               {/* <ThemeSwitch /> */}
 
-			  			<div className="burger-icon burger-icon-white border rounded-3 mt-3" onClick={handleMobileMenu}>
-								<span className="burger-icon-top" />
-								<span className="burger-icon-mid" />
-								<span className="burger-icon-bottom" />
-							</div>
+              <div
+                className="burger-icon burger-icon-white border rounded-3 mt-3"
+                onClick={handleMobileMenu}
+              >
+                <span className="burger-icon-top" />
+                <span className="burger-icon-mid" />
+                <span className="burger-icon-bottom" />
+              </div>
 
               <div className="d-flex align-items-center ">
                 <Link
@@ -89,7 +92,14 @@ export default function Header4({
           isOffCanvas={isOffCanvas}
         />
       </header>
-      <MobileMenu handleMobileMenu={handleMobileMenu} isMobileMenu={isMobileMenu} /> 
+
+      {/* Only mount MobileMenu when open */}
+      {isMobileMenu && (
+        <MobileMenu
+          handleMobileMenu={handleMobileMenu}
+          isMobileMenu={isMobileMenu}
+        />
+      )}
     </>
   );
 }
