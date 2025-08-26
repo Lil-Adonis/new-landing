@@ -3,6 +3,7 @@ import Link from "next/link"
 import CountUp from 'react-countup'
 import { Autoplay, Keyboard, Navigation, Pagination } from 'swiper/modules'
 import { Swiper, SwiperSlide } from 'swiper/react'
+import Marquee from "react-fast-marquee";
 
 export default function Hero4() {
 
@@ -32,7 +33,7 @@ export default function Hero4() {
 					<div className="row position-relative z-1">
 						<div className="col-lg-6 text-center text-lg-start">
 							<div className="position-relative d-inline-block">
-								<img className="rounded-5 border border-5 border-white" src="/assets/imgs/hero-4/img-1.png" alt="limpiar" />
+								<img className="rounded-5 border border-5 border-white" src="/hero-2.png" alt="limpiar" />
 								<div className="alltuchtopdown backdrop-filter rounded-4 text-center d-inline-block px-6 py-4 m-5 position-absolute bottom-0 end-0">
 									{/* <h2 className="count text-900 fw-black">+<span className="odometer" /><CountUp end={23} enableScrollSpy={true} /><span>k</span></h2> */}
 									{/* <h6 className="text-500">Professionals</h6>
@@ -94,7 +95,7 @@ export default function Hero4() {
 										</div>
 									</div> */}
 									<div className="row mt- mb-10">
-										<Swiper {...swiperOptions}
+										{/* <Swiper {...swiperOptions}
 											className="swiper slider-two pb-5 mt-lg-0 mt-5"
 											modules={[Keyboard, Autoplay, Pagination, Navigation]}
 										>
@@ -185,7 +186,49 @@ export default function Hero4() {
 												</SwiperSlide>
 											</div>
 											<div className="swiper-pagination" />
-										</Swiper>
+										</Swiper> */}
+
+											{/* <div className="mt- pt-4 max-w-300px">
+									<p className="text-uppercase mb-2">Trusted by the best</p>
+									<div className="carouselTicker carouselTicker-right">
+										<ul className="carouselTicker__list">
+											<Marquee direction="right">
+												<li className="carouselTicker__item mx-2">
+													<img className="filter-invert rounded-4" src="/assets/imgs/hero-3/logo-1.png" alt="infinia" />
+												</li>
+												<li className="carouselTicker__item mx-2">
+													<img className="rounded-4" src="/assets/imgs/hero-3/logo-2.png" alt="infinia" />
+												</li>
+												<li className="carouselTicker__item mx-2">
+													<img className="rounded-4" src="/assets/imgs/hero-3/logo-3.png" alt="infinia" />
+												</li>
+											</Marquee>
+										</ul>
+									</div>
+								</div> */}
+
+
+									<div className="col">
+							{/* Carausel Scroll */}
+							<div className="carouselTicker carouselTicker-left position-relative z-1 mt-lg-0 mt-8">
+								<ul className="carouselTicker__list">
+									<Marquee>
+										<li className="carouselTicker__item">
+											<img className="rounded-4" src="/assets/imgs/logo-cloud-3/logo-1.svg" alt="infinia" />
+										</li>
+										<li className="carouselTicker__item">
+											<img className="rounded-4" src="/assets/imgs/logo-cloud-3/logo-2.svg" alt="infinia" />
+										</li>
+										<li className="carouselTicker__item">
+											<img className="rounded-4" src="/assets/imgs/logo-cloud-3/logo-3.svg" alt="infinia" />
+										</li>
+										<li className="carouselTicker__item">
+											<img className="rounded-4" src="/assets/imgs/logo-cloud-3/logo-4.svg" alt="infinia" />
+										</li>
+									</Marquee>
+								</ul>
+							</div>
+						</div>
 									</div>
 								</div>
 								<div className="position-absolute top-0 end-0 z-1 flickering pt-9 pe-4">

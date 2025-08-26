@@ -10,7 +10,7 @@ export default function Static1() {
 				<div className="container position-relative z-3">
 					<div className="row border-bottom border-primary-light pb-8">
 						<div className="col-lg-6 me-lg-auto">
-							<h5 className="ds-5 text-100 m-0">Numbers Speaking for Themselves</h5>
+							<h5 className="ds-5 text-100 m-0">By the Numbers</h5>
 						</div>
 						{/* <div className="col-auto align-self-end mt-lg-0 mt-5">
 							<Link href="#" className="btn btn-outline-secondary hover-up bg-transparent text-100">
@@ -30,7 +30,7 @@ export default function Static1() {
 								<div className="counter-item-cover counter-item">
 									<div className="content text-center mx-auto">
 									<span className="fw-bold lh-sm count ds-2 text-100">92%</span>
-										<p className="fs-5 text-100">Reduction in manual work order processing time.</p>
+										<p className="fs-5 text-100">Faster work order processing.</p>
 									</div>
 								</div>
 							</div>
@@ -38,7 +38,7 @@ export default function Static1() {
 								<div className="counter-item-cover counter-item">
 									<div className="content text-center mx-auto">
 										<span className="count lh-sm ds-2 fw-bold text-100"><span className="odometer" /><CountUp end={37} enableScrollSpy={true} />%</span>
-										<p className="fs-5 text-100">Average maintenance cost savings across properties.</p>
+										<p className="fs-5 text-100">Average maintenance cost savings.</p>
 									</div>
 								</div>
 							</div>
@@ -49,7 +49,7 @@ export default function Static1() {
 								<div className="counter-item-cover counter-item">
 									<div className="content text-center mx-auto">
 										<span className="count lh-sm ds-2 fw-bold text-100"><span className="odometer" /><CountUp end={10} enableScrollSpy={true} />x</span>
-										<p className="fs-5 text-100">Faster issue resolution through AI-driven dispatch.</p>
+										<p className="fs-5 text-100">Faster issue resolution with AI dispatch.</p>
 									</div>
 								</div>
 							</div>
@@ -60,7 +60,7 @@ export default function Static1() {
 								<div className="counter-item-cover counter-item">
 									<div className="content text-center mx-auto">
 										<span className="count lh-sm ds-2 fw-bold text-100"><span className="odometer" /><CountUp end={200} enableScrollSpy={true} />%</span>
-										<p className="fs-5 text-100"> Increase in real-time site visibility for proactive decision-making.</p>
+										<p className="fs-5 text-100"> More real-time visibility for smarter decisions.</p>
 									</div>
 								</div>
 							</div>
@@ -68,7 +68,7 @@ export default function Static1() {
 								<div className="counter-item-cover counter-item">
 									<div className="content text-center mx-auto">
 										<span className="count lh-sm ds-2 fw-bold text-100"><span className="odometer" /><CountUp end={65} enableScrollSpy={true} />%</span>
-										<p className="fs-5 text-100"> Less downtime from equipment failures due to predictive maintenance.</p>
+										<p className="fs-5 text-100"> Less downtime with predictive maintenance.</p>
 									</div>
 								</div>
 							</div>

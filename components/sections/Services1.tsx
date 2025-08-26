@@ -9,10 +9,10 @@ export default function Services1() {
 					<div className="text-center">
 						<div className="d-flex align-items-center justify-content-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-4 py-2" data-aos="zoom-in" data-aos-delay={100}>
 							<img src="/assets/imgs/features-1/dots.png" alt="limpiar" />
-							<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">What we offer</span>
+							<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Core Features</span>
 						</div>
 						<h3 className="ds-3 my-3" data-aos="fade-zoom-in" data-aos-delay={300}>The Future of Property Operations is Autonomous</h3>
-						<p data-aos="fade-zoom-in" data-aos-delay={100}>By doing a financial analysis of these statements, you can see <br /> whether you have enough working capital.</p>
+						<p data-aos="fade-zoom-in" data-aos-delay={100}>AI-powered tools that automate work orders,<br/> predict maintenance, and optimize costs, so your properties run themselves.</p>
 					</div>
 					<div className="row mt-6 position-relative">
 						<div className="col-lg-4">

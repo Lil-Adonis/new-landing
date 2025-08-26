@@ -20,17 +20,17 @@ export default function Faqs3() {
 							<div className="text-start">
 								<div className="d-flex align-items-center position-relative z-2 justify-content-center bg-primary-soft d-inline-flex rounded-pill border border-2 border-white px-3 py-1">
 									<img src="/assets/imgs/features-1/dots.png" alt="limpiar" />
-									<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Frequently Asked questions</span>
+									<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase" data-aos="fade-up" data-aos-delay={0}>Frequently Asked questions</span>
 								</div>
-								<h3 className="ds-3 my-3 fw-bold">
-									Got questions? <br />
-									We’ve got answers
+								<h3 className="faq-text my-3 fw-bold" data-aos="fade-up" data-aos-delay={0}>
+									Everything You Need to Know About Limpiar.
+									
 								</h3>
 								<div className="position-relative d-inline-block mt-3 mb-6">
 									<img src="/assets/imgs/faqs-3/img-1.png" alt="" className=" rounded-pill border border-3 border-white" />
 									<img src="/assets/imgs/faqs-3/img-2.png" alt="" className="position-absolute z-1 top-0 start-50 mt-3 rounded-pill border border-3 border-white" />
 								</div>
-								<p className="fs-5 mb-0">
+								<p className="fs-5 mb-0" data-aos-delay={0}>
 									Quick answers to questions you may have. Can't <br />
 									find what you're looking for? Get in touch with us.
 								</p>
@@ -48,8 +48,8 @@ export default function Faqs3() {
 						</div>
 						<div className="col-lg-6 mt-lg-0 mt-8 ">
 							<div className="accordion">
-								<div className="mb-3 card p-3 border  bg-white rounded-2 shadow-2">
-									<div className="px-0 card-header border-0 bg-gradient-1">
+								<div className="mb-3 card p-3 border  bg-white rounded-2 shadow-2" data-aos="fade-up" data-aos-delay={0}>
+									<div className="px-0 card-header border-0 bg-gradient-1" >
 										<a className={`${activeItem} == 1 ? "accordion-button" : "accordion-button collapsed"} pointer text-900 fw-bold d-flex align-items-center`} onClick={() => handleActiveItem(1)} data-bs-toggle="collapse" >
 											<h6 className="m-0">What are the key benefits of using <span className="text-primary">limpiar System</span></h6>
 											<span className="ms-auto arrow me-2">
@@ -63,7 +63,7 @@ export default function Faqs3() {
 										<p className="ps-0card-body">We start with a comprehensive analysis of your current brand and online presence, followed by a tailored strategy to improve your brand identity, optimize your website for search engines, and create a cohesive branding plan.</p>
 									</div>
 								</div>
-								<div className="mb-3 card p-3 border  bg-white rounded-2 shadow-2">
+								<div className="mb-3 card p-3 border  bg-white rounded-2 shadow-2" data-aos="fade-up" data-aos-delay={0}>
 									<div className="px-0 card-header border-0 bg-gradient-1">
 										<a className={`${activeItem} == 2 ? "accordion-button" : "accordion-button collapsed"} pointer text-900 fw-bold d-flex align-items-center`} onClick={() => handleActiveItem(2)} data-bs-toggle="collapse" >
 											<h6 className="m-0">What features does <span className="text-primary">limpiar</span> offer?</h6>
@@ -78,7 +78,7 @@ export default function Faqs3() {
 										<p className="ps-0card-body">We start with a comprehensive analysis of your current brand and online presence, followed by a tailored strategy to improve your brand identity, optimize your website for search engines, and create a cohesive branding plan.</p>
 									</div>
 								</div>
-								<div className="mb-3 card p-3 border  bg-white rounded-2 shadow-2">
+								<div className="mb-3 card p-3 border  bg-white rounded-2 shadow-2" data-aos="fade-up" data-aos-delay={0}>
 									<div className="px-0 card-header border-0 bg-gradient-1">
 										<a className={`${activeItem} == 3 ? "accordion-button" : "accordion-button collapsed"} pointer text-900 fw-bold d-flex align-items-center`} onClick={() => handleActiveItem(3)} data-bs-toggle="collapse" >
 											<h6 className="m-0">How do your services work?</h6>
@@ -93,7 +93,7 @@ export default function Faqs3() {
 										<p className="ps-0card-body">We start with a comprehensive analysis of your current brand and online presence, followed by a tailored strategy to improve your brand identity, optimize your website for search engines, and create a cohesive branding plan.</p>
 									</div>
 								</div>
-								<div className="mb-3 card p-3 border  bg-white rounded-2 shadow-2">
+								<div className="mb-3 card p-3 border  bg-white rounded-2 shadow-2" data-aos="fade-up" data-aos-delay={0}>
 									<div className="px-0 card-header border-0 bg-gradient-1">
 										<a className={`${activeItem} == 4 ? "accordion-button" : "accordion-button collapsed"} pointer text-900 fw-bold d-flex align-items-center`} onClick={() => handleActiveItem(4)} data-bs-toggle="collapse" >
 											<h6 className="m-0">What is SEO and why do I need it?</h6>
@@ -108,7 +108,7 @@ export default function Faqs3() {
 										<p className="ps-0card-body">We start with a comprehensive analysis of your current brand and online presence, followed by a tailored strategy to improve your brand identity, optimize your website for search engines, and create a cohesive branding plan.</p>
 									</div>
 								</div>
-								<div className="mb-3 card p-3 border  bg-white rounded-2 shadow-2">
+								<div className="mb-3 card p-3 border  bg-white rounded-2 shadow-2" data-aos="fade-up" data-aos-delay={0}>
 									<div className="px-0 card-header border-0 bg-gradient-1">
 										<a className={`${activeItem} == 5 ? "accordion-button" : "accordion-button collapsed"} pointer text-900 fw-bold d-flex align-items-center`} onClick={() => handleActiveItem(5)} data-bs-toggle="collapse" >
 											<h6 className="m-0">What SEO strategies do you use?</h6>

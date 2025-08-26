@@ -14503,6 +14503,10 @@ svg .stroke-white {
   .ds-3 {
     font-size: 40px !important;
   }
+  .faq-text{
+    font-size: 30px;
+    /* line-height: 1.6; */
+  }
   .nav {
     --bs-nav-link-padding-x: 20px;
     --bs-nav-link-padding-y: 15px;
