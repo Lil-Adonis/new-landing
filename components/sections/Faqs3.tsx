@@ -51,7 +51,7 @@ export default function Faqs3() {
 								<div className="mb-3 card p-3 border  bg-white rounded-2 shadow-2" data-aos="fade-up" data-aos-delay={0}>
 									<div className="px-0 card-header border-0 bg-gradient-1" >
 										<a className={`${activeItem} == 1 ? "accordion-button" : "accordion-button collapsed"} pointer text-900 fw-bold d-flex align-items-center`} onClick={() => handleActiveItem(1)} data-bs-toggle="collapse" >
-											<h6 className="m-0">What are the key benefits of using <span className="text-primary">limpiar System</span></h6>
+											<h6 className="m-0">What is  <span className="text-primary">Limpiar ?</span></h6>
 											<span className="ms-auto arrow me-2">
 												<svg xmlns="http://www.w3.org/2000/svg" width={13} height={8} viewBox="0 0 13 8" fill="none">
 													<path className="stroke-dark" d="M11.5 1L6.25 6.5L1 1" stroke="#111827" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -60,13 +60,13 @@ export default function Faqs3() {
 										</a>
 									</div>
 									<div id="collapse1" className={activeItem == 1 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent=".accordion">
-										<p className="ps-0card-body">We start with a comprehensive analysis of your current brand and online presence, followed by a tailored strategy to improve your brand identity, optimize your website for search engines, and create a cohesive branding plan.</p>
+										<p className="ps-0card-body">Limpiar is an AI-powered platform that automates facility operations like work orders, vendor dispatch, and predictive maintenance.</p>
 									</div>
 								</div>
 								<div className="mb-3 card p-3 border  bg-white rounded-2 shadow-2" data-aos="fade-up" data-aos-delay={0}>
 									<div className="px-0 card-header border-0 bg-gradient-1">
 										<a className={`${activeItem} == 2 ? "accordion-button" : "accordion-button collapsed"} pointer text-900 fw-bold d-flex align-items-center`} onClick={() => handleActiveItem(2)} data-bs-toggle="collapse" >
-											<h6 className="m-0">What features does <span className="text-primary">limpiar</span> offer?</h6>
+											<h6 className="m-0">Who is <span className="text-primary">Limpiar</span> for ?</h6>
 											<span className="ms-auto arrow me-2">
 												<svg xmlns="http://www.w3.org/2000/svg" width={13} height={8} viewBox="0 0 13 8" fill="none">
 													<path className="stroke-dark" d="M11.5 1L6.25 6.5L1 1" stroke="#111827" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -75,13 +75,13 @@ export default function Faqs3() {
 										</a>
 									</div>
 									<div id="collapse2" className={activeItem == 2 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent=".accordion">
-										<p className="ps-0card-body">We start with a comprehensive analysis of your current brand and online presence, followed by a tailored strategy to improve your brand identity, optimize your website for search engines, and create a cohesive branding plan.</p>
+										<p className="ps-0card-body">Facility managers, property owners, and vendors who want to cut costs, increase uptime, and streamline operations.</p>
 									</div>
 								</div>
 								<div className="mb-3 card p-3 border  bg-white rounded-2 shadow-2" data-aos="fade-up" data-aos-delay={0}>
 									<div className="px-0 card-header border-0 bg-gradient-1">
 										<a className={`${activeItem} == 3 ? "accordion-button" : "accordion-button collapsed"} pointer text-900 fw-bold d-flex align-items-center`} onClick={() => handleActiveItem(3)} data-bs-toggle="collapse" >
-											<h6 className="m-0">How do your services work?</h6>
+											<h6 className="m-0">What features does Limpiar offer?</h6>
 											<span className="ms-auto arrow me-2">
 												<svg xmlns="http://www.w3.org/2000/svg" width={13} height={8} viewBox="0 0 13 8" fill="none">
 													<path className="stroke-dark" d="M11.5 1L6.25 6.5L1 1" stroke="#111827" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -90,13 +90,13 @@ export default function Faqs3() {
 										</a>
 									</div>
 									<div id="collapse3" className={activeItem == 3 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent=".accordion">
-										<p className="ps-0card-body">We start with a comprehensive analysis of your current brand and online presence, followed by a tailored strategy to improve your brand identity, optimize your website for search engines, and create a cohesive branding plan.</p>
+										<p className="ps-0card-body">Automated work orders, predictive maintenance insights, intelligent vendor dispatch, sustainability tracking, and centralized dashboards.</p>
 									</div>
 								</div>
 								<div className="mb-3 card p-3 border  bg-white rounded-2 shadow-2" data-aos="fade-up" data-aos-delay={0}>
 									<div className="px-0 card-header border-0 bg-gradient-1">
 										<a className={`${activeItem} == 4 ? "accordion-button" : "accordion-button collapsed"} pointer text-900 fw-bold d-flex align-items-center`} onClick={() => handleActiveItem(4)} data-bs-toggle="collapse" >
-											<h6 className="m-0">What is SEO and why do I need it?</h6>
+											<h6 className="m-0">How does pricing work?</h6>
 											<span className="ms-auto arrow me-2">
 												<svg xmlns="http://www.w3.org/2000/svg" width={13} height={8} viewBox="0 0 13 8" fill="none">
 													<path className="stroke-dark" d="M11.5 1L6.25 6.5L1 1" stroke="#111827" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -105,13 +105,13 @@ export default function Faqs3() {
 										</a>
 									</div>
 									<div id="collapse4" className={activeItem == 4 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent=".accordion">
-										<p className="ps-0card-body">We start with a comprehensive analysis of your current brand and online presence, followed by a tailored strategy to improve your brand identity, optimize your website for search engines, and create a cohesive branding plan.</p>
+										<p className="ps-0card-body">We offer flexible pricing based on the number of sites, users, and services. Book a demo for a tailored quote.</p>
 									</div>
 								</div>
 								<div className="mb-3 card p-3 border  bg-white rounded-2 shadow-2" data-aos="fade-up" data-aos-delay={0}>
 									<div className="px-0 card-header border-0 bg-gradient-1">
 										<a className={`${activeItem} == 5 ? "accordion-button" : "accordion-button collapsed"} pointer text-900 fw-bold d-flex align-items-center`} onClick={() => handleActiveItem(5)} data-bs-toggle="collapse" >
-											<h6 className="m-0">What SEO strategies do you use?</h6>
+											<h6 className="m-0">How quickly can we get started ?</h6>
 											<span className="ms-auto arrow me-2">
 												<svg xmlns="http://www.w3.org/2000/svg" width={13} height={8} viewBox="0 0 13 8" fill="none">
 													<path className="stroke-dark" d="M11.5 1L6.25 6.5L1 1" stroke="#111827" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -120,7 +120,23 @@ export default function Faqs3() {
 										</a>
 									</div>
 									<div id="collapse5" className={activeItem == 5 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent=".accordion">
-										<p className="ps-0card-body">We start with a comprehensive analysis of your current brand and online presence, followed by a tailored strategy to improve your brand identity, optimize your website for search engines, and create a cohesive branding plan.</p>
+										<p className="ps-0card-body">Most teams onboard within days, with minimal setup required..</p>
+									</div>
+								</div>
+
+										<div className="mb-3 card p-3 border  bg-white rounded-2 shadow-2" data-aos="fade-up" data-aos-delay={0}>
+									<div className="px-0 card-header border-0 bg-gradient-1">
+										<a className={`${activeItem} == 5 ? "accordion-button" : "accordion-button collapsed"} pointer text-900 fw-bold d-flex align-items-center`} onClick={() => handleActiveItem(5)} data-bs-toggle="collapse" >
+											<h6 className="m-0">Does Limpiar integrate with existing tools ?</h6>
+											<span className="ms-auto arrow me-2">
+												<svg xmlns="http://www.w3.org/2000/svg" width={13} height={8} viewBox="0 0 13 8" fill="none">
+													<path className="stroke-dark" d="M11.5 1L6.25 6.5L1 1" stroke="#111827" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+												</svg>
+											</span>
+										</a>
+									</div>
+									<div id="collapse5" className={activeItem == 5 ? "accordion-collapse collapse show" : "accordion-collapse collapse"} data-bs-parent=".accordion">
+										<p className="ps-0card-body">Yes, Limpiar connects with IoT sensors, vendor systems, and property management software.</p>
 									</div>
 								</div>
 							</div>

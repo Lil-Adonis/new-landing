@@ -124,15 +124,15 @@ export default function Menu() {
 															<li><Link className="dropdown-item position-relative z-1" href="/page-elements">Basic elements</Link></li>
 														</ul>
 													</div>
-													<div className="position-relative bg-4 rounded-3 mt-5">
+													{/* <div className="position-relative bg-4 rounded-3 mt-5">
 														<img className="rounded-3" src="/assets/imgs/template/bg-card.png" alt="" />
 														<div className="position-absolute top-50 start-50 translate-middle z-0">
-															<img className="ms-3" src="/assets/imgs/logo/logo-dark.svg" alt="infinia" />
+															<img className="ms-3" src="/assets/imgs/logo/logo-dark.svg" alt="limpiar" />
 															<p className="fs-7 fw-bold text-900 text-center my-3 text-nowrap">Multi-layout SaaS  <br /> Startup Website <br /> Template</p>
 															<div className="d-flex mt-3 ms-3">
-																<img src="/assets/imgs/other/avatar-1.png" alt="infinia" />
-																<img className="avt-hero" src="/assets/imgs/other/avatar-2.png" alt="infinia" />
-																<img className="avt-hero " src=" assets/imgs/other/avatar-3.png" alt="infinia" />
+																<img src="/assets/imgs/other/avatar-1.png" alt="limpiar" />
+																<img className="avt-hero" src="/assets/imgs/other/avatar-2.png" alt="limpiar" />
+																<img className="avt-hero " src=" assets/imgs/other/avatar-3.png" alt="limpiar" />
 															</div>
 															<Link href="#" className="btn btn-md btn-gradient fs-8 mt-3 text-nowrap">
 																Get this now
@@ -142,7 +142,7 @@ export default function Menu() {
 																</svg>
 															</Link>
 														</div>
-													</div>
+													</div> */}
 												</div>
 											</div>
 										</div>
@@ -150,7 +150,7 @@ export default function Menu() {
 								</div>
 							</div>
 							<div className="position-absolute top-0 start-50 translate-middle-x z-0">
-								<img src="/assets/imgs/team-1/bg-line.png" alt="infinia" />
+								<img src="/assets/imgs/team-1/bg-line.png" alt="limpiar" />
 							</div>
 							<div className="ellipse-rotate-success-sm position-absolute top-0 start-0 translate-middle z-0" />
 							<div className="ellipse-rotate-primary-sm position-absolute top-0 end-0 translate-middle-y z-0" />
@@ -169,7 +169,7 @@ export default function Menu() {
 									</Link>
 								</li>
 								<li className="position-relative z-1 border-bottom">
-									<Link className="dropdown-item position-relative z-1 d-flex align-items-start" href="/page-elements">
+									<Link className="dropdown-item position-relative z-1 d-flex align-items-start" href="/blog">
 										Blog
 									</Link>
 								</li>
@@ -188,7 +188,7 @@ export default function Menu() {
 
 					</li>
 					<li className="nav-item ">
-						<Link className="nav-link fw-bold d-flex align-items-center" href="#"   >
+						<Link className="nav-link fw-bold d-flex align-items-center" href="https://limpiador.limpiar.online/home"   >
 							Service network
 						</Link>
 	

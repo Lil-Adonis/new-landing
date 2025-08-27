@@ -5,10 +5,9 @@ import 'aos/dist/aos.css'
 import { useEffect, useState } from "react"
 import BackToTop from '../elements/BackToTop'
 import Breadcrumb from './Breadcrumb'
-import Footer1 from './footer/Footer1'
+
 import Footer2 from './footer/Footer2'
-import Footer3 from './footer/Footer3'
-import Footer4 from './footer/Footer4'
+
 import Header4 from './header/Header4'
 
 interface LayoutProps {
@@ -63,7 +62,8 @@ export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, chil
 	return (
 		<><div id="top" />
 	
-			{headerStyle == 4 ? <Header4 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isSearch={isSearch} handleSearch={handleSearch} isOffCanvas={isOffCanvas} handleOffCanvas={handleOffCanvas} /> : null}
+			{/* {headerStyle == 4 ? <Header4 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isSearch={isSearch} handleSearch={handleSearch} isOffCanvas={isOffCanvas} handleOffCanvas={handleOffCanvas} /> : null} */}
+			<Header4 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isSearch={isSearch} handleSearch={handleSearch} isOffCanvas={isOffCanvas} handleOffCanvas={handleOffCanvas} /> 
 		
 
 
@@ -73,10 +73,8 @@ export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, chil
 				{children}
 			</main>
 
-			{/* {!footerStyle && < Footer1 />} */}
-			{/* {footerStyle == 1 ? < Footer1 /> : null} */}
-			{/* {footerStyle == 2 ? < Footer2 /> : null} */}
-			{footerStyle == 3 ? < Footer2 /> : null}
+
+			< Footer2 /> 
 			
 
 			<BackToTop target="#top" />

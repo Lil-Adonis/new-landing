@@ -10,7 +10,7 @@ export default function Cta8() {
 						<div className="row align-items-center">
 							<div className="col-lg-5">
 								{/* <div className="d-flex align-items-center justify-content-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-4 py-2" data-aos="zoom-in" data-aos-delay={100}>
-									<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
+									<img src="/assets/imgs/features-1/dots.png" alt="limpiar" />
 									<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">What We offer</span>
 								</div> */}
 								<h5 className="ds-5 mt-2">The Future of Property Operations is Autonomous</h5>
@@ -53,7 +53,7 @@ export default function Cta8() {
                                 	<div className="d-flex pt-3 align-items-center">
 									<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
 										<div className="icon">
-											{/* <img src="/assets/imgs/service-4/icon-2.svg" alt="infinia" /> */}
+											{/* <img src="/assets/imgs/service-4/icon-2.svg" alt="limpiar" /> */}
                                             {/* <img src="/assets/imgs/features-1/icon-4.svg" alt="limpiar" /> */}
                                             <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
   <circle cx="20" cy="20" r="18" stroke="#0d6efd" strokeWidth="2" fill="rgba(109,77,242,0.08)" />
@@ -76,7 +76,7 @@ export default function Cta8() {
                                 	<div className="d-flex pt-3 align-items-center">
 									<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
 										<div className="icon">
-											{/* <img src="/assets/imgs/service-4/icon-2.svg" alt="infinia" /> */}
+											{/* <img src="/assets/imgs/service-4/icon-2.svg" alt="limpiar" /> */}
                                             {/* <img src="/assets/imgs/features-1/icon-3.svg" alt="limpiar" /> */}
 
                                             <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
@@ -98,13 +98,13 @@ export default function Cta8() {
 							</div>
 							<div className="col-lg-6 offset-lg-1 text-center mt-lg-0 mt-8">
 								<div className="position-relative z-1 d-inline-block mb-lg-0 mb-8">
-									<img className="rounded-4 position-relative z-1" src="/assets/imgs/cta-5/img-1.png" alt="infinia" />
+									<img className="rounded-4 position-relative z-1" src="/assets/imgs/cta-5/img-1.png" alt="limpiar" />
 									<div className="alltuchtopdown tag-year position-absolute backdrop-filter bg-primary rounded-4 px-4 py-5 text-center z-1">
 										<span className="h2 count fw-black my-0 lh-1 text-white text-nowrap"><span className="odometer" /> <CountUp end={25} enableScrollSpy={true} />+</span>
 										<p className="text-white text-nowrap mb-0">Years of Experience</p>
 									</div>
 									<div className="position-absolute tag-dots z-0 pt-5">
-										<img className="alltuchtopdown" src="/assets/imgs/cta-4/vector.svg" alt="infinia" />
+										<img className="alltuchtopdown" src="/assets/imgs/cta-4/vector.svg" alt="limpiar" />
 									</div>
 								</div>
 							</div>

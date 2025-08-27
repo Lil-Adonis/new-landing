@@ -194,13 +194,13 @@ export default function Hero4() {
 										<ul className="carouselTicker__list">
 											<Marquee direction="right">
 												<li className="carouselTicker__item mx-2">
-													<img className="filter-invert rounded-4" src="/assets/imgs/hero-3/logo-1.png" alt="infinia" />
+													<img className="filter-invert rounded-4" src="/assets/imgs/hero-3/logo-1.png" alt="limpiar" />
 												</li>
 												<li className="carouselTicker__item mx-2">
-													<img className="rounded-4" src="/assets/imgs/hero-3/logo-2.png" alt="infinia" />
+													<img className="rounded-4" src="/assets/imgs/hero-3/logo-2.png" alt="limpiar" />
 												</li>
 												<li className="carouselTicker__item mx-2">
-													<img className="rounded-4" src="/assets/imgs/hero-3/logo-3.png" alt="infinia" />
+													<img className="rounded-4" src="/assets/imgs/hero-3/logo-3.png" alt="limpiar" />
 												</li>
 											</Marquee>
 										</ul>
@@ -214,16 +214,16 @@ export default function Hero4() {
 								<ul className="carouselTicker__list">
 									<Marquee>
 										<li className="carouselTicker__item">
-											<img className="rounded-4" src="/assets/imgs/logo-cloud-3/logo-1.svg" alt="infinia" />
+											<img className="rounded-4" src="/assets/imgs/logo-cloud-3/logo-1.svg" alt="limpiar" />
 										</li>
 										<li className="carouselTicker__item">
-											<img className="rounded-4" src="/assets/imgs/logo-cloud-3/logo-2.svg" alt="infinia" />
+											<img className="rounded-4" src="/assets/imgs/logo-cloud-3/logo-2.svg" alt="limpiar" />
 										</li>
 										<li className="carouselTicker__item">
-											<img className="rounded-4" src="/assets/imgs/logo-cloud-3/logo-3.svg" alt="infinia" />
+											<img className="rounded-4" src="/assets/imgs/logo-cloud-3/logo-3.svg" alt="limpiar" />
 										</li>
 										<li className="carouselTicker__item">
-											<img className="rounded-4" src="/assets/imgs/logo-cloud-3/logo-4.svg" alt="infinia" />
+											<img className="rounded-4" src="/assets/imgs/logo-cloud-3/logo-4.svg" alt="limpiar" />
 										</li>
 									</Marquee>
 								</ul>
