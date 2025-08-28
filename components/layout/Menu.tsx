@@ -7,11 +7,93 @@ export default function Menu() {
 
 			<div className="d-none d-lg-flex">
 				<ul className="navbar-nav mx-auto gap-4 align-items-lg-center">
-										<li className="nav-item dropdown menu-item-has-children">
+										<li className="nav-item dropdown  has-min-mega-menu has-mega-menu">
 						<Link className="nav-link fw-bold d-flex align-items-center" href="#"   >
 							Products
 						</Link>
-						<div className="dropdown-menu fix">
+
+								<div className="mega-menu fix start-50 translate-middle-x">
+							<div className="container">
+								<div className="row">
+									<div className="col-12">
+										<div className="mega-menu-content">
+											<div className="row">
+												<div className="col-4">
+													<div className="mega-menu-list">
+														<p className="text-primary fw-bold mb-1 fs-7">OUR TEAM</p>
+														<ul className="list-unstyled">
+															<li><Link className="dropdown-item position-relative z-1" href="">Our team v.1</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Our team v.2</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Our team v.3</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Our team v.4</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Our team v.5</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Our team v.6</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Team detail v.1</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Team detail v.2</Link></li>
+														</ul>
+													</div>
+												</div>
+												<div className="col-4">
+													<div className="mega-menu-list">
+														<p className="text-primary fw-bold mb-1 fs-7">OUR TEAM</p>
+														<ul className="list-unstyled">
+															<li><Link className="dropdown-item position-relative z-1" href="">Our team v.1</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Our team v.2</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Our team v.3</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Our team v.4</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Our team v.5</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Our team v.6</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Team detail v.1</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Team detail v.2</Link></li>
+														</ul>
+													</div>
+												</div>
+										
+							
+								
+												<div className="col-4">
+													<div className="mega-menu-list">
+														<p className="text-primary fw-bold mb-1 fs-7">STYLE GUIDE</p>
+														<ul className="list-unstyled">
+															<li><Link className="dropdown-item position-relative z-1" href="">Color  Typography</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Basic elements</Link></li>
+														</ul>
+													</div>
+													<div className="position-relative bg-4 rounded-3 mt-5">
+														<img className="rounded-3" src="/assets/imgs/template/bg-card.png" alt="" />
+														<div className="position-absolute top-50 start-50 translate-middle z-0">
+															<img className="ms-1 mt-2" src="assets/imgs/template/logo.png" alt="limpiar" />
+															<p className="fs-7 fw-bold text-900 text-center my-3 text-nowrap">Automated operations<br /> lorem ipsum</p>
+															<div className="d-flex mt-3 ms-3">
+																<img src="/assets/imgs/other/avatar-1.png" alt="limpiar" />
+																<img className="avt-hero" src="/assets/imgs/other/avatar-2.png" alt="limpiar" />
+																<img className="avt-hero " src=" assets/imgs/other/avatar-3.png" alt="limpiar" />
+															</div>
+															<Link href="#" className="btn btn-md btn-gradient fs-8 mt-3 text-nowrap">
+																Request Demo
+																<svg xmlns="http://www.w3.org/2000/svg" width={18} height={18} viewBox="0 0 18 18" fill="none">
+																	<path d="M12.5477 11.3147V5.30603H6.53906" stroke="white" strokeWidth="1.06034" strokeLinecap="round" strokeLinejoin="round" />
+																	<path d="M12.3707 5.48276L5.125 12.7284" stroke="white" strokeWidth="1.06034" strokeLinecap="round" strokeLinejoin="round" />
+																</svg>
+															</Link>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div className="position-absolute top-0 start-50 translate-middle-x z-0">
+								<img src="/assets/imgs/team-1/bg-line.png" alt="limpiar" />
+							</div>
+							<div className="ellipse-rotate-success-sm position-absolute top-0 start-0 translate-middle z-0" />
+							<div className="ellipse-rotate-primary-sm position-absolute top-0 end-0 translate-middle-y z-0" />
+						</div>
+
+
+						
+						{/* <div className="dropdown-menu fix">
 							<ul className="list-unstyled">
 								<li className="position-relative z-1 border-bottom">
 									<Link className="dropdown-item position-relative z-1 d-flex align-items-start" href="/">
@@ -28,7 +110,7 @@ export default function Menu() {
 							</ul>
 							<div className="ellipse-rotate-success-sm position-absolute top-0 start-0 translate-middle z-0" />
 							<div className="ellipse-rotate-primary-sm position-absolute top-50 z-0" />
-						</div>
+						</div> */}
 					</li>
 					<li className="nav-item dropdown  has-mega-menu">
 						<Link className="nav-link fw-bold d-flex align-items-center" href="#"   >
@@ -39,20 +121,20 @@ export default function Menu() {
 							<div className="container">
 								<div className="row">
 									<div className="col-12">
-										<div className="mega-menu-content">
+										<div className="mega-menu-">
 											<div className="row">
 												<div className="col-2">
 													<div className="mega-menu-list">
 														<p className="text-primary fw-bold mb-1 fs-7">OUR TEAM</p>
 														<ul className="list-unstyled">
-															<li><Link className="dropdown-item position-relative z-1" href="/page-team-1">Our team v.1</Link></li>
-															<li><Link className="dropdown-item position-relative z-1" href="/page-team-2">Our team v.2</Link></li>
-															<li><Link className="dropdown-item position-relative z-1" href="/page-team-3">Our team v.3</Link></li>
-															<li><Link className="dropdown-item position-relative z-1" href="/page-team-4">Our team v.4</Link></li>
-															<li><Link className="dropdown-item position-relative z-1" href="/page-team-5">Our team v.5</Link></li>
-															<li><Link className="dropdown-item position-relative z-1" href="/page-team-6">Our team v.6</Link></li>
-															<li><Link className="dropdown-item position-relative z-1" href="/page-team-detail-1">Team detail v.1</Link></li>
-															<li><Link className="dropdown-item position-relative z-1" href="/page-team-detail-2">Team detail v.2</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Our team v.1</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Our team v.2</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Our team v.3</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Our team v.4</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Our team v.5</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Our team v.6</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Team detail v.1</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Team detail v.2</Link></li>
 														</ul>
 													</div>
 												</div>
@@ -60,14 +142,14 @@ export default function Menu() {
 													<div className="mega-menu-list">
 														<p className="text-primary fw-bold mb-1 fs-7">OUR TEAM</p>
 														<ul className="list-unstyled">
-															<li><Link className="dropdown-item position-relative z-1" href="/page-team-1">Our team v.1</Link></li>
-															<li><Link className="dropdown-item position-relative z-1" href="/page-team-2">Our team v.2</Link></li>
-															<li><Link className="dropdown-item position-relative z-1" href="/page-team-3">Our team v.3</Link></li>
-															<li><Link className="dropdown-item position-relative z-1" href="/page-team-4">Our team v.4</Link></li>
-															<li><Link className="dropdown-item position-relative z-1" href="/page-team-5">Our team v.5</Link></li>
-															<li><Link className="dropdown-item position-relative z-1" href="/page-team-6">Our team v.6</Link></li>
-															<li><Link className="dropdown-item position-relative z-1" href="/page-team-detail-1">Team detail v.1</Link></li>
-															<li><Link className="dropdown-item position-relative z-1" href="/page-team-detail-2">Team detail v.2</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Our team v.1</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Our team v.2</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Our team v.3</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Our team v.4</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Our team v.5</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Our team v.6</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Team detail v.1</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Team detail v.2</Link></li>
 														</ul>
 													</div>
 												</div>
@@ -75,14 +157,14 @@ export default function Menu() {
 													<div className="mega-menu-list">
 														<p className="text-primary fw-bold mb-1 fs-7">OUR TEAM</p>
 														<ul className="list-unstyled">
-															<li><Link className="dropdown-item position-relative z-1" href="/page-team-1">Our team v.1</Link></li>
-															<li><Link className="dropdown-item position-relative z-1" href="/page-team-2">Our team v.2</Link></li>
-															<li><Link className="dropdown-item position-relative z-1" href="/page-team-3">Our team v.3</Link></li>
-															<li><Link className="dropdown-item position-relative z-1" href="/page-team-4">Our team v.4</Link></li>
-															<li><Link className="dropdown-item position-relative z-1" href="/page-team-5">Our team v.5</Link></li>
-															<li><Link className="dropdown-item position-relative z-1" href="/page-team-6">Our team v.6</Link></li>
-															<li><Link className="dropdown-item position-relative z-1" href="/page-team-detail-1">Team detail v.1</Link></li>
-															<li><Link className="dropdown-item position-relative z-1" href="/page-team-detail-2">Team detail v.2</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Our team v.1</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Our team v.2</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Our team v.3</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Our team v.4</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Our team v.5</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Our team v.6</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Team detail v.1</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Team detail v.2</Link></li>
 														</ul>
 													</div>
 												</div>
@@ -90,14 +172,14 @@ export default function Menu() {
 													<div className="mega-menu-list">
 														<p className="text-primary fw-bold mb-1 fs-7">OUR TEAM</p>
 														<ul className="list-unstyled">
-															<li><Link className="dropdown-item position-relative z-1" href="/page-team-1">Our team v.1</Link></li>
-															<li><Link className="dropdown-item position-relative z-1" href="/page-team-2">Our team v.2</Link></li>
-															<li><Link className="dropdown-item position-relative z-1" href="/page-team-3">Our team v.3</Link></li>
-															<li><Link className="dropdown-item position-relative z-1" href="/page-team-4">Our team v.4</Link></li>
-															<li><Link className="dropdown-item position-relative z-1" href="/page-team-5">Our team v.5</Link></li>
-															<li><Link className="dropdown-item position-relative z-1" href="/page-team-6">Our team v.6</Link></li>
-															<li><Link className="dropdown-item position-relative z-1" href="/page-team-detail-1">Team detail v.1</Link></li>
-															<li><Link className="dropdown-item position-relative z-1" href="/page-team-detail-2">Team detail v.2</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Our team v.1</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Our team v.2</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Our team v.3</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Our team v.4</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Our team v.5</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Our team v.6</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Team detail v.1</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Team detail v.2</Link></li>
 														</ul>
 													</div>
 												</div>
@@ -105,14 +187,14 @@ export default function Menu() {
 													<div className="mega-menu-list">
 														<p className="text-primary fw-bold mb-1 fs-7">UTILITIES</p>
 														<ul className="list-unstyled">
-															<li><Link className="dropdown-item position-relative z-1" href="/page-work-process">Work Process</Link></li>
-															<li><Link className="dropdown-item position-relative z-1" href="/page-book-a-demo">Book a demo</Link></li>
-															<li><Link className="dropdown-item position-relative z-1" href="/page-integration">Integration</Link></li>
-															<li><Link className="dropdown-item position-relative z-1" href="/page-changelog">Change log</Link></li>
-															<li><Link className="dropdown-item position-relative z-1" href="/page-privacy-policy">Privacy policy</Link></li>
-															<li><Link className="dropdown-item position-relative z-1" href="/page-terms-conditions">Terms conditions</Link></li>
-															<li><Link className="dropdown-item position-relative z-1" href="/page-comming-soon">Comming soon</Link></li>
-															<li><Link className="dropdown-item position-relative z-1" href="/page-404">Error 404</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Work Process</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Book a demo</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Integration</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Change log</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Privacy policy</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Terms conditions</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Comming soon</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Error 404</Link></li>
 														</ul>
 													</div>
 												</div>
@@ -120,8 +202,8 @@ export default function Menu() {
 													<div className="mega-menu-list">
 														<p className="text-primary fw-bold mb-1 fs-7">STYLE GUIDE</p>
 														<ul className="list-unstyled">
-															<li><Link className="dropdown-item position-relative z-1" href="/page-style-guide">Color  Typography</Link></li>
-															<li><Link className="dropdown-item position-relative z-1" href="/page-elements">Basic elements</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Color  Typography</Link></li>
+															<li><Link className="dropdown-item position-relative z-1" href="">Basic elements</Link></li>
 														</ul>
 													</div>
 													{/* <div className="position-relative bg-4 rounded-3 mt-5">
@@ -164,7 +246,7 @@ export default function Menu() {
 								<div className="dropdown-menu p-4 fix">
 							<ul className="list-unstyled">
 								<li className="position-relative border-bottom z-1">
-									<Link className="dropdown-item position-relative z-1 d-flex align-items-start" href="/page-style-guide">
+									<Link className="dropdown-item position-relative z-1 d-flex align-items-start" href="/podcast">
 										Podcast
 									</Link>
 								</li>
@@ -174,7 +256,7 @@ export default function Menu() {
 									</Link>
 								</li>
 										<li className="position-relative z-1">
-									<Link className="dropdown-item position-relative z-1 d-flex align-items-start" href="/page-elements">
+									<Link className="dropdown-item position-relative z-1 d-flex align-items-start" href="/case-study">
 										case study
 									</Link>
 								</li>

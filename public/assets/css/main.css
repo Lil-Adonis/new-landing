@@ -2515,6 +2515,68 @@ textarea {
   transition: all 0.9s ease-in-out;
   z-index: 999;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar .has-min-mega-menu .mega-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  padding: 2rem;
+  min-width: 600px !important; 
+  border: 1px solid var(--tc-neutral-200);
+  border-radius: 0.5rem;
+  box-shadow: var(--tc-shadow-1);
+  background-color: var(--tc-system-white);
+  transition: all 0.9s ease-in-out;
+  z-index: 999;
+} 
+
+
+
+
+
 .navbar .has-mega-menu:hover .mega-menu {
   display: block;
   transition: all 0.9s ease-in-out;

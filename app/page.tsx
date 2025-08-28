@@ -20,6 +20,7 @@ import Static1 from "@/components/sections/Static1";
 import Project2 from "@/components/sections/Project2";
 import Cta8 from "@/components/sections/Cta8";
 import LogoCloud3 from "@/components/sections/LogoCloud3";
+import HowItWork1 from "@/components/sections/HowItWork1";
 export default function Home4() {
   return (
     <>
@@ -29,11 +30,14 @@ export default function Home4() {
         {/* <LogoCloud4 /> */}
         <Services1 />
 
-        <Cta4 />
-        <Static1 />
+       
 
-        {/* <Services5 /> */}
-         <Cta8 />
+        {/* <Cta4 /> */}
+        <Static1 />
+         <HowItWork1 />
+
+       
+         {/* <Cta8 /> */}
         <Project2 />
         <LogoCloud3/>
         <Features4 />

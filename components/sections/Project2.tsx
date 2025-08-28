@@ -50,8 +50,8 @@ export default function Project2() {
 								<img src="/assets/imgs/features-1/dots.png" alt="limpiar" />
 								<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Recent work</span>
 							</div> */}
-							<h3 className="ds-3 mt-3 mb-3">Updates & Insights</h3>
-							<p className="fs-5 fw-medium">⚡Don't miss any contact. Stay connected.</p>
+							<h3 className="ds-3 mt-3 mb-3">Insights for Smarter Operations</h3>
+							<p className="fs-5 fw-medium">⚡Articles, resources, and research to help you cut costs and run smarter facilities</p>
 						</div>
 						<div className="col-lg-2 col-md-3 col-6 ms-auto align-self-end mb-lg-7 mt-lg-0 mt-4">
 							<div className="position-relative z-0">
@@ -82,7 +82,7 @@ export default function Project2() {
 												<h6>Predictive maintanace at scale</h6>
 												<p className="text-900">Discover how proactive scheduling and real time alert reduce downtime and extend asset life</p>
 											</Link>
-											<Link href="#" className="badge text-primary bg-white px-3 py-2 rounded-pill m-4 fs-7 position-absolute top-0 end-0 z-1">Software Development</Link>
+											<Link href="#" className="badge text-primary bg-white px-3 py-2 rounded-pill m-4 fs-7 position-absolute top-0 end-0 z-1">Sustainability</Link>
 										</div>
 									</div>
 								</SwiperSlide>
@@ -99,7 +99,7 @@ export default function Project2() {
 												<h6>Cost saving with smart scheduling</h6>
 												<p className="text-900">Intelligent scheduling and transparent tracking deliver measurable cost reduction.</p>
 											</Link>
-											<Link href="#" className="badge text-primary bg-white px-3 py-2 rounded-pill m-4 fs-7 position-absolute top-0 end-0 z-1">Consulting</Link>
+											<Link href="#" className="badge text-primary bg-white px-3 py-2 rounded-pill m-4 fs-7 position-absolute top-0 end-0 z-1">AI & Automation</Link>
 										</div>
 									</div>
 								</SwiperSlide>
@@ -116,7 +116,7 @@ export default function Project2() {
 												<h6>Seamless work order automation</h6>
 												<p className="text-900">Automated routing removes bottlenecks and ensures every request is handeled on time </p>
 											</Link>
-											<Link href="#" className="badge text-primary bg-white px-3 py-2 rounded-pill m-4 fs-7 position-absolute top-0 end-0 z-1">Financial Advisory</Link>
+											<Link href="#" className="badge text-primary bg-white px-3 py-2 rounded-pill m-4 fs-7 position-absolute top-0 end-0 z-1">Facility Management</Link>
 										</div>
 									</div>
 								</SwiperSlide>
@@ -132,7 +132,7 @@ export default function Project2() {
 												<h6>vendor response insights</h6>
 												<p className="text-900">Always-on communication and automated compliance tracking for property teams</p>
 											</Link>
-											<Link href="#" className="badge text-primary bg-white px-3 py-2 rounded-pill m-4 fs-7 position-absolute top-0 end-0 z-1">Software Development</Link>
+											<Link href="#" className="badge text-primary bg-white px-3 py-2 rounded-pill m-4 fs-7 position-absolute top-0 end-0 z-1">Sustainability</Link>
 										</div>
 									</div>
 								</SwiperSlide>
@@ -148,7 +148,7 @@ export default function Project2() {
 												<h6>Streamlined compliance workflow </h6>
 												<p className="text-900">Automated checks simplify reporting and reduce risk for operators.</p>
 											</Link>
-											<Link href="#" className="badge text-primary bg-white px-3 py-2 rounded-pill m-4 fs-7 position-absolute top-0 end-0 z-1">Consulting</Link>
+											<Link href="#" className="badge text-primary bg-white px-3 py-2 rounded-pill m-4 fs-7 position-absolute top-0 end-0 z-1">Case Studies</Link>
 										</div>
 									</div>
 								</SwiperSlide>
@@ -165,7 +165,7 @@ export default function Project2() {
 												<h6>Ai powered asset monitoring</h6>
 												<p className="text-900">Iot-enabled monioring enables proactive maintenance and fewer equipment failure  </p>
 											</Link>
-											<Link href="#" className="badge text-primary bg-white px-3 py-2 rounded-pill m-4 fs-7 position-absolute top-0 end-0 z-1">Financial Advisory</Link>
+											<Link href="#" className="badge text-primary bg-white px-3 py-2 rounded-pill m-4 fs-7 position-absolute top-0 end-0 z-1">Facility Management</Link>
 										</div>
 									</div>
 								</SwiperSlide>
@@ -189,7 +189,7 @@ export default function Project2() {
 												<h6>Transparent job status tracking</h6>
 												<p className="text-900">Track every service request in real time for full operational transparency</p>
 											</Link>
-											<Link href="#" className="badge text-primary bg-white px-3 py-2 rounded-pill m-4 fs-7 position-absolute top-0 end-0 z-1">Software Development</Link>
+											<Link href="#" className="badge text-primary bg-white px-3 py-2 rounded-pill m-4 fs-7 position-absolute top-0 end-0 z-1">Sustainability</Link>
 										</div>
 									</div>
 								</SwiperSlide>
@@ -206,7 +206,7 @@ export default function Project2() {
 												<h6>Autonomous property management</h6>
 												<p className="text-900">Explore self-optimizing properties with Ai-driven scheduling, monitoring and reporting.</p>
 											</Link>
-											<Link href="#" className="badge text-primary bg-white px-3 py-2 rounded-pill m-4 fs-7 position-absolute top-0 end-0 z-1">Consulting</Link>
+											<Link href="#" className="badge text-primary bg-white px-3 py-2 rounded-pill m-4 fs-7 position-absolute top-0 end-0 z-1">Case Studies</Link>
 										</div>
 									</div>
 								</SwiperSlide>
@@ -223,7 +223,7 @@ export default function Project2() {
 												<h6>Data driven inventory control</h6>
 												<p className="text-900">Use real-time data to forecast needs, reduce waste and streamline procurement </p>
 											</Link>
-											<Link href="#" className="badge text-primary bg-white px-3 py-2 rounded-pill m-4 fs-7 position-absolute top-0 end-0 z-1">Financial Advisory</Link>
+											<Link href="#" className="badge text-primary bg-white px-3 py-2 rounded-pill m-4 fs-7 position-absolute top-0 end-0 z-1">Facility Management</Link>
 										</div>
 									</div>
 								</SwiperSlide>
@@ -239,7 +239,7 @@ export default function Project2() {
 												<h6>Reduce Downtime with Ai</h6>
 												<p className="text-900">Automated alerts and proactive workflow cut downtime and boost reliability</p>
 											</Link>
-											<Link href="#" className="badge text-primary bg-white px-3 py-2 rounded-pill m-4 fs-7 position-absolute top-0 end-0 z-1">Software Development</Link>
+											<Link href="#" className="badge text-primary bg-white px-3 py-2 rounded-pill m-4 fs-7 position-absolute top-0 end-0 z-1">Sustainability</Link>
 										</div>
 									</div>
 								</SwiperSlide>

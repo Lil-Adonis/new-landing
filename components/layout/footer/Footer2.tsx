@@ -37,11 +37,10 @@ export default function Footer2() {
 											<h3 className="text-900 fs-6 fw-black text-uppercase pb-3 pt-5">Company</h3>
 											<div className="d-flex flex-column align-items-start">
 												<Link className="hover-effect text-900 mb-2 fw-medium fs-6" href="/#">Mission &amp; Vision</Link>
-												<Link className="hover-effect text-900 mb-2 fw-medium fs-6" href="/#">Our Team</Link>
+												<Link className="hover-effect text-900 mb-2 fw-medium fs-6" href="/team">Our Team</Link>
 												<Link className="hover-effect text-900 mb-2 fw-medium fs-6" href="/#">Careers</Link>
 												<Link className="hover-effect text-900 mb-2 fw-medium fs-6" href="/#">Press &amp; Media</Link>
-												<Link className="hover-effect text-900 mb-2 fw-medium fs-6" href="/#">Advertising</Link>
-												<Link className="hover-effect text-900 mb-2 fw-medium fs-6" href="/#">Testimonials</Link>
+
 											</div>
 										</div>
 										<div className="col-lg-3 col-md-3 col-6">
@@ -53,28 +52,43 @@ export default function Footer2() {
 												<Link className="hover-effect text-900 mb-2 fw-medium fs-6" href="/#">Security</Link>
 											</div>
 										</div>
-										<div className="col-lg-6 col-md-3">
-											<h3 className="text-900 fs-6 fw-black text-uppercase pb-3 pt-5">instagram posts</h3>
-											<div className="d-flex">
-												<Link href="/http://instagram.com/username" className="me-2 hover-up">
-													<img className="rounded-3" src="assets/imgs/footer-3/img-inst-1.png" alt="limpiar" />
-												</Link>
-												<Link href="/http://instagram.com/username" className="me-2 hover-up">
-													<img className="rounded-3" src="assets/imgs/footer-3/img-inst-2.png" alt="limpiar" />
-												</Link>
-												<Link href="/http://instagram.com/username" className="me-2 hover-up">
-													<img className="rounded-3" src="assets/imgs/footer-3/img-inst-3.png" alt="limpiar" />
-												</Link>
-											</div>
-											<div className="d-flex mt-2">
-												<Link href="/http://instagram.com/username" className="me-2 hover-up">
-													<img className="rounded-3" src="assets/imgs/footer-3/img-inst-4.png" alt="limpiar" />
-												</Link>
-												<Link href="/http://instagram.com/username" className="me-2 hover-up">
-													<img className="rounded-3" src="assets/imgs/footer-3/img-inst-5.png" alt="limpiar" />
-												</Link>
-												<Link href="/http://instagram.com/username" className="me-2 hover-up">
-													<img className="rounded-3" src="assets/imgs/footer-3/img-inst-6.png" alt="limpiar" />
+										<div className="col-lg-6 col-md-6 col-12 mt-5 mt-md-0">
+											<div
+												className="bg-primary-soft rounded-4 p-4 h-100 d-flex flex-column justify-content-between"
+												style={{ minHeight: '260px', boxShadow: '0 2px 16px rgba(0,0,0,0.04)' }}
+											>
+												<h3 className="text-900 fs-5 fw-black text-uppercase mb-3">Ready to get started?</h3>
+												<p className="text-900 opacity-75 mb-3" style={{ fontSize: '1rem' }}>
+													It is a long established fact that a reader will be distracted by the layout. Reach out to us for any queries or support.
+												</p>
+												<div className="mb-3">
+													<div className="d-flex align-items-center mb-2">
+														<i className="bi bi-geo-alt-fill me-2 text-primary" />
+														<span className="text-900 fw-medium">123 Main Street, City, Country</span>
+													</div>
+													<div className="d-flex align-items-center mb-2">
+														<i className="bi bi-envelope-fill me-2 text-primary" />
+														<span className="text-900 fw-medium">contact.tech@gmail.com</span>
+													</div>
+													<div className="d-flex align-items-center mb-2">
+														<i className="bi bi-envelope-fill me-2 text-primary" />
+														<span className="text-900 fw-medium">info@limpiar.com</span>
+													</div>
+													<div className="d-flex align-items-center mb-2">
+														<i className="bi bi-telephone-fill me-2 text-primary" />
+														<span className="text-900 fw-medium">+880 123 654 789 00</span>
+													</div>
+													<div className="d-flex align-items-center">
+														<i className="bi bi-telephone-fill me-2 text-primary" />
+														<span className="text-900 fw-medium">+001 6520 698 00</span>
+													</div>
+												</div>
+												<Link
+													href="/contact"
+													className="btn btn-primary w-100 mt-2 fw-bold"
+													style={{ fontSize: '1rem', borderRadius: '8px' }}
+												>
+													Contact Us
 												</Link>
 											</div>
 										</div>
