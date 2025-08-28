@@ -14,10 +14,10 @@ export default function HowItWork1() {
 					<div className="text-center mb-8">
 						<div className="d-flex align-items-center position-relative z-2 justify-content-center bg-primary-soft d-inline-flex rounded-pill border border-2 border-white px-3 py-1" data-aos="zoom-in" data-aos-delay={200}>
 							<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
-							<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">What we offers</span>
+							<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">What we do</span>
 						</div>
-						<h3 className="ds-3 my-3 fw-regular" data-aos="fade-zoom-in" data-aos-delay={100}>Built for every  <span className="fw-bold">Team </span> </h3>
-						<p className="fs-5 mb-0" data-aos="fade-zoom-in" data-aos-delay={200}>From operators to vendors, Limpiar adapts to how your teams work</p>
+						<h3 className="ds-3 my-3 fw-regular" data-aos="fade-zoom-in" data-aos-delay={100}>Move from <span className="fw-bold">Reactive <br/> </span> to  <span className="fw-bold"> Autonomous</span>  </h3>
+						<p className="fs-5 mb-0" data-aos="fade-zoom-in" data-aos-delay={200}>Most facilities react after problems occur. Limpiar’s AI predicts, prevents, and resolves issues automatically, <br/> keeping properties optimized, compliant, and profitable without constant oversight.</p>
 					</div>
 				</div>
 				<div className="position-absolute top-0 start-50 translate-middle-x z-0">
@@ -33,10 +33,11 @@ export default function HowItWork1() {
 									</div>
 								</div>
 								<div data-aos="fade-zoom-in" data-aos-delay={100}>
-									<h5 className="text-lg-white text-900">01. Facility Managers</h5>
-									<p className="text-lg-white text-900 opacity-75">Track task and uptime in  real-time</p>
+									<h5 className="text-lg-white text-900">Property Automation</h5>
+									<p className="text-lg-white text-900 opacity-75">Automated task routing, tracking, and resolution.</p>
 								</div>
 							</div>
+
 							<div className="d-flex feature-item position-relative z-1">
 								<div className="bg-primary-soft-keep icon-flip position-relative icon-shape icon-xxl rounded-3 me-5">
 									<div className="icon">
@@ -44,10 +45,11 @@ export default function HowItWork1() {
 									</div>
 								</div>
 								<div data-aos="fade-zoom-in" data-aos-delay={200}>
-									<h5 className="text-lg-white text-900">02. Property Owners</h5>
-									<p className="text-lg-white text-900 opacity-75">Gain visibilty into costs & performance</p>
+									<h5 className="text-lg-white text-900">Work Synchronization</h5>
+									<p className="text-lg-white text-900 opacity-75"> Real-time coordination between vendors, staff, and assets.</p>
 								</div>
 							</div>
+
 							<div className="d-flex feature-item">
 								<div className="bg-primary-soft-keep icon-flip position-relative icon-shape icon-xxl rounded-3 me-5">
 									<div className="icon">
@@ -55,10 +57,26 @@ export default function HowItWork1() {
 									</div>
 								</div>
 								<div data-aos="fade-zoom-in" data-aos-delay={300}>
-									<h5 className="text-lg-white text-900">03. Vendors</h5>
-									<p className="text-lg-white text-900 opacity-75">Get dispatched instantly, with fast payment</p>
+									<h5 className="text-lg-white text-900">Mobile Access</h5>
+									<p className="text-lg-white text-900 opacity-75">Manage every property from anywhere.</p>
 								</div>
 							</div>
+
+								<div className="d-flex feature-item position-relative z-1">
+								<div className="bg-primary-soft-keep icon-flip position-relative icon-shape icon-xxl rounded-3 me-5">
+									<div className="icon">
+										<img src="/assets/imgs/howitwork-1/icon-2.svg" alt="infinia" />
+									</div>
+								</div>
+								<div data-aos="fade-zoom-in" data-aos-delay={200}>
+									<h5 className="text-lg-white text-900">Predictive AI Scheduling</h5>
+									<p className="text-lg-white text-900 opacity-75"> Anticipate maintenance and optimize workforce allocation.</p>
+								</div>
+							</div>
+
+							
+
+
 							<div className="dashed-line-1 d-none d-lg-block" />
 							<div className="dashed-line-2 d-none d-lg-block" />
 						</div>

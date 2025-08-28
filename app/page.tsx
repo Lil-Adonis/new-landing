@@ -32,11 +32,12 @@ export default function Home4() {
         <Services1 />
 
        
-
-        {/* <Cta4 /> */}
+  <HowItWork1 />
+        
         <Static1 />
            <LogoCloud3/>
-         <HowItWork1 />
+           <Cta4 />
+       
        
 
        

@@ -95,129 +95,190 @@ export default function Cta4() {
     const [isOpen, setOpen] = useState(false)
 
     return (
-        <>
-            <section className="section-cta-4 pb-110 @@classList">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-6 text-center">
-                            <div className="text-center rounded-4 position-relative d-inline-flex">
-                                <div className="zoom-img rounded-4 position-relative z-1">
-                                    <img className="rounded-4" src="/assets/imgs/cta-4/img-1.png" alt="limpiar" />
-                                    <div className="position-absolute top-50 start-50 translate-middle z-2">
-                                        <Link
-                                            href="#"
-                                            onClick={e => { e.preventDefault(); setOpen(true); }}
-                                            scroll={false}
-                                            className="d-inline-flex align-items-center rounded-4 text-nowrap backdrop-filter px-3 py-2 popup-video hover-up me-3 shadow-1"
-                                        >
-                                            <span className="backdrop-filter me-2 icon-shape icon-md rounded-circle">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} viewBox="0 0 16 16" fill="none">
-                                                    <path className="stroke-dark" d="M5.0978 3.31244L12.0958 6.80342C13.077 7.29449 13.0767 8.69249 12.0954 9.18316L5.09734 12.6927C4.21074 13.136 3.16687 12.4925 3.16687 11.5027L3.16687 4.50219C3.16687 3.51217 4.2112 2.86872 5.0978 3.31244Z" stroke="#111827" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                                </svg>
-                                            </span>
-                                            <span className="fw-bold fs-7 text-900">
-                                              Play Video 
-                                            </span>
-                                        </Link>
-                                    </div>
-                                </div>
-                                <div className="position-absolute top-100 start-0 translate-middle z-0 pt-5">
-                                    <img className="alltuchtopdown" src="/assets/imgs/cta-4/vector.svg" alt="limpiar" />
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-6 mt-lg-0 mt-8">
-                            <h6 className="text-primary">What We Do</h6>
-                            <h5 className="ds-5 my-3">Move from Reactive to Autonomous</h5>
-                            <p className="fs-5 text-500"> Most facilities react to problems after they happen. Limpiar’s AI platform predicts, prevents, and resolves issues automatically, keeping your properties optimized, compliant, and profitable without constant oversight.</p>
-                            <div className="d-md-flex align-items-center mt-4 mb-5">
-                                <ul className="list-unstyled phase-items mb-0">
-                                    <li className="d-flex align-items-center mt-3">
-                                        <img src="/assets/imgs/cta-2/check.svg" alt="limpiar" />
-                                        <span className="ms-2 text-900"> Property Automation</span>
-                                    </li>
-                                    <li className="d-flex align-items-center mt-3">
-                                        <img src="/assets/imgs/cta-2/check.svg" alt="limpiar" />
-                                        <span className="ms-2 text-900">Mobile Access</span>
-                                    </li>
-                                </ul>
-                                <ul className="list-unstyled phase-items ms-md-5 mb-0">
-                                    <li className="d-flex align-items-center mt-3">
-                                        <img src="/assets/imgs/cta-2/check.svg" alt="limpiar" />
-                                        <span className="ms-2 text-900"> Work Synchronization</span>
-                                    </li>
-                                    <li className="d-flex align-items-center mt-3">
-                                        <img src="/assets/imgs/cta-2/check.svg" alt="limpiar" />
-                                        <span className="ms-2 text-900"> Predictive AI Scheduling</span>
-                                    </li>
-                                </ul>
-                            </div>
-                            {/* <div className="row mt-8">
-                                <div className="d-flex align-items-center">
-                                    <Link href="#" className="btn btn-gradient">
-                                        Get Free Quote
-                                        <svg className="ms-2" xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
-                                            <path className="stroke-white" d="M17.25 15.25V6.75H8.75" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                            <path className="stroke-white" d="M17 7L6.75 17.25" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                        </svg>
-                                    </Link>
-                                    <Link href="#" className="ms-5 text-decoration-underline fw-bold">How We Work</Link>
-                                </div>
-                            </div> */}
-                        </div>
-                    </div>
-                </div>
-            </section>
 
-            {isOpen && (
-                <div
-                    style={{
-                        position: 'fixed',
-                        top: 0,
-                        left: 0,
-                        width: '100vw',
-                        height: '100vh',
-                        background: 'rgba(0,0,0,0.7)',
-                        display: 'flex',
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                        zIndex: 9999,
-                    }}
-                    onClick={() => setOpen(false)}
-                >
-                    <div
-                        style={{ position: 'relative', maxWidth: '90vw', maxHeight: '80vh' }}
-                        onClick={e => e.stopPropagation()}
-                    >
-                        <button
-                            onClick={() => setOpen(false)}
-                            style={{
-                                position: 'absolute',
-                                top: 10,
-                                right: 10,
-                                background: 'rgba(0,0,0,0.5)',
-                                color: '#fff',
-                                border: 'none',
-                                borderRadius: '50%',
-                                width: 32,
-                                height: 32,
-                                cursor: 'pointer',
-                                fontSize: 20,
-                                zIndex: 2,
-                            }}
-                            aria-label="Close"
-                        >
-                            ×
-                        </button>
-                        <video
-                            src="/assets/video/vid.mp4"
-                            controls
-                            autoPlay
-                            style={{ width: '100%', height: 'auto', borderRadius: 12, background: '#000' }}
-                        />
-                    </div>
-                </div>
-            )}
-        </>
+        	<section className="section-feature-11 border-bottom">
+					<div className="container-fluid position-relative section-padding">
+						<div className="container">
+							<div className="row">
+								<div className="col-lg-5 position-relative">
+									<div className="d-flex align-items-center justify-content-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-4 py-2" data-aos="zoom-in" data-aos-delay={100}>
+										<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
+										{/* <span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Our Features</span> */}
+									</div>
+									<h5 className="ds-5 mt-2">Built for Every <br/> Team</h5>
+                                    						<p className="fs-5 mb-0" data-aos="fade-zoom-in" data-aos-delay={200}>From operators to vendors, Limpiar adapts <br/> to how your teams work</p>
+									<div className="d-flex pt-3 mt-4 align-items-center">
+										<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
+											<div className="icon">
+												<img src="/assets/imgs/features-11/icon-1.svg" alt="infinia" />
+											</div>
+										</div>
+										<div className="ps-5">
+											<h6> Facility Managers</h6>
+											<p>Track task and uptime in  real-time</p>
+										</div>
+									</div>
+									<div className="d-flex pt-3 align-items-center mt-2">
+										<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
+											<div className="icon">
+												<img src="/assets/imgs/features-11/icon-2.svg" alt="infinia" />
+											</div>
+										</div>
+										<div className="ps-5">
+											<h6> Property Owners</h6>
+											<p>Gain visibilty into costs & performances</p>
+										</div>
+									</div>
+									<div className="d-flex pt-3 align-items-center mt-2">
+										<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
+											<div className="icon">
+												<img src="/assets/imgs/features-11/icon-3.svg" alt="infinia" />
+											</div>
+										</div>
+										<div className="ps-5">
+											<h6>Vendors</h6>
+											<p>Get dispatched instantly, with fast payment</p>
+										</div>
+									</div>
+									<div className="position-absolute flickering top-0 end-0 mt-5 me-10 d-none d-md-block">
+										<img src="/assets/imgs/features-11/icon-4.svg" alt="" />
+									</div>
+								</div>
+								<div className="col-lg-7 text-center mt-lg-0 mt-8 d-flex">
+									<div className="zoom-img rounded-3 mt-8 me-3">
+										<img src="/assets/imgs/features-11/img-1.png" alt="infinia" />
+									</div>
+									<div className="zoom-img rounded-3">
+										<img className="rounded-3" src="/assets/imgs/features-11/img-2.png" alt="infinia" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+        // <>
+        //     <section className="section-cta-4 pb-110 @@classList">
+        //         <div className="container">
+        //             <div className="row">
+        //                 <div className="col-lg-6 text-center">
+        //                     <div className="text-center rounded-4 position-relative d-inline-flex">
+        //                         <div className="zoom-img rounded-4 position-relative z-1">
+        //                             <img className="rounded-4" src="/assets/imgs/cta-4/img-1.png" alt="limpiar" />
+        //                             <div className="position-absolute top-50 start-50 translate-middle z-2">
+        //                                 <Link
+        //                                     href="#"
+        //                                     onClick={e => { e.preventDefault(); setOpen(true); }}
+        //                                     scroll={false}
+        //                                     className="d-inline-flex align-items-center rounded-4 text-nowrap backdrop-filter px-3 py-2 popup-video hover-up me-3 shadow-1"
+        //                                 >
+        //                                     <span className="backdrop-filter me-2 icon-shape icon-md rounded-circle">
+        //                                         <svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} viewBox="0 0 16 16" fill="none">
+        //                                             <path className="stroke-dark" d="M5.0978 3.31244L12.0958 6.80342C13.077 7.29449 13.0767 8.69249 12.0954 9.18316L5.09734 12.6927C4.21074 13.136 3.16687 12.4925 3.16687 11.5027L3.16687 4.50219C3.16687 3.51217 4.2112 2.86872 5.0978 3.31244Z" stroke="#111827" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+        //                                         </svg>
+        //                                     </span>
+        //                                     <span className="fw-bold fs-7 text-900">
+        //                                       Play Video 
+        //                                     </span>
+        //                                 </Link>
+        //                             </div>
+        //                         </div>
+        //                         <div className="position-absolute top-100 start-0 translate-middle z-0 pt-5">
+        //                             <img className="alltuchtopdown" src="/assets/imgs/cta-4/vector.svg" alt="limpiar" />
+        //                         </div>
+        //                     </div>
+        //                 </div>
+        //                 <div className="col-lg-6 mt-lg-0 mt-8">
+        //                     <h6 className="text-primary">What We Do</h6>
+        //                     <h5 className="ds-5 my-3">Move from Reactive to Autonomous</h5>
+        //                     <p className="fs-5 text-500"> Most facilities react to problems after they happen. Limpiar’s AI platform predicts, prevents, and resolves issues automatically, keeping your properties optimized, compliant, and profitable without constant oversight.</p>
+        //                     <div className="d-md-flex align-items-center mt-4 mb-5">
+        //                         <ul className="list-unstyled phase-items mb-0">
+        //                             <li className="d-flex align-items-center mt-3">
+        //                                 <img src="/assets/imgs/cta-2/check.svg" alt="limpiar" />
+        //                                 <span className="ms-2 text-900"> Property Automation</span>
+        //                             </li>
+        //                             <li className="d-flex align-items-center mt-3">
+        //                                 <img src="/assets/imgs/cta-2/check.svg" alt="limpiar" />
+        //                                 <span className="ms-2 text-900">Mobile Access</span>
+        //                             </li>
+        //                         </ul>
+        //                         <ul className="list-unstyled phase-items ms-md-5 mb-0">
+        //                             <li className="d-flex align-items-center mt-3">
+        //                                 <img src="/assets/imgs/cta-2/check.svg" alt="limpiar" />
+        //                                 <span className="ms-2 text-900"> Work Synchronization</span>
+        //                             </li>
+        //                             <li className="d-flex align-items-center mt-3">
+        //                                 <img src="/assets/imgs/cta-2/check.svg" alt="limpiar" />
+        //                                 <span className="ms-2 text-900"> Predictive AI Scheduling</span>
+        //                             </li>
+        //                         </ul>
+        //                     </div>
+        //                     {/* <div className="row mt-8">
+        //                         <div className="d-flex align-items-center">
+        //                             <Link href="#" className="btn btn-gradient">
+        //                                 Get Free Quote
+        //                                 <svg className="ms-2" xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
+        //                                     <path className="stroke-white" d="M17.25 15.25V6.75H8.75" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+        //                                     <path className="stroke-white" d="M17 7L6.75 17.25" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+        //                                 </svg>
+        //                             </Link>
+        //                             <Link href="#" className="ms-5 text-decoration-underline fw-bold">How We Work</Link>
+        //                         </div>
+        //                     </div> */}
+        //                 </div>
+        //             </div>
+        //         </div>
+        //     </section>
+
+        //     {isOpen && (
+        //         <div
+        //             style={{
+        //                 position: 'fixed',
+        //                 top: 0,
+        //                 left: 0,
+        //                 width: '100vw',
+        //                 height: '100vh',
+        //                 background: 'rgba(0,0,0,0.7)',
+        //                 display: 'flex',
+        //                 alignItems: 'center',
+        //                 justifyContent: 'center',
+        //                 zIndex: 9999,
+        //             }}
+        //             onClick={() => setOpen(false)}
+        //         >
+        //             <div
+        //                 style={{ position: 'relative', maxWidth: '90vw', maxHeight: '80vh' }}
+        //                 onClick={e => e.stopPropagation()}
+        //             >
+        //                 <button
+        //                     onClick={() => setOpen(false)}
+        //                     style={{
+        //                         position: 'absolute',
+        //                         top: 10,
+        //                         right: 10,
+        //                         background: 'rgba(0,0,0,0.5)',
+        //                         color: '#fff',
+        //                         border: 'none',
+        //                         borderRadius: '50%',
+        //                         width: 32,
+        //                         height: 32,
+        //                         cursor: 'pointer',
+        //                         fontSize: 20,
+        //                         zIndex: 2,
+        //                     }}
+        //                     aria-label="Close"
+        //                 >
+        //                     ×
+        //                 </button>
+        //                 <video
+        //                     src="/assets/video/vid.mp4"
+        //                     controls
+        //                     autoPlay
+        //                     style={{ width: '100%', height: 'auto', borderRadius: 12, background: '#000' }}
+        //                 />
+        //             </div>
+        //         </div>
+        //     )}
+        // </>
     )
 }
