@@ -1,4 +1,3 @@
-
 import Cta4 from "@/components/sections/Cta4";
 
 import Hero4 from "@/components/sections/Hero4";
@@ -31,28 +30,23 @@ export default function Home4() {
         {/* <LogoCloud4 /> */}
         <Services1 />
 
-       
-  <HowItWork1 />
-        
-        <Static1 />
-           <LogoCloud3/>
-           <Cta4 />
-       
-       
+        <HowItWork1 />
 
-       
-         {/* <Cta8 /> */}
-          <Blog5/>
-       
+        <Static1 />
+        <LogoCloud3 />
+        <Cta4 />
+
+        {/* <Cta8 /> */}
+        <Blog5 />
+
         <Faqs3 />
-       
-            <Project2 />
+
+        <Project2 />
         {/* <Features4 /> */}
         <Testimonial1 />
         {/* <Features9 /> */}
         {/* <HowItWork2 /> */}
-        
-        
+
         <Newsletter3 />
       </Layout>
     </>

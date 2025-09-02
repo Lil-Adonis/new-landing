@@ -1353,6 +1353,18 @@ textarea {
   animation-fill-mode: both;
 }
 
+.top-40 {
+  top: 40% !important;
+}
+
+.start-40 {
+  left: 35% !important;
+}
+
+.start-20 {
+  left: 20% !important;
+}
+
 @keyframes fadeInLeft2 {
   0% {
     opacity: 0;
@@ -2564,7 +2576,7 @@ textarea {
   position: absolute;
   top: 100%;
   padding: 2rem;
-  min-width: 600px !important; 
+  min-width: 800px !important; 
   border: 1px solid var(--tc-neutral-200);
   border-radius: 0.5rem;
   box-shadow: var(--tc-shadow-1);
