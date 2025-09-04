@@ -170,17 +170,17 @@ export default function Menu() {
 								<div className="dropdown-menu p-4 fix">
 							<ul className="list-unstyled">
 								<li className="position-relative border-bottom z-1">
-									<Link className="dropdown-item position-relative z-1 d-flex align-items-start" href="/podcast">
+									<Link className="dropdown-item position-relative z-1 d-flex align-items-start" href="/blog">
 										Blog & Insights
 									</Link>
 								</li>
 								<li className="position-relative z-1 border-bottom pt-2">
-									<Link className="dropdown-item position-relative z-1 d-flex align-items-start" href="/blog">
-									Case Studies
+									<Link className="dropdown-item position-relative z-1 d-flex align-items-start" href="/case-study">
+										Case Studies
 									</Link>
 								</li>
 										<li className="position-relative border-bottom z-1 pt-2">
-									<Link className="dropdown-item position-relative z-1 d-flex align-items-start" href="/case-study">
+									<Link className="dropdown-item position-relative z-1 d-flex align-items-start" href="/podcast">
 										Podcast
 									</Link>
 								</li>
