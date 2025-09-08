@@ -101,10 +101,11 @@ const page = () => {
 								<div className="text-center mb-lg-0 mb-5 section-padding">
 									<div className="d-flex align-items-center position-relative z-2 justify-content-center bg-primary-soft d-inline-flex rounded-pill border border-2 border-white px-3 py-1">
 										<img src="/assets/imgs/features-1/dots.png" alt="limpiar" />
-										<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">About our company</span>
+										<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Limpiar platform</span>
 									</div>
-									<h5 className="ds-5 my-3 fw-regular">Uncover <span className="fw-bold">Our Journey: <br className="d-none d-md-inline" /> </span> Uniting Through <span className="fw-bold">Creativity</span></h5>
-									<p className="fs-5 mb-0 text-500">Our dedication to quality and excellence has made us a trusted partner for enterprises looking to enhance their online presence.</p>
+									<h5 className="ds-5 my-3 fw-regular"> <span className="fw-bold">The Operating System for Property Operations. <br className="d-none d-md-inline" /> </span>   <span className="fw-bold"></span></h5>
+									<p className="fs-5 mb-0 text-500">Limpiar's Ai-Powered Platform automates facility management
+                    so your properties run themselves.</p>
 								</div>
 							</div>
 						</div>
