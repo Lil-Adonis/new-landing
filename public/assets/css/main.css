@@ -13499,6 +13499,11 @@ a:hover {
 }
 
 
+.section-padding-mini {
+  padding: 90px 0;
+}
+
+
 .section-padding-platform {
   padding: 80px 0;
 }

@@ -102,7 +102,7 @@ export default function Cta4() {
 							<div className="row">
 								<div className="col-lg-5 position-relative">
 									<div className="d-flex align-items-center justify-content-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-4 py-2" data-aos="zoom-in" data-aos-delay={100}>
-										<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
+										<img src="/assets/imgs/features-1/dots.png" alt="limpiar" />
 										{/* <span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Our Features</span> */}
 									</div>
 									<h5 className="ds-5 mt-2">Built for Every <br/> Team</h5>
@@ -110,7 +110,7 @@ export default function Cta4() {
 									<div className="d-flex pt-3 mt-4 align-items-center">
 										<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
 											<div className="icon">
-												<img src="/assets/imgs/features-11/icon-1.svg" alt="infinia" />
+												<img src="/assets/imgs/features-11/icon-1.svg" alt="limpiar" />
 											</div>
 										</div>
 										<div className="ps-5">
@@ -121,7 +121,7 @@ export default function Cta4() {
 									<div className="d-flex pt-3 align-items-center mt-2">
 										<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
 											<div className="icon">
-												<img src="/assets/imgs/features-11/icon-2.svg" alt="infinia" />
+												<img src="/assets/imgs/features-11/icon-2.svg" alt="limpiar" />
 											</div>
 										</div>
 										<div className="ps-5">
@@ -132,7 +132,7 @@ export default function Cta4() {
 									<div className="d-flex pt-3 align-items-center mt-2">
 										<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
 											<div className="icon">
-												<img src="/assets/imgs/features-11/icon-3.svg" alt="infinia" />
+												<img src="/assets/imgs/features-11/icon-3.svg" alt="limpiar" />
 											</div>
 										</div>
 										<div className="ps-5">
@@ -146,10 +146,10 @@ export default function Cta4() {
 								</div>
 								<div className="col-lg-7 text-center mt-lg-0 mt-8 d-flex">
 									<div className="zoom-img rounded-3 mt-8 me-3">
-										<img src="/assets/imgs/features-11/img-1.png" alt="infinia" />
+										<img src="/assets/imgs/features-11/img-1.png" alt="limpiar" />
 									</div>
 									<div className="zoom-img rounded-3">
-										<img className="rounded-3" src="/assets/imgs/features-11/img-2.png" alt="infinia" />
+										<img className="rounded-3" src="/assets/imgs/features-11/img-2.png" alt="limpiar" />
 									</div>
 								</div>
 							</div>

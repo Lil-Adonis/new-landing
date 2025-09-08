@@ -41,8 +41,8 @@ const page = () => {
 	}
   return (
     <Layout>
-      <div>
-        <section className="section-cta-8 bg-4 pt-6">
+
+        {/* <section className="section-cta-8 bg-4 section-padding-mini">
           <div className="container-fluid position-relative section-padding-platform">
             <div className="container">
               <div className="row align-items-center">
@@ -78,14 +78,14 @@ const page = () => {
                     <img
                       className="rounded-4 position-relative z-1"
                       src="/hero-1.png"
-                      alt="infinia"
+                      alt="limpiar"
                     />
 
                     <div className="position-absolute tag-dots z-0 pt-5">
                       <img
                         className="alltuchtopdown"
                         src="/assets/imgs/cta-4/vector.svg"
-                        alt="infinia"
+                        alt="limpiar"
                       />
                     </div>
                   </div>
@@ -93,7 +93,89 @@ const page = () => {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
+        		<section className="section-testimonial-13 position-relative section-padding fix">
+					<div className="container position-relative z-1">
+						<div className="row pb-9 ">
+							<div className="col-lg-7 mx-lg-auto">
+								<div className="text-center mb-lg-0 mb-5 section-padding">
+									<div className="d-flex align-items-center position-relative z-2 justify-content-center bg-primary-soft d-inline-flex rounded-pill border border-2 border-white px-3 py-1">
+										<img src="/assets/imgs/features-1/dots.png" alt="limpiar" />
+										<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">About our company</span>
+									</div>
+									<h5 className="ds-5 my-3 fw-regular">Uncover <span className="fw-bold">Our Journey: <br className="d-none d-md-inline" /> </span> Uniting Through <span className="fw-bold">Creativity</span></h5>
+									<p className="fs-5 mb-0 text-500">Our dedication to quality and excellence has made us a trusted partner for enterprises looking to enhance their online presence.</p>
+								</div>
+							</div>
+						</div>
+						<div className="row">
+							<div className="col-lg-8">
+								<div className="position-relative mb-lg-0 mb-8 fix">
+									<div className="zoom-img rounded-4 fix">
+										<img src="/assets/imgs/cta-13/img-1.png" alt="limpiar" />
+									</div>
+									<div className="position-absolute alltuchtopdown bottom-0 start-0 m-md-5 backdrop-filter rounded-4 px-7 py-4 text-center z-1">
+										<p className="pt-2">Loved by over 4k <br /> happy clients</p>
+										<div className="d-flex align-items-center justify-content-center py-4">
+											<img src="/assets/imgs/features-3/avatar-1.png" alt="limpiar" />
+											<img className="avt-hero z-1" src="/assets/imgs/features-3/avatar-2.png" alt="limpiar" />
+											<img className="avt-hero z-0" src=" assets/imgs/features-3/avatar-3.png" alt="limpiar" />
+										</div>
+										<div className="d-flex align-items-center justify-content-center">
+											<svg xmlns="http://www.w3.org/2000/svg" width={26} height={26} viewBox="0 0 26 26" fill="none">
+												<path d="M10.8881 5.26869C11.4269 3.61033 13.7731 3.61033 14.3119 5.26869L15.0248 7.46262C15.2657 8.20426 15.9568 8.70639 16.7367 8.70639H19.0435C20.7872 8.70639 21.5122 10.9377 20.1015 11.9626L18.2352 13.3185C17.6044 13.7769 17.3404 14.5894 17.5813 15.331L18.2942 17.5249C18.833 19.1833 16.935 20.5623 15.5243 19.5374L13.658 18.1815C13.0271 17.7231 12.1729 17.7231 11.542 18.1815L9.67572 19.5374C8.26504 20.5623 6.36697 19.1833 6.90581 17.5249L7.61866 15.331C7.85963 14.5894 7.59565 13.7769 6.96477 13.3185L5.0985 11.9626C3.68782 10.9377 4.41282 8.70639 6.15652 8.70639H8.46335C9.24316 8.70639 9.93428 8.20426 10.1752 7.46262L10.8881 5.26869Z" fill="#F28833" />
+											</svg>
+											<svg xmlns="http://www.w3.org/2000/svg" width={26} height={26} viewBox="0 0 26 26" fill="none">
+												<path d="M10.8881 5.26869C11.4269 3.61033 13.7731 3.61033 14.3119 5.26869L15.0248 7.46262C15.2657 8.20426 15.9568 8.70639 16.7367 8.70639H19.0435C20.7872 8.70639 21.5122 10.9377 20.1015 11.9626L18.2352 13.3185C17.6044 13.7769 17.3404 14.5894 17.5813 15.331L18.2942 17.5249C18.833 19.1833 16.935 20.5623 15.5243 19.5374L13.658 18.1815C13.0271 17.7231 12.1729 17.7231 11.542 18.1815L9.67572 19.5374C8.26504 20.5623 6.36697 19.1833 6.90581 17.5249L7.61866 15.331C7.85963 14.5894 7.59565 13.7769 6.96477 13.3185L5.0985 11.9626C3.68782 10.9377 4.41282 8.70639 6.15652 8.70639H8.46335C9.24316 8.70639 9.93428 8.20426 10.1752 7.46262L10.8881 5.26869Z" fill="#F28833" />
+											</svg>
+											<svg xmlns="http://www.w3.org/2000/svg" width={26} height={26} viewBox="0 0 26 26" fill="none">
+												<path d="M10.8881 5.26869C11.4269 3.61033 13.7731 3.61033 14.3119 5.26869L15.0248 7.46262C15.2657 8.20426 15.9568 8.70639 16.7367 8.70639H19.0435C20.7872 8.70639 21.5122 10.9377 20.1015 11.9626L18.2352 13.3185C17.6044 13.7769 17.3404 14.5894 17.5813 15.331L18.2942 17.5249C18.833 19.1833 16.935 20.5623 15.5243 19.5374L13.658 18.1815C13.0271 17.7231 12.1729 17.7231 11.542 18.1815L9.67572 19.5374C8.26504 20.5623 6.36697 19.1833 6.90581 17.5249L7.61866 15.331C7.85963 14.5894 7.59565 13.7769 6.96477 13.3185L5.0985 11.9626C3.68782 10.9377 4.41282 8.70639 6.15652 8.70639H8.46335C9.24316 8.70639 9.93428 8.20426 10.1752 7.46262L10.8881 5.26869Z" fill="#F28833" />
+											</svg>
+											<svg xmlns="http://www.w3.org/2000/svg" width={26} height={26} viewBox="0 0 26 26" fill="none">
+												<path d="M10.8881 5.26869C11.4269 3.61033 13.7731 3.61033 14.3119 5.26869L15.0248 7.46262C15.2657 8.20426 15.9568 8.70639 16.7367 8.70639H19.0435C20.7872 8.70639 21.5122 10.9377 20.1015 11.9626L18.2352 13.3185C17.6044 13.7769 17.3404 14.5894 17.5813 15.331L18.2942 17.5249C18.833 19.1833 16.935 20.5623 15.5243 19.5374L13.658 18.1815C13.0271 17.7231 12.1729 17.7231 11.542 18.1815L9.67572 19.5374C8.26504 20.5623 6.36697 19.1833 6.90581 17.5249L7.61866 15.331C7.85963 14.5894 7.59565 13.7769 6.96477 13.3185L5.0985 11.9626C3.68782 10.9377 4.41282 8.70639 6.15652 8.70639H8.46335C9.24316 8.70639 9.93428 8.20426 10.1752 7.46262L10.8881 5.26869Z" fill="#F28833" />
+											</svg>
+											<svg xmlns="http://www.w3.org/2000/svg" width={26} height={26} viewBox="0 0 26 26" fill="none">
+												<path d="M10.8881 5.26869C11.4269 3.61033 13.7731 3.61033 14.3119 5.26869L15.0248 7.46262C15.2657 8.20426 15.9568 8.70639 16.7367 8.70639H19.0435C20.7872 8.70639 21.5122 10.9377 20.1015 11.9626L18.2352 13.3185C17.6044 13.7769 17.3404 14.5894 17.5813 15.331L18.2942 17.5249C18.833 19.1833 16.935 20.5623 15.5243 19.5374L13.658 18.1815C13.0271 17.7231 12.1729 17.7231 11.542 18.1815L9.67572 19.5374C8.26504 20.5623 6.36697 19.1833 6.90581 17.5249L7.61866 15.331C7.85963 14.5894 7.59565 13.7769 6.96477 13.3185L5.0985 11.9626C3.68782 10.9377 4.41282 8.70639 6.15652 8.70639H8.46335C9.24316 8.70639 9.93428 8.20426 10.1752 7.46262L10.8881 5.26869Z" fill="#F28833" />
+											</svg>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div className="col-lg-4">
+								<div className="row flex-lg-column">
+									<div className="col-md-6 col-lg-12">
+										<div className="backdrop-filter bg-linear-2 rounded-4 px-6 py-4 z-1">
+											<div className="d-flex align-items-center justify-content-between">
+												<div className="my-lg-3 text-center">
+													<span className="h2 count fw-black mb-0 lh-1 text-white text-nowrap">+<span className="odometer" /><CountUp end={23} enableScrollSpy={true} />k</span>
+													<p className="text-white text-nowrap border-opacity-50 border-white pb-3 mb-3">Projects Completed</p>
+													<span className="h2 count fw-black my-0 lh-1 text-white text-nowrap">+<span className="odometer" /><CountUp end={98} enableScrollSpy={true} />k</span>
+													<p className="text-white text-nowrap mb-0">Happy Clients</p>
+												</div>
+												<div className="my-lg-3 text-center">
+													<span className="h2 count fw-black mb-0 lh-1 text-white text-nowrap">+<span className="odometer" /><CountUp end={38} enableScrollSpy={true} />k</span>
+													<p className="text-white text-nowrap border-opacity-50 border-white pb-3 mb-3">Users Actived</p>
+													<span className="h2 count fw-black my-0 lh-1 text-white text-nowrap"><span className="odometer" /><CountUp end={150} enableScrollSpy={true} /></span>
+													<p className="text-white text-nowrap mb-0">Operating countries</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div className="col-md-6 col-lg-12">
+										<div className="zoom-img rounded-4 fix d-inline-block mt-4 mt-lg-4 mt-md-0 h-100">
+											<img className="h-100" src="/assets/imgs/cta-13/img-2.png" alt="limpiar" />
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className="position-absolute top-0 start-50 translate-middle-x z-0">
+						<img src="/assets/imgs/service-2/bg-line.png" alt="limpiar" />
+					</div>
+					<div className="rotate-center ellipse-rotate-success position-absolute z-0" />
+					<div className="rotate-center-rev ellipse-rotate-primary position-absolute z-1" />
+				</section>
 
 
 
@@ -101,7 +183,7 @@ const page = () => {
 					<div className="container position-relative z-2">
 						<div className="text-center">
 							{/* <div className="d-flex align-items-center justify-content-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-4 py-2" data-aos="zoom-in" data-aos-delay={100}>
-								<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
+								<img src="/assets/imgs/features-1/dots.png" alt="limpiar" />
 								<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">What we offers</span>
 							</div> */}
 							<h3 className="ds-3 my-3 fw-regular"> <span className=" fw-bold"> Platform Features <br className="d-lg-block d-none" /> </span></h3>
@@ -116,7 +198,7 @@ const page = () => {
 										<div className="card-service-4 position-relative bg-white p-6 border rounded-3 text-center shadow-1 hover-up mt-2">
 											<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3 me-5">
 												<div className="icon">
-													<img src="/assets/imgs/service-3/icon-1.svg" alt="infinia" />
+													<img src="/assets/imgs/service-3/icon-1.svg" alt="limpiar" />
 												</div>
 											</div>
 											<h5 className="my-3">Ai driven Workflows</h5>
@@ -142,7 +224,7 @@ const page = () => {
 										<div className="card-service-4 position-relative bg-white p-6 border rounded-3 text-center shadow-1 hover-up mt-2">
 											<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3 me-5">
 												<div className="icon">
-													<img src="/assets/imgs/service-3/icon-2.svg" alt="infinia" />
+													<img src="/assets/imgs/service-3/icon-2.svg" alt="limpiar" />
 												</div>
 											</div>
 											<h5 className="my-3">Predictive Maintenance</h5>
@@ -168,7 +250,7 @@ const page = () => {
 										<div className="card-service-4 position-relative bg-white p-6 border rounded-3 text-center shadow-1 hover-up mt-2">
 											<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3 me-5">
 												<div className="icon">
-													<img src="/assets/imgs/service-3/icon-3.svg" alt="infinia" />
+													<img src="/assets/imgs/service-3/icon-3.svg" alt="limpiar" />
 												</div>
 											</div>
 											<h5 className="my-3">Vendor Intelligence</h5>
@@ -194,7 +276,7 @@ const page = () => {
 										<div className="card-service-4 position-relative bg-white p-6 border rounded-3 text-center shadow-1 hover-up mt-2">
 											<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3 me-5">
 												<div className="icon">
-													<img src="/assets/imgs/service-3/icon-4.svg" alt="infinia" />
+													<img src="/assets/imgs/service-3/icon-4.svg" alt="limpiar" />
 												</div>
 											</div>
 											<h5 className="my-3">Sustainability Tracking</h5>
@@ -220,7 +302,7 @@ const page = () => {
 										<div className="card-service-4 position-relative bg-white p-6 border rounded-3 text-center shadow-1 hover-up mt-2">
 											<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3 me-5">
 												<div className="icon">
-													<img src="/assets/imgs/service-3/icon-1.svg" alt="infinia" />
+													<img src="/assets/imgs/service-3/icon-1.svg" alt="limpiar" />
 												</div>
 											</div>
 											<h5 className="my-3">Centralized Dashboard</h5>
@@ -246,7 +328,7 @@ const page = () => {
 										<div className="card-service-4 position-relative bg-white p-6 border rounded-3 text-center shadow-1 hover-up mt-2">
 											<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3 me-5">
 												<div className="icon">
-													<img src="/assets/imgs/service-3/icon-2.svg" alt="infinia" />
+													<img src="/assets/imgs/service-3/icon-2.svg" alt="limpiar" />
 												</div>
 											</div>
 											<h5 className="my-3">Control</h5>
@@ -285,7 +367,7 @@ const page = () => {
           <div className="container position-relative z-1">
             <div className="text-center mb-8">
               <div className="d-flex align-items-center position-relative z-2 justify-content-center bg-primary-soft d-inline-flex rounded-pill border border-2 border-white px-3 py-1">
-                <img src="/assets/imgs/features-1/dots.png" alt="infinia" />
+                <img src="/assets/imgs/features-1/dots.png" alt="limpiar" />
                 <span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">
                   working process
                 </span>
@@ -297,7 +379,7 @@ const page = () => {
             </div>
           </div>
           <div className="position-absolute top-0 start-50 translate-middle-x z-0">
-            <img src="/assets/imgs/howitwork-2/img-bg-line.png" alt="infinia" />
+            <img src="/assets/imgs/howitwork-2/img-bg-line.png" alt="limpiar" />
           </div>
           <div className="container">
             <div className="row position-relative justify-content-center">
@@ -307,7 +389,7 @@ const page = () => {
                     <div className="icon">
                       <img
                         src="/assets/imgs/howitwork-2/icon-1.svg"
-                        alt="infinia"
+                        alt="limpiar"
                       />
                     </div>
                   </div>
@@ -324,7 +406,7 @@ const page = () => {
                     <div className="icon">
                       <img
                         src="/assets/imgs/howitwork-2/icon-2.svg"
-                        alt="infinia"
+                        alt="limpiar"
                       />
                     </div>
                   </div>
@@ -341,7 +423,7 @@ const page = () => {
                     <div className="icon">
                       <img
                         src="/assets/imgs/howitwork-2/icon-3.svg"
-                        alt="infinia"
+                        alt="limpiar"
                       />
                     </div>
                   </div>
@@ -354,10 +436,10 @@ const page = () => {
               </div>
             </div>
             <div className="navigation-arrow-1 d-none d-lg-block position-absolute top-50">
-              <img src="/assets/imgs/howitwork-2/arrow-1.png" alt="infinia" />
+              <img src="/assets/imgs/howitwork-2/arrow-1.png" alt="limpiar" />
             </div>
             <div className="navigation-arrow-2 d-none d-lg-block position-absolute">
-              <img src="/assets/imgs/howitwork-2/arrow-2.png" alt="infinia" />
+              <img src="/assets/imgs/howitwork-2/arrow-2.png" alt="limpiar" />
             </div>
             <div className="row">
               <div className="text-center mt-6">
@@ -492,29 +574,29 @@ const page = () => {
                     <img
                       className="filter-invert"
                       src="/assets/imgs/logo-cloud-3/logo-1.svg"
-                      alt="infinia"
+                      alt="limpiar"
                     />
                   </div>
                   <div className="bg-white py-3 px-3 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
                     <img
                       src="/assets/imgs/logo-cloud-3/logo-2.svg"
-                      alt="infinia"
+                      alt="limpiar"
                     />
                   </div>
                   <div className="bg-white py-3 px-3 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
                     <img
                       src="/assets/imgs/logo-cloud-3/logo-3.svg"
-                      alt="infinia"
+                      alt="limpiar"
                     />
                   </div>
                   <div className="bg-white py-3 px-3 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
                     <img
                       src="/assets/imgs/logo-cloud-3/logo-4.svg"
-                      alt="infinia"
+                      alt="limpiar"
                     />
                   </div>
                   <div className="bg-white py-4 px-4 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
-                    {/* <img src="/assets/imgs/logo-cloud-3/logo-5.svg" alt="infinia"> */}
+                    {/* <img src="/assets/imgs/logo-cloud-3/logo-5.svg" alt="limpiar"> */}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width={95}
@@ -549,53 +631,53 @@ const page = () => {
                   <div className="bg-white py-3 px-3 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
                     <img
                       src="/assets/imgs/logo-cloud-3/logo-6.svg"
-                      alt="infinia"
+                      alt="limpiar"
                     />
                   </div>
                   <div className="bg-white py-3 px-3 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
                     <img
                       className="filter-invert"
                       src="/assets/imgs/logo-cloud-3/logo-8.svg"
-                      alt="infinia"
+                      alt="limpiar"
                     />
                   </div>
                   <div className="bg-white py-3 px-3 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
                     <img
                       className="filter-invert"
                       src="/assets/imgs/logo-cloud-3/logo-9.svg"
-                      alt="infinia"
+                      alt="limpiar"
                     />
                   </div>
                   <div className="bg-white py-3 px-3 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
                     <img
                       src="/assets/imgs/logo-cloud-3/logo-3.svg"
-                      alt="infinia"
+                      alt="limpiar"
                     />
                   </div>
                   <div className="bg-white py-3 px-3 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
                     <img
                       className="filter-invert"
                       src="/assets/imgs/logo-cloud-3/logo-13.svg"
-                      alt="infinia"
+                      alt="limpiar"
                     />
                   </div>
                   <div className="bg-white py-3 px-3 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
                     <img
                       src="/assets/imgs/logo-cloud-3/logo-11.svg"
-                      alt="infinia"
+                      alt="limpiar"
                     />
                   </div>
                   <div className="bg-white py-3 px-3 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
                     <img
                       className="filter-invert"
                       src="/assets/imgs/logo-cloud-3/logo-12.svg"
-                      alt="infinia"
+                      alt="limpiar"
                     />
                   </div>
                   <div className="bg-white py-3 px-3 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
                     <img
                       src="/assets/imgs/logo-cloud-3/logo-7.svg"
-                      alt="infinia"
+                      alt="limpiar"
                     />
                   </div>
                 </div>
@@ -611,7 +693,7 @@ const page = () => {
             </div>
           </div>
         </section>
-      </div>
+  
     </Layout>
   );
 };

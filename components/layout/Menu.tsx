@@ -5,7 +5,7 @@ export default function Menu() {
 	return (
 		<>
 
-			<div className="d-none d-lg-flex">
+			<div className="d-none d-lg-flex ">
 				<ul className="navbar-nav mx-auto gap-4 align-items-lg-center">
 										<li className="nav-item dropdown  has-min-mega-menu has-mega-menu">
 						<Link className="nav-link fw-bold d-flex align-items-center" href="#"   >
@@ -163,7 +163,7 @@ export default function Menu() {
 				
 							</div>
 							<div className="position-absolute bottom-0 end-0 z-0">
-								<img src="/assets/imgs/other/bg-line.png" alt="infinia" />
+								<img src="/assets/imgs/other/bg-line.png" alt="limpiar" />
 							</div>
 							<div className="ellipse-rotate-success-sm position-absolute top-0 start-0 translate-middle z-0" />
 						</div> */}
@@ -185,7 +185,7 @@ export default function Menu() {
 									</Link>
 								</li>
 											<li className="position-relative border-bottom z-1 pt-2">
-									<Link className="dropdown-item position-relative z-1 d-flex align-items-start" href="/podcast">
+									<Link className="dropdown-item position-relative z-1 d-flex align-items-start" href="/guide">
 										Guides & Whitepapers
 									</Link>
 								</li>
@@ -195,7 +195,7 @@ export default function Menu() {
 									</Link>
 								</li>
 											<li className="position-relative  z-1 pt-2">
-									<Link className="dropdown-item position-relative z-1 d-flex align-items-start" href="/podcast">
+									<Link className="dropdown-item position-relative z-1 d-flex align-items-start" href="/contact">
 										Help Center
 									</Link>
 								</li>
@@ -207,6 +207,13 @@ export default function Menu() {
 
 
 
+					</li>
+
+							<li className="nav-item ">
+						<Link className="nav-link fw-bold d-flex align-items-center" href="/about"   >
+							About
+						</Link>
+	
 					</li>
 					<li className="nav-item ">
 						<Link className="nav-link fw-bold d-flex align-items-center" href="https://limpiador.limpiar.online/home"   >

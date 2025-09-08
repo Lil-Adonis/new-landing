@@ -37,35 +37,35 @@ const page = () => {
 								</Link>
 							</div>
 							<div className=" mt-md-8 position-relative z-1  text-900">
-								<img src="/hero-2.png" alt="infinia" data-aos="fade-up" data-aos-delay={100} />
-								<img className="alltuchtopdown d-none d-md-block position-absolute bottom-0 end-0 pe-10 me-lg-10 mb-lg-10" src="/assets/imgs/hero-2/vector.png" alt="infinia" />
+								<img src="/hero-2.png" alt="limpiar" data-aos="fade-up" data-aos-delay={100} />
+								<img className="alltuchtopdown d-none d-md-block position-absolute bottom-0 end-0 pe-10 me-lg-10 mb-lg-10" src="/assets/imgs/hero-2/vector.png" alt="limpiar" />
 								<div className="position-md-absolute d-inline-block pt-10 pt-md-5 top-50 start-0 translate-middle-y mt-10">
 									<div className="alltuchtopdown backdrop-filter rounded-4 p-4">
 										<h6 className="text-900">Features</h6>
 										<p className="fs-6 text-900">
 											Discover why hundreds of millions <br />
-											people use Infinia to chat and call <br />
+											people use limpiar to chat and call <br />
 											every day.
 										</p>
 										<ul className="list-unstyled phase-items text-900">
 											<li className="d-flex align-items-center mt-2">
-												<img src="/assets/imgs/hero-2/check.png" alt="infinia" />
+												<img src="/assets/imgs/hero-2/check.png" alt="limpiar" />
 												<span className="ms-2">HD video calling</span>
 											</li>
 											<li className="d-flex align-items-center mt-2">
-												<img src="/assets/imgs/hero-2/check.png" alt="infinia" />
+												<img src="/assets/imgs/hero-2/check.png" alt="limpiar" />
 												<span className="ms-2">Smart messaging</span>
 											</li>
 											<li className="d-flex align-items-center mt-2">
-												<img src="/assets/imgs/hero-2/check.png" alt="infinia" />
+												<img src="/assets/imgs/hero-2/check.png" alt="limpiar" />
 												<span className="ms-2">Screen sharing</span>
 											</li>
 											<li className="d-flex align-items-center mt-2">
-												<img src="/assets/imgs/hero-2/check.png" alt="infinia" />
+												<img src="/assets/imgs/hero-2/check.png" alt="limpiar" />
 												<span className="ms-2">Private conversations</span>
 											</li>
 											<li className="d-flex align-items-center mt-2">
-												<img src="/assets/imgs/hero-2/check.png" alt="infinia" />
+												<img src="/assets/imgs/hero-2/check.png" alt="limpiar" />
 												<span className="ms-2">Call recording</span>
 											</li>
 										</ul>
@@ -73,21 +73,21 @@ const page = () => {
 								</div>
 							</div>
 							<div className="position-absolute top-0 start-0 ms-10 mt-10 pt-10">
-								<img className="flickering" src="/assets/imgs/hero-2/star-1.png" alt="infinia" />
+								<img className="flickering" src="/assets/imgs/hero-2/star-1.png" alt="limpiar" />
 							</div>
 							<div className="rotateme position-absolute top-0 end-0 me-10 pe-8 z-0">
-								<img className="flickering" src="/assets/imgs/hero-2/star-3.png" alt="infinia" />
+								<img className="flickering" src="/assets/imgs/hero-2/star-3.png" alt="limpiar" />
 							</div>
 							<div className="position-absolute top-50 end-0 translate-middle-y pe-md-10 pe-5 pt-10 mt-8">
 								<div className="shake">
-									<img className="flickering" src="/assets/imgs/hero-2/star-2.png" alt="infinia" />
+									<img className="flickering" src="/assets/imgs/hero-2/star-2.png" alt="limpiar" />
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div className="position-absolute top-0 start-50 translate-middle-x">
-					<img src="/assets/imgs/hero-2/bg-line.png" alt="infinia" />
+					<img src="/assets/imgs/hero-2/bg-line.png" alt="limpiar" />
 				</div>
 				<div className="bouncing-blobs-container">
 					<div className="bouncing-blobs-glass" />
@@ -155,7 +155,7 @@ const page = () => {
 								<div className="feature-item mb-5 position-relative mb-lg-0 bg-white p-5 rounded-4 hover-up">
 									<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3 mb-4">
 										<div className="icon">
-											<img src="/assets/imgs/features-1/icon-1.svg" alt="infinia" />
+											<img src="/assets/imgs/features-1/icon-1.svg" alt="limpiar" />
 										</div>
 									</div>
 									<h6>Cleaning and Janitorial</h6>
@@ -170,7 +170,7 @@ const page = () => {
 								<div className="feature-item mb-5 position-relative mb-lg-0 bg-white p-5 rounded-4 hover-up">
 									<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3 mb-4">
 										<div className="icon">
-											<img src="/assets/imgs/features-1/icon-2.svg" alt="infinia" />
+											<img src="/assets/imgs/features-1/icon-2.svg" alt="limpiar" />
 										</div>
 									</div>
 									<h6>Maintenance & Repairs</h6>
@@ -185,7 +185,7 @@ const page = () => {
 								<div className="feature-item mb-5 position-relative mb-lg-0 bg-white p-5 rounded-4 hover-up">
 									<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3 mb-4">
 										<div className="icon">
-											<img src="/assets/imgs/features-1/icon-3.svg" alt="infinia" />
+											<img src="/assets/imgs/features-1/icon-3.svg" alt="limpiar" />
 										</div>
 									</div>
 									<h6>Porter Services</h6>
@@ -200,7 +200,7 @@ const page = () => {
 								<div className="feature-item mb-5 position-relative mb-lg-0 bg-white p-5 rounded-4 hover-up">
 									<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3 mb-4">
 										<div className="icon">
-											<img src="/assets/imgs/features-1/icon-4.svg" alt="infinia" />
+											<img src="/assets/imgs/features-1/icon-4.svg" alt="limpiar" />
 										</div>
 									</div>
 									<h6>Specialty Services</h6>
@@ -221,7 +221,7 @@ const page = () => {
           <div className="container position-relative z-1">
             <div className="text-center mb-8">
               <div className="d-flex align-items-center position-relative z-2 justify-content-center bg-primary-soft d-inline-flex rounded-pill border border-2 border-white px-3 py-1">
-                <img src="/assets/imgs/features-1/dots.png" alt="infinia" />
+                <img src="/assets/imgs/features-1/dots.png" alt="limpiar" />
                 <span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">
                   working process
                 </span>
@@ -233,7 +233,7 @@ const page = () => {
             </div>
           </div>
           <div className="position-absolute top-0 start-50 translate-middle-x z-0">
-            <img src="/assets/imgs/howitwork-2/img-bg-line.png" alt="infinia" />
+            <img src="/assets/imgs/howitwork-2/img-bg-line.png" alt="limpiar" />
           </div>
           <div className="container">
             <div className="row position-relative justify-content-center">
@@ -243,7 +243,7 @@ const page = () => {
                     <div className="icon">
                       <img
                         src="/assets/imgs/howitwork-2/icon-1.svg"
-                        alt="infinia"
+                        alt="limpiar"
                       />
                     </div>
                   </div>
@@ -260,7 +260,7 @@ const page = () => {
                     <div className="icon">
                       <img
                         src="/assets/imgs/howitwork-2/icon-2.svg"
-                        alt="infinia"
+                        alt="limpiar"
                       />
                     </div>
                   </div>
@@ -277,7 +277,7 @@ const page = () => {
                     <div className="icon">
                       <img
                         src="/assets/imgs/howitwork-2/icon-3.svg"
-                        alt="infinia"
+                        alt="limpiar"
                       />
                     </div>
                   </div>
@@ -290,10 +290,10 @@ const page = () => {
               </div>
             </div>
             <div className="navigation-arrow-1 d-none d-lg-block position-absolute top-50">
-              <img src="/assets/imgs/howitwork-2/arrow-1.png" alt="infinia" />
+              <img src="/assets/imgs/howitwork-2/arrow-1.png" alt="limpiar" />
             </div>
             <div className="navigation-arrow-2 d-none d-lg-block position-absolute">
-              <img src="/assets/imgs/howitwork-2/arrow-2.png" alt="infinia" />
+              <img src="/assets/imgs/howitwork-2/arrow-2.png" alt="limpiar" />
             </div>
       
             <div className="bouncing-blobs-container">
@@ -314,7 +314,7 @@ const page = () => {
 							<div className="row align-items-center">
 								<div className="col-lg-4 col-md-6 mb-lg-0 mb-8 position-relative z-1">
 									{/* <div className="d-flex align-items-center justify-content-center bg-primary-soft d-inline-flex rounded-pill border-white border px-3 py-1">
-										<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
+										<img src="/assets/imgs/features-1/dots.png" alt="limpiar" />
 										<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Download Mobile App</span>
 									</div> */}
 									<h2 className=" mt-3 mb-4 fw-black">Why Limpiar Managed Services ?</h2>
@@ -322,19 +322,19 @@ const page = () => {
 									<ul className="list-unstyled phase-items">
 										<li>
 											<div  className="phase-item d-flex align-items-center mb-3">
-												<img src="/assets/imgs/features-9/tick.svg" alt="infinia" />
+												<img src="/assets/imgs/features-9/tick.svg" alt="limpiar" />
 												<p className=" mb-0 ms-2 fs-5 text-900">Nationwide provider network</p>
 											</div>
 										</li>
 										<li>
 											<div className="phase-item d-flex align-items-center mb-3">
-												<img src="/assets/imgs/features-9/tick.svg" alt="infinia" />
+												<img src="/assets/imgs/features-9/tick.svg" alt="limpiar" />
 												<p className=" mb-0 ms-2 fs-5 text-900">Verified + rated vendors</p>
 											</div>
 										</li>
 										<li>
 											<div  className="phase-item d-flex align-items-center mb-3">
-												<img src="/assets/imgs/features-9/tick.svg" alt="infinia" />
+												<img src="/assets/imgs/features-9/tick.svg" alt="limpiar" />
 												<p className=" mb-0 ms-2 fs-5 text-900">Consolidated billing & reporting</p>
 											</div>
 										</li>
@@ -342,7 +342,7 @@ const page = () => {
 
                                         	<li>
 											<div  className="phase-item d-flex align-items-center mb-3">
-												<img src="/assets/imgs/features-9/tick.svg" alt="infinia" />
+												<img src="/assets/imgs/features-9/tick.svg" alt="limpiar" />
 												<p className=" mb-0 ms-2 fs-5 text-900">24/7 support</p>
 											</div>
 										</li>
@@ -350,10 +350,10 @@ const page = () => {
 								</div>
 								<div className="col-lg-4 col-md-6 mb-lg-0 mb-8">
 									<div className="position-relative d-inline-block z-2">
-										<img className="rounded-4 border border-3 border-white" src="/assets/imgs/features-9/img-1.png" alt="infinia" />
+										<img className="rounded-4 border border-3 border-white" src="/assets/imgs/features-9/img-1.png" alt="limpiar" />
 										<div className="position-absolute bottom-0 start-0 end-0 mb-3 mx-3 backdrop-filter rounded-3 text-start p-3">
 											<Link href="/page-contact-1" className="d-flex align-items-center">
-												<img src="/assets/imgs/cta-3/icon-contact.svg" alt="infinia" />
+												<img src="/assets/imgs/cta-3/icon-contact.svg" alt="limpiar" />
 												<span className="ms-3">
 													<span className="text-white text-uppercase mb-0 fs-7">Contact Us</span>
 													<span className="fs-4 d-block">+01 (24) 568 900</span>

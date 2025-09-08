@@ -13,7 +13,7 @@ export default function PageCaseStudy() {
 					<div className="container position-relative z-2">
 						<div className="text-center">
 							<div className="d-flex align-items-center justify-content-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-4 py-2" data-aos="zoom-in" data-aos-delay={100}>
-								<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
+								<img src="/assets/imgs/features-1/dots.png" alt="limpiar" />
 								<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">What we offers</span>
 							</div>
 							<h3 className="ds-3 my-3">All Case Studies</h3>
@@ -36,12 +36,12 @@ export default function PageCaseStudy() {
 							<div className="col-lg-6">
 								<div className="zoom-img position-relative mb-4 d-inline-block z-1">
 									<div className="rounded-3 fix">
-										<img className=" img-fluid w-100" src="/assets/imgs/project-2/img-7.png" alt="infinia" />
+										<img className=" img-fluid w-100" src="/assets/imgs/project-2/img-7.png" alt="limpiar" />
 									</div>
 									<Link href="#" className="card-team text-start rounded-3 position-absolute bottom-0 start-0 end-0 z-1 backdrop-filter w-auto p-4 m-4 hover-up">
 										<p className="fs-7 text-primary mb-1">InnovateTech Inc.</p>
-										<h6>Boosting customer retention: How Infinia System reduced churn by 40% in 3 months</h6>
-										<p className="text-900">Armed with these insights, Infinia System implemented a comprehensive engagement strategy focused on personalization</p>
+										<h6>Boosting customer retention: How limpiar System reduced churn by 40% in 3 months</h6>
+										<p className="text-900">Armed with these insights, limpiar System implemented a comprehensive engagement strategy focused on personalization</p>
 									</Link>
 									<Link href="#" className="badge text-primary bg-white-keep px-3 py-2 rounded-pill m-4 fs-7 position-absolute top-0 end-0 z-1">Software Development</Link>
 								</div>
@@ -49,12 +49,12 @@ export default function PageCaseStudy() {
 							<div className="col-lg-6">
 								<div className="zoom-img position-relative mb-4 d-inline-block z-1">
 									<div className="rounded-3 fix">
-										<img className="img-fluid w-100" src="/assets/imgs/project-2/img-8.png" alt="infinia" />
+										<img className="img-fluid w-100" src="/assets/imgs/project-2/img-8.png" alt="limpiar" />
 									</div>
 									<Link href="#" className="card-team text-start rounded-3 position-absolute bottom-0 start-0 end-0 z-1 backdrop-filter w-auto p-4 m-4 hover-up">
 										<p className="fs-7 text-primary mb-1">InnovateTech Inc.</p>
-										<h6>Boosting customer retention: How Infinia System reduced churn by 40% in 3 months</h6>
-										<p className="text-900">Armed with these insights, Infinia System implemented a comprehensive engagement strategy focused on personalization</p>
+										<h6>Boosting customer retention: How limpiar System reduced churn by 40% in 3 months</h6>
+										<p className="text-900">Armed with these insights, limpiar System implemented a comprehensive engagement strategy focused on personalization</p>
 									</Link>
 									<Link href="#" className="badge text-primary bg-white-keep px-3 py-2 rounded-pill m-4 fs-7 position-absolute top-0 end-0 z-1">Software Development</Link>
 								</div>
@@ -67,7 +67,7 @@ export default function PageCaseStudy() {
 							<div className="text-center col-lg-4 col-md-6">
 								<div className="zoom-img position-relative mb-4 d-inline-block z-1">
 									<div className="rounded-3 fix">
-										<img className="img-fluid w-100" src="/assets/imgs/project-2/img-1.png" alt="infinia" />
+										<img className="img-fluid w-100" src="/assets/imgs/project-2/img-1.png" alt="limpiar" />
 									</div>
 									<Link href="#" className="card-team text-start rounded-3 position-absolute bottom-0 start-0 end-0 z-1 backdrop-filter w-auto p-4 m-4 hover-up">
 										<p className="fs-7 text-primary mb-1">InnovateTech Inc.</p>
@@ -80,7 +80,7 @@ export default function PageCaseStudy() {
 							<div className="text-center col-lg-4 col-md-6">
 								<div className="zoom-img position-relative mb-4 d-inline-block z-1">
 									<div className="rounded-3 fix">
-										<img className="img-fluid w-100" src="/assets/imgs/project-2/img-2.png" alt="infinia" />
+										<img className="img-fluid w-100" src="/assets/imgs/project-2/img-2.png" alt="limpiar" />
 									</div>
 									<Link href="#" className="card-team text-start rounded-3 position-absolute bottom-0 start-0 end-0 z-1 backdrop-filter w-auto p-4 m-4 hover-up">
 										<p className="fs-7 text-primary mb-1">Pioneer Enterprises</p>
@@ -93,7 +93,7 @@ export default function PageCaseStudy() {
 							<div className="text-center col-lg-4 col-md-6">
 								<div className="zoom-img position-relative mb-4 d-inline-block z-1">
 									<div className="rounded-3 fix">
-										<img className="img-fluid w-100" src="/assets/imgs/project-2/img-3.png" alt="infinia" />
+										<img className="img-fluid w-100" src="/assets/imgs/project-2/img-3.png" alt="limpiar" />
 									</div>
 									<Link href="#" className="card-team text-start rounded-3 position-absolute bottom-0 start-0 end-0 z-1 backdrop-filter w-auto p-4 m-4 hover-up">
 										<p className="fs-7 text-primary mb-1">Summit Corp</p>
@@ -106,7 +106,7 @@ export default function PageCaseStudy() {
 							<div className="text-center col-lg-4 col-md-6">
 								<div className="zoom-img position-relative mb-4 d-inline-block z-1">
 									<div className="rounded-3 fix">
-										<img className="img-fluid w-100" src="/assets/imgs/project-2/img-4.png" alt="infinia" />
+										<img className="img-fluid w-100" src="/assets/imgs/project-2/img-4.png" alt="limpiar" />
 									</div>
 									<Link href="#" className="card-team text-start rounded-3 position-absolute bottom-0 start-0 end-0 z-1 backdrop-filter w-auto p-4 m-4 hover-up">
 										<p className="fs-7 text-primary mb-1">InnovateTech Inc.</p>
@@ -119,7 +119,7 @@ export default function PageCaseStudy() {
 							<div className="text-center col-lg-4 col-md-6">
 								<div className="zoom-img position-relative mb-4 d-inline-block z-1">
 									<div className="rounded-3 fix">
-										<img className="img-fluid w-100" src="/assets/imgs/project-2/img-5.png" alt="infinia" />
+										<img className="img-fluid w-100" src="/assets/imgs/project-2/img-5.png" alt="limpiar" />
 									</div>
 									<Link href="#" className="card-team text-start rounded-3 position-absolute bottom-0 start-0 end-0 z-1 backdrop-filter w-auto p-4 m-4 hover-up">
 										<p className="fs-7 text-primary mb-1">Pioneer Enterprises</p>
@@ -132,7 +132,7 @@ export default function PageCaseStudy() {
 							<div className="text-center col-lg-4 col-md-6">
 								<div className="zoom-img position-relative mb-4 d-inline-block z-1">
 									<div className="rounded-3 fix">
-										<img className="img-fluid w-100" src="/assets/imgs/project-2/img-6.png" alt="infinia" />
+										<img className="img-fluid w-100" src="/assets/imgs/project-2/img-6.png" alt="limpiar" />
 									</div>
 									<Link href="#" className="card-team text-start rounded-3 position-absolute bottom-0 start-0 end-0 z-1 backdrop-filter w-auto p-4 m-4 hover-up">
 										<p className="fs-7 text-primary mb-1">Summit Corp</p>
