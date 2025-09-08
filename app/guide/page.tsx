@@ -219,11 +219,11 @@ export default function PageServices2() {
 										<img src="/assets/imgs/features-1/dots.png" alt="limpiar" />
 										<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Download Mobile App</span>
 									</div>
-									<h3 className="ds-3 my-3">
-										Manage all <br />
-										from anywhere
+									<h3 className="ds-33 my-3">
+										The Complete guide to
+										facility management automation
 									</h3>
-									<p className="fs-5 mb-0">⚡Don't miss any contact. Stay connected.</p>
+									<p className="fs-5 mb-0">⚡Discover how to automate activity management processes for increased efficiency and rreduced costs.</p>
 									<ul className="list-unstyled my-6">
 										<li className="d-flex align-items-center mb-2" data-aos="fade-up" data-aos-delay={0}>
 											<img src="/assets/imgs/pricing-1/check-primary.svg" alt="limpiar" />

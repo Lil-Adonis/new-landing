@@ -928,8 +928,8 @@ body {
   font-size: var(--tc-ds-2) !important;
 }
 
-.ds-3 {
-  font-size: var(--tc-ds-3) !important;
+.ds-33 {
+  font-size:46px;
 }
 
 .ds-4 {
@@ -14558,6 +14558,10 @@ svg .stroke-white {
   .ds-3 {
     font-size: 56px !important;
   }
+
+    .ds-33 {
+    font-size: 46px !important;
+  }
 }
 @media (max-width: 767.98px) {
   h1 {
@@ -14587,6 +14591,12 @@ svg .stroke-white {
   .ds-3 {
     font-size: 40px !important;
   }
+
+    .ds-33 {
+    font-size: 46px !important;
+  }
+
+
   .faq-text{
     font-size: 30px;
     /* line-height: 1.6; */
