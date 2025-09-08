@@ -24,14 +24,14 @@ export default function Menu() {
 														<ul className="list-unstyled">
 															<li>
 																<Link className="dropdown-item position-relative z-1" href="/limpiar-platform">Limpiar Platform</Link>
-																<p>Your all-in-one hub for autonomous property operations</p>
+																<p style={{ fontSize: "0.85rem" }}>Your all-in-one hub for autonomous property operations</p>
 																</li>
-															<li><Link className="dropdown-item position-relative z-1" href="/managed-services">Limpiar Managed Services</Link>
+															{/* <li><Link className="dropdown-item position-relative z-1" href="/managed-services">Limpiar Managed Services</Link>
 																<p>Your all-in-one hub for autonomous property operations</p>
 															</li>
 															<li><Link className="dropdown-item position-relative z-1" href="/limpiar-app">Limpiar App Service</Link>
 																<p>Your all-in-one hub for autonomous property operations</p>
-															</li>
+															</li> */}
 															{/* <li><Link className="dropdown-item position-relative z-1" href="">Our team v.4</Link></li>
 															<li><Link className="dropdown-item position-relative z-1" href="">Our team v.5</Link></li>
 															<li><Link className="dropdown-item position-relative z-1" href="">Our team v.6</Link></li>
@@ -42,16 +42,10 @@ export default function Menu() {
 												</div>
 												<div className="col-4">
 													<div className="mega-menu-list">
-														<p className="text-primary fw-bold mb-1 fs-7">FEATURES</p>
+														<p className="text-primary fw-bold mb-1 fs-7"></p>
 														<ul className="list-unstyled">
-															<li><Link className="dropdown-item position-relative z-1" href="">AI-Driven Workflows</Link>
-															<p>Automate work orders from request to resolution without manual steps.</p>
-															</li>
-															<li><Link className="dropdown-item position-relative z-1" href="">Predictive Maintenance</Link>
-															<p> Prevent downtime with scheduling and smart inventory insights.</p>
-															</li>
-															<li><Link className="dropdown-item position-relative z-1" href="">Vendor Intelligence</Link>
-															<p>Match, dispatch, and monitor vendors with real-time visibility.</p>
+																											<li><Link className="dropdown-item position-relative z-1" href="/managed-services">Limpiar Managed Services</Link>
+																<p style={{ fontSize: "0.85rem" }}>Your all-in-one hub for autonomous property operations</p>
 															</li>
 												
 															{/* <li><Link className="dropdown-item position-relative z-1" href="">Our team v.6</Link></li>
@@ -65,16 +59,16 @@ export default function Menu() {
 								
 												<div className="col-4">
 													<div className="mega-menu-list">
-														<p className="text-primary fw-bold mb-1 fs-7">FEATURES</p>
+														<p className="text-primary fw-bold mb-1 fs-7"></p>
 														<ul className="list-unstyled">
-																	<li><Link className="dropdown-item position-relative z-1" href="">Sustainability Tracking</Link>
-															<p> Automated ESG logs and compliance reporting for greener operations.</p>
+														<li><Link className="dropdown-item position-relative z-1" href="/limpiar-app">Limpiar App Service</Link>
+																<p style={{ fontSize: "0.85rem" }}>Your all-in-one hub for autonomous property operations</p>
 															</li>
-															<li><Link className="dropdown-item position-relative z-1" href="">Centralized Dashboard</Link>
+															{/* <li><Link className="dropdown-item position-relative z-1" href="">Centralized Dashboard</Link>
 															<p>
 																All your property data, KPIs, and alerts in one simple hub.
 															</p>
-															</li>
+															</li> */}
 														</ul>
 													</div>
 													<div className="position-relative bg-4 rounded-3 mt-2">
@@ -119,6 +113,14 @@ export default function Menu() {
 
 						
 			
+					</li>
+
+
+									<li className="nav-item ">
+						<Link className="nav-link fw-bold d-flex align-items-center" href="/features"   >
+							Features
+						</Link>
+	
 					</li>
 					<li className="nav-item   ">
 						<Link className="nav-link fw-bold d-flex align-items-center" href="/industries"   >
