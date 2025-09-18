@@ -146,11 +146,11 @@ export default function Cta4() {
 								</div>
 								<div className="col-lg-7 text-center mt-lg-0 mt-8 d-flex">
 									<div className="zoom-img rounded-3 mt-8 me-3">
-										<img src="/assets/imgs/features-11/img-1.png" alt="limpiar" />
+										<img src="/bfet.png" alt="limpiar" />
 									</div>
-									<div className="zoom-img rounded-3">
-										<img className="rounded-3" src="/assets/imgs/features-11/img-2.png" alt="limpiar" />
-									</div>
+									{/* <div className="zoom-img rounded-3">
+										<img className="rounded-3" src="/bfet2.png" alt="limpiar" />
+									</div> */}
 								</div>
 							</div>
 						</div>

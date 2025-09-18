@@ -113,7 +113,7 @@ const page = () => {
 							<div className="col-lg-8">
 								<div className="position-relative mb-lg-0 mb-8 fix">
 									<div className="zoom-img rounded-4 fix">
-										<img src="/assets/imgs/cta-13/img-1.png" alt="limpiar" />
+										<img src="/Variety.png" alt="limpiar" />
 									</div>
 									<div className="position-absolute alltuchtopdown bottom-0 start-0 m-md-5 backdrop-filter rounded-4 px-7 py-4 text-center z-1">
 										<p className="pt-2">Loved by over 4k <br /> happy clients</p>

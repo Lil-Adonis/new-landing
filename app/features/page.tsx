@@ -44,11 +44,11 @@ export default function PageFeatures2() {
 						<div className="container mt-8">
 							<div className="d-flex">
 								<div className="zoom-img rounded-3 me-2">
-									<img src="/assets/imgs/features-13/img-1.png" alt="limpiar" />
+									<img src="/bfet2.png" alt="limpiar" />
 								</div>
-								<div className="zoom-img rounded-3 ms-2">
-									<img src="/assets/imgs/features-13/img-2.png" alt="limpiar" />
-								</div>
+								{/* <div className="zoom-img rounded-3 ms-2">
+									<img src="/Variety.png" alt="limpiar" />
+								</div> */}
 							</div>
 						</div>
 					</div>
@@ -389,7 +389,7 @@ export default function PageFeatures2() {
 
 
 	{/*Features 2*/}
-				<section>
+				{/* <section>
 					<div className="container-fluid position-relative bg-primary section-padding">
 						<div className="container">
 							<div className="row align-items-center">
@@ -466,14 +466,12 @@ export default function PageFeatures2() {
 								</div>
 							</div>
 						</div>
-						{/* <div className="position-absolute bg-rotate z-0">
-							<img className="rotate-center" src="/assets/imgs/features-2/bg-img-favicon.png" alt="limpiar" />
-						</div> */}
+					
 						<div className="position-absolute top-0 end-0 z-1 p-8">
 							<div className="bloom" />
 						</div>
 					</div>
-				</section>
+				</section> */}
 
 	
 
