@@ -2593,9 +2593,23 @@ textarea {
 
 
 
-.navbar .has-mega-menu:hover .mega-menu {
+/* Disabled hover - now uses click */
+/* .navbar .has-mega-menu:hover .mega-menu {
   display: block;
   transition: all 0.9s ease-in-out;
+} */
+
+.navbar .has-mega-menu.active .mega-menu {
+  display: block;
+  transition: all 0.9s ease-in-out;
+}
+
+.navbar .has-mega-menu .nav-link::after {
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar .has-mega-menu.active .nav-link::after {
+  transform: rotate(180deg);
 }
 .navbar .has-mega-menu-2 {
   position: static !important;
@@ -2657,10 +2671,25 @@ textarea {
     transition: all 0.3s ease-in-out;
     transform: translate(-50%);
   }
-  .navbar .dropdown:hover > .dropdown-menu {
+  /* Disabled hover - now uses click */
+  /* .navbar .dropdown:hover > .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+  } */
+  
+  .navbar .dropdown.active > .dropdown-menu {
     opacity: 1;
     visibility: visible;
   }
+  
+  .navbar .dropdown.menu-item-has-children .nav-link::after {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .navbar .dropdown.menu-item-has-children.active .nav-link::after {
+    transform: rotate(180deg);
+  }
+  
   .navbar .dropdown-submenu:hover > .dropdown-menu {
     transform: translateY(10px);
     opacity: 1;
@@ -13500,6 +13529,10 @@ a:hover {
 
 .section-padding {
   padding: 120px 0;
+}
+
+.section-padding-app {
+  padding: 200px 0px 0px 0px;
 }
 
 
