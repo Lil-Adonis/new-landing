@@ -932,6 +932,10 @@ body {
   font-size:46px;
 }
 
+.ds-333 {
+  font-size:36px;
+}
+
 .ds-4 {
   font-size: var(--tc-ds-4) !important;
 }

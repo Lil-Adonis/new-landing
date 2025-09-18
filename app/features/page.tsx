@@ -34,12 +34,12 @@ export default function PageFeatures2() {
 							<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Features</span>
 						</div>
 						<h5 className="ds-5 mb-3 mt-4">
-							We bring a rich variety of <br />
-							experience from multiple fields.
+							Smarter Property Operations. <br />
+							Autonomous by Design.
 						</h5>
 						<p className="text-500">
-							Leveraging Extensive Experience: Comprehensive Solutions Crafted <br />
-							from Diverse Professional Backgrounds
+							Autonomous workflows, predictive maintenance, vendor intelligence and compliance tools <br />
+							all in one platform 
 						</p>
 						<div className="container mt-8">
 							<div className="d-flex">
@@ -117,8 +117,8 @@ export default function PageFeatures2() {
 											</div>
 											<div className="col-lg-7">
 												<div className="p-lg-3">
-													<h4 className="fw-regular">Pick Your <span className="fw-bold">Premium</span></h4>
-													<p>We strive to build long-lasting partnerships with our clients, understanding their unique challenges and opportunities, and providing tailored strategies that lead to measurable success.</p>
+													<h4 className="fw-regular">Enhanced <span className="fw-bold">Workflow Automation</span></h4>
+													<p> From request to resolution, streamline every step with automation that eliminates delays and manual effort.</p>
 													<div className="d-flex pt-5">
 														<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
 															<div className="icon">
@@ -126,8 +126,8 @@ export default function PageFeatures2() {
 															</div>
 														</div>
 														<div className="ps-5">
-															<h6>Research planning</h6>
-															<p>Separating your work from your home <br /> life can improve work-life balance.</p>
+															<h6>Faster Resolution</h6>
+															<p>Automatically route tasks to the right <br/> team or vendor.</p>
 														</div>
 													</div>
 													<div className="d-flex">
@@ -137,14 +137,15 @@ export default function PageFeatures2() {
 															</div>
 														</div>
 														<div className="ps-5">
-															<h6>Investment</h6>
-															<p>A business consultant provides expert <br /> advice and guidance to businesses.</p>
+															<h6>Consistency</h6>
+															<p>Standardized workflows reduce errors and missed steps.</p>
 														</div>
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
+
 									<div className={`${isNav == 2 ? "show active" : ""} tab-pane fade`} id="v-pills-business" role="tabpanel" aria-labelledby="v-pills-business-tab" tabIndex={0}>
 										<div className="row align-items-center rounded-3 bg-white p-5">
 											<div className="col-lg-5 mb-lg-0 mb-5">
@@ -152,8 +153,8 @@ export default function PageFeatures2() {
 											</div>
 											<div className="col-lg-7">
 												<div className="p-lg-3">
-													<h4 className="fw-regular">Build Lasting<span className="fw-bold">Partnerships</span></h4>
-													<p>We strive to build long-lasting partnerships with our clients, understanding their unique challenges and opportunities, and providing tailored strategies that lead to measurable success.</p>
+													<h4 className="fw-regular">Predictive <span className="fw-bold">Asset Monitoring</span></h4>
+													<p> Stay ahead of costly breakdowns with AI that monitors asset health and predicts failures before they happen..</p>
 													<div className="d-flex pt-5">
 														<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
 															<div className="icon">
@@ -161,8 +162,8 @@ export default function PageFeatures2() {
 															</div>
 														</div>
 														<div className="ps-5">
-															<h6>Research planning</h6>
-															<p>Separating your work from your home <br /> life can improve work-life balance.</p>
+															<h6>Reduced Downtime</h6>
+															<p>Resolve issues before they disrupt operations.</p>
 														</div>
 													</div>
 													<div className="d-flex">
@@ -172,14 +173,15 @@ export default function PageFeatures2() {
 															</div>
 														</div>
 														<div className="ps-5">
-															<h6>Investment</h6>
-															<p>A business consultant provides expert <br /> advice and guidance to businesses.</p>
+															<h6>Cost Savings</h6>
+															<p>Extend equipment life with proactive maintenance.</p>
 														</div>
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
+
 									<div className={`${isNav == 3 ? "show active" : ""} tab-pane fade`} id="v-pills-solicitory" role="tabpanel" aria-labelledby="v-pills-solicitory-tab" tabIndex={0}>
 										<div className="row align-items-center rounded-3 bg-white p-5">
 											<div className="col-lg-5 mb-lg-0 mb-5">
@@ -187,8 +189,8 @@ export default function PageFeatures2() {
 											</div>
 											<div className="col-lg-7">
 												<div className="p-lg-3">
-													<h4 className="fw-regular">Enhance <span className="fw-bold">Operational</span></h4>
-													<p>We strive to build long-lasting partnerships with our clients, understanding their unique challenges and opportunities, and providing tailored strategies that lead to measurable success.</p>
+													<h4 className="fw-regular">vendor <span className="fw-bold">Management</span></h4>
+													<p>Easily manage vendors with transparency into performance, compliance, and costs..</p>
 													<div className="d-flex pt-5">
 														<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
 															<div className="icon">
@@ -196,8 +198,8 @@ export default function PageFeatures2() {
 															</div>
 														</div>
 														<div className="ps-5">
-															<h6>Research planning</h6>
-															<p>Separating your work from your home <br /> life can improve work-life balance.</p>
+															<h6>Smart Dispatching</h6>
+															<p>Send jobs to the best vendor instantly.</p>
 														</div>
 													</div>
 													<div className="d-flex">
@@ -207,14 +209,16 @@ export default function PageFeatures2() {
 															</div>
 														</div>
 														<div className="ps-5">
-															<h6>Investment</h6>
-															<p>A business consultant provides expert <br /> advice and guidance to businesses.</p>
+															<h6>Performance Tracking</h6>
+															<p> Monitor quality, speed, and compliance in real time.</p>
 														</div>
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
+
+
 									<div className={`${isNav == 4 ? "show active" : ""} tab-pane fade`} id="v-pills-hr-consultancy" role="tabpanel" aria-labelledby="v-pills-hr-consultancy-tab" tabIndex={0}>
 										<div className="row align-items-center rounded-3 bg-white p-5">
 											<div className="col-lg-5 mb-lg-0 mb-5">
@@ -222,8 +226,8 @@ export default function PageFeatures2() {
 											</div>
 											<div className="col-lg-7">
 												<div className="p-lg-3">
-													<h4 className="fw-regular">Sustainable <span className="fw-bold">Growth</span></h4>
-													<p>We strive to build long-lasting partnerships with our clients, understanding their unique challenges and opportunities, and providing tailored strategies that lead to measurable success.</p>
+													<h4 className="fw-regular">Sustainable <span className="fw-bold">Property Management</span></h4>
+													<p> Measure, report, and improve sustainability metrics across your properties.</p>
 													<div className="d-flex pt-5">
 														<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
 															<div className="icon">
@@ -231,8 +235,8 @@ export default function PageFeatures2() {
 															</div>
 														</div>
 														<div className="ps-5">
-															<h6>Research planning</h6>
-															<p>Separating your work from your home <br /> life can improve work-life balance.</p>
+															<h6>Waste Diversion</h6>
+															<p>Track recycling and landfill reduction.</p>
 														</div>
 													</div>
 													<div className="d-flex">
@@ -242,14 +246,15 @@ export default function PageFeatures2() {
 															</div>
 														</div>
 														<div className="ps-5">
-															<h6>Investment</h6>
-															<p>A business consultant provides expert <br /> advice and guidance to businesses.</p>
+															<h6>Eco Impact Reports</h6>
+															<p> Show progress toward ESG and green certifications.</p>
 														</div>
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
+
 									<div className={`${isNav == 5 ? "show active" : ""} tab-pane fade`} id="v-pills-strategy" role="tabpanel" aria-labelledby="v-pills-strategy-tab" tabIndex={0}>
 										<div className="row align-items-center rounded-3 bg-white p-5">
 											<div className="col-lg-5 mb-lg-0 mb-5">
@@ -257,8 +262,8 @@ export default function PageFeatures2() {
 											</div>
 											<div className="col-lg-7">
 												<div className="p-lg-3">
-													<h4 className="fw-regular">Continuous <span className="fw-bold">Evolution</span></h4>
-													<p>We strive to build long-lasting partnerships with our clients, understanding their unique challenges and opportunities, and providing tailored strategies that lead to measurable success.</p>
+													<h4 className="fw-regular">Unified Property <span className="fw-bold">Management</span></h4>
+													<p> All your property operations, in one simple view.</p>
 													<div className="d-flex pt-5">
 														<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
 															<div className="icon">
@@ -266,8 +271,8 @@ export default function PageFeatures2() {
 															</div>
 														</div>
 														<div className="ps-5">
-															<h6>Research planning</h6>
-															<p>Separating your work from your home <br /> life can improve work-life balance.</p>
+															<h6>Real-Time Visibility </h6>
+															<p>See open tasks, work orders, and vendor status instantly..</p>
 														</div>
 													</div>
 													<div className="d-flex">
@@ -277,49 +282,15 @@ export default function PageFeatures2() {
 															</div>
 														</div>
 														<div className="ps-5">
-															<h6>Investment</h6>
-															<p>A business consultant provides expert <br /> advice and guidance to businesses.</p>
+															<h6>Data-Driven Insights</h6>
+															<p>Analytics and reporting for smarter decisions.</p>
 														</div>
 													</div>
 												</div>
 											</div>
 										</div>
 									</div>
-									<div className={`${isNav == 6 ? "show active" : ""} tab-pane fade`} id="v-pills-start-up" role="tabpanel" aria-labelledby="v-pills-start-up-tab" tabIndex={0}>
-										<div className="row align-items-center rounded-3 bg-white p-5">
-											<div className="col-lg-5 mb-lg-0 mb-5">
-												<img className="rounded-3" src="/assets/imgs/service-4/img-6.png" alt="" />
-											</div>
-											<div className="col-lg-7">
-												<div className="p-lg-3">
-													<h4 className="fw-regular">Empower <span className="fw-bold">Businesses</span></h4>
-													<p>We strive to build long-lasting partnerships with our clients, understanding their unique challenges and opportunities, and providing tailored strategies that lead to measurable success.</p>
-													<div className="d-flex pt-5">
-														<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
-															<div className="icon">
-																<img src="/assets/imgs/service-4/icon-1.svg" alt="limpiar" />
-															</div>
-														</div>
-														<div className="ps-5">
-															<h6>Research planning</h6>
-															<p>Separating your work from your home <br /> life can improve work-life balance.</p>
-														</div>
-													</div>
-													<div className="d-flex">
-														<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
-															<div className="icon">
-																<img src="/assets/imgs/service-4/icon-2.svg" alt="limpiar" />
-															</div>
-														</div>
-														<div className="ps-5">
-															<h6>Investment</h6>
-															<p>A business consultant provides expert <br /> advice and guidance to businesses.</p>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
+							
 								</div>
 							</div>
 						</div>
@@ -354,7 +325,7 @@ export default function PageFeatures2() {
 
 
 
-					<section className="section-feature-11 border-bottom">
+					{/* <section className="section-feature-11 border-bottom">
 					<div className="container-fluid position-relative section-padding">
 						<div className="container">
 							<div className="row">
@@ -412,7 +383,7 @@ export default function PageFeatures2() {
 							</div>
 						</div>
 					</div>
-				</section>
+				</section> */}
 
 
 
@@ -510,7 +481,7 @@ export default function PageFeatures2() {
 
 
 				{/* FAQs 1 */}
-				<section className="section-faqs-1 section-padding position-relative">
+				{/* <section className="section-faqs-1 section-padding position-relative">
 					<div className="container position-relative z-2">
 						<div className="row align-items-center">
 							<div className="col-lg-6">
@@ -630,7 +601,7 @@ export default function PageFeatures2() {
 						</div>
 					</div>
 					<img className="position-absolute top-0 end-0 z-0" src="/assets/imgs/faqs-1/img-bg-line.png" alt="limpiar" />
-				</section>
+				</section> */}
 		
 
 			
