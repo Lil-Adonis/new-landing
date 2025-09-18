@@ -9,7 +9,7 @@ export default function PageBlog1() {
 			<Layout >
 
 				{/*Blog 5*/}
-				<section className="section-blog-1 section-padding position-relative border-top border-bottom mt-10">
+				{/* <section className="section-blog-1 section-padding position-relative border-top border-bottom mt-10">
 					<div className="container position-relative z-2">
 						<div className="row align-items-end">
 							<div className="col-lg-7 me-auto">
@@ -31,30 +31,22 @@ export default function PageBlog1() {
 						<div className="row mt-8 align-items-center">
 							<div className="col-lg-7">
 								<div className="card-team position-relative d-flex flex-lg-row flex-column align-items-center rounded-3 border  card-hover shadow-2 mb-lg-0 mb-8">
-									<img className="rounded rounded-bottom-0 rounded-start-lg rounded-end-lg-0 w-100 w-lg-auto" src="/assets/imgs/blog-5/img-1.png" alt="limpiar" />
+									<img className="rounded rounded-bottom-0 rounded-start-lg rounded-end-lg-0 w-50 " src="/commercial.webp" alt="limpiar" />
 									<div className="bg-white align-self-stretch rounded rounded-start-lg-0 p-5">
-										<Link href="#" className="z-1 position-relative bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-3 py-1 mb-2">
-											<span className="tag-spacing fs-7 fw-bold text-linear-2 text-uppercase">business</span>
+										<Link href="https://blogs.limpiar.online/post/best-commercial-building-maintenance-checklist-of-2025" className="z-1 position-relative bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-3 py-1 mb-2">
+											<span className="tag-spacing fs-7 fw-bold text-linear-2 text-uppercase">Commercial</span>
 										</Link>
-										<h6 className="mb-3">The Future of SaaS: Emerging Trends to Watch</h6>
-										<p>As the SaaS industry continues to evolve, new trends are shaping the future of software delivery and consumption...</p>
+										<h6 className="mb-3">Best Commercial Building Maintenance Checklist of 2025</h6>
+										<p>How do you keep your commercial property in top shape all year long? Use this complete checklist to stay ahead of costly repairs and downtime.</p>
 										<div className="d-flex align-items-center justify-content-between mt-5 pt-5 border-top">
 											<div className="d-flex align-items-center position-relative z-1">
 												<div className="icon-shape rounded-circle border border-2 border-white">
 													<img className="rounded-circle" src="/assets/imgs/blog-4/avatar-1.png" alt="limpiar" />
 												</div>
-												<div className="ms-3">
-													<h6 className="fs-7 m-0 mb-1">Evara Rose</h6>
-													<p className="mb-0 fs-8">17 May 2024</p>
-												</div>
-												<Link href="#" className="position-absolute bottom-0 start-0 end-0 top-0 z-0" />
+										
+												<Link href="https://blogs.limpiar.online/post/best-commercial-building-maintenance-checklist-of-2025" className="position-absolute bottom-0 start-0 end-0 top-0 z-0" />
 											</div>
-											<div className="arrow-icon icon-shape icon-md bg-white rounded-circle border">
-												<svg xmlns="http://www.w3.org/2000/svg" width={24} height={25} viewBox="0 0 24 25" fill="none">
-													<path d="M17.25 15.5322V7.03223H8.75" stroke="#6D4DF2" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-													<path d="M17 7.28223L6.75 17.5322" stroke="#6D4DF2" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-												</svg>
-											</div>
+									
 										</div>
 										<Link href="#" className="position-absolute bottom-0 start-0 end-0 top-0 z-0" />
 									</div>
@@ -62,11 +54,13 @@ export default function PageBlog1() {
 							</div>
 							<div className="col-lg-5">
 								<div>
-									<Link href="#" className="d-flex flex-column flex-md-row align-items-center hover-up">
-										<img className="rounded-3 w-100 w-md-auto" src="/assets/imgs/blog-5/img-2.png" alt="limpiar" />
+									<Link href="https://blogs.limpiar.online/post/what-is-facility-management-software" className="d-flex flex-column flex-md-row align-items-center hover-up">
+										<img className="rounded-3 w-100 w-md-auto" src="/fms.webp" alt="limpiar" />
 										<div className="content ms-5 mt-4 mt-md-0">
-											<h6 className="mb-2">Why Consistent Brand Identity is Key to Business Success</h6>
-											<p className="mb-0">As the SaaS industry continues to evolve, new trends are shaping the future of software delivery and consumption...</p>
+											<h6 className="mb-2">What is a Facility Management Software?</h6>
+											<p className="mb-0">  What can facilities management software do for your
+                          buildings and teams? Schedule a consultation today to
+                          streamline your operations and save costs.</p>
 										</div>
 									</Link>
 									<Link href="#" className="d-flex flex-column flex-md-row align-items-center mt-7 hover-up">
@@ -86,9 +80,9 @@ export default function PageBlog1() {
 							<div className="bouncing-blob bouncing-blob--infor bouncing-blob--infor-2" />
 						</div>
 					</div>
-				</section>
+				</section> */}
 				{/*Blog 6*/}
-				<section className="section-blog-6 section-padding border-bottom">
+				<section className="section-blog-6 section-padding mt-10 border-bottom">
 					<div className="container">
 						<div className="row align-items-end">
 							<div className="col">
@@ -100,31 +94,36 @@ export default function PageBlog1() {
 							{/* prettier-ignore */}
 							<div className="col-lg-4 col-md-6 text-start">
 								<div className="card border-0 rounded-3 mt-4 position-relative d-inline-flex">
-									<img className="rounded-top-3" src="/assets/imgs/blog-6/img-2.png" alt="limpiar" />
+									<img className="rounded-top-3" src="/commercial.webp" alt="limpiar" />
 									<div className="card-body bg-white p-0">
-										<Link href="#" className="bg-primary-soft position-relative z-1 d-inline-flex rounded-pill px-3 py-2 mt-3">
-											<span className="tag-spacing fs-7 fw-bold text-linear-2 text-uppercase">Technology</span>
+										<Link href="https://blogs.limpiar.online/post/best-commercial-building-maintenance-checklist-of-2025" className="bg-primary-soft position-relative z-1 d-inline-flex rounded-pill px-3 py-2 mt-3">
+											<span className="tag-spacing fs-7 fw-bold text-linear-2 text-uppercase">Commercial</span>
 										</Link>
-										<h6 className="my-3">Choosing the Right SaaS Solution for Your Business</h6>
-										<p>As the SaaS industry continues to evolve, new trends are shaping the future of software delivery and consumption...</p>
+										<h6 className="my-3">Best Commercial Building Maintenance Checklist of 2025</h6>
+										<p>How do you keep your commercial property in top shape all year long? Use this complete checklist to stay ahead of costly repairs and downtime.</p>
 									</div>
-									<Link href="#" className="position-absolute bottom-0 start-0 end-0 top-0 z-0" />
+									<Link href="https://blogs.limpiar.online/post/best-commercial-building-maintenance-checklist-of-2025" className="position-absolute bottom-0 start-0 end-0 top-0 z-0" />
 								</div>
 							</div>
 							<div className="col-lg-4 col-md-6 text-start">
 								<div className="card border-0 rounded-3 mt-4 position-relative d-inline-flex">
-									<img className="rounded-top-3" src="/assets/imgs/blog-6/img-1.png" alt="limpiar" />
+									<img className="rounded-top-3" src="/fms.webp" alt="limpiar" />
 									<div className="card-body bg-white p-0">
-										<Link href="#" className="bg-primary-soft position-relative z-1 d-inline-flex rounded-pill px-3 py-2 mt-3">
-											<span className="tag-spacing fs-7 fw-bold text-linear-2 text-uppercase">business</span>
+										<Link href="https://blogs.limpiar.online/post/what-is-facility-management-software" className="bg-primary-soft position-relative z-1 d-inline-flex rounded-pill px-3 py-2 mt-3">
+											<span className="tag-spacing fs-7 fw-bold text-linear-2 text-uppercase">software</span>
 										</Link>
-										<h6 className="my-3">The Future of SaaS: Emerging Trends to Watch</h6>
-										<p>Selecting the right SaaS solution can be a daunting task with so many options available. This guide breaks down the key...</p>
+										<h6 className="my-3">What is a Facility Management Software?</h6>
+										<p>    What can facilities management software do for your
+                          buildings and teams? Schedule a consultation today to
+                          streamline your operations and save costs.</p>
 									</div>
-									<Link href="#" className="position-absolute bottom-0 start-0 end-0 top-0 z-0" />
+									<Link href="https://blogs.limpiar.online/post/what-is-facility-management-software" className="position-absolute bottom-0 start-0 end-0 top-0 z-0" />
 								</div>
 							</div>
-							<div className="col-lg-4 col-md-6 text-start">
+
+
+
+							{/* <div className="col-lg-4 col-md-6 text-start">
 								<div className="card border-0 rounded-3 mt-4 position-relative d-inline-flex">
 									<img className="rounded-top-3" src="/assets/imgs/blog-6/img-3.png" alt="limpiar" />
 									<div className="card-body bg-white p-0">
@@ -253,10 +252,13 @@ export default function PageBlog1() {
 									</div>
 									<Link href="#" className="position-absolute bottom-0 start-0 end-0 top-0 z-0" />
 								</div>
-							</div>
+							</div> */}
 						</div>
 					</div>
-					<div className="container">
+
+					{/* Pagination */}
+
+					{/* <div className="container">
 						<div className="row pt-5 text-start">
 							<div className="d-flex justify-content-start align-items-center">
 								<nav aria-label="Page navigation example">
@@ -293,7 +295,7 @@ export default function PageBlog1() {
 								</nav>
 							</div>
 						</div>
-					</div>
+					</div> */}
 				</section>
 				{/* Newsletter 1 */}
 				<section className="section-newsletter-1 pb-120 pt-120 fix position-relative">
