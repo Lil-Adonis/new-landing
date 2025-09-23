@@ -147,31 +147,89 @@ export default function Project2() {
                 </SwiperSlide>
 
 
-				{/* <div>
+			
 					
 					     <SwiperSlide className="swiper-slide">
                   <div className="text-center">
                     <div className="zoom-img position-relative d-inline-block z-1">
                       <div className="rounded-3 fix">
-                        <img
+                        {/* <img
                           className="img-fluid w-100"
-                          src="/assets/imgs/project-2/img-3.png"
+                          src="/house-sold.webp"
                           alt="limpiar"
+                        /> */}
+
+						    <Image
+                          src="/house-sold.webp"
+                          alt="Facility Management Software dashboard screenshot"
+                          width={400}
+                          height={800}
+                          style={{
+                            objectFit: "cover",
+                            height: "550px",
+                            width: "100%",
+                            maxHeight: "800px",
+                          }}
+                          className="img-fluid w-100"
                         />
                       </div>
                       <Link
-                        href="#"
+                        href="https://blogs.limpiar.online/post/5-things-to-consider-when-hiring-a-service-provider-company-as-a-property-manager"
                         className="card-team text-start rounded-3 position-absolute bottom-0 start-0 end-0 z-1 backdrop-filter w-auto p-4 m-4 hover-up"
                       >
                         
-                        <h6>Seamless work order automation</h6>
+                        <h6>5 Things to Consider When Hiring a Service Provider Company as a Property Manager</h6>
                         <p className="text-900">
-                          Automated routing removes bottlenecks and ensures
-                          every request is handeled on time{" "}
+                         Hiring the right service provider can make or break your property operations. Discover 5 key things every property manager must check before signing a contract.
                         </p>
                       </Link>
                       <Link
-                        href="#"
+                        href="https://blogs.limpiar.online/post/5-things-to-consider-when-hiring-a-service-provider-company-as-a-property-manager"
+                        className="badge text-primary bg-white px-3 py-2 rounded-pill m-4 fs-7 position-absolute top-0 end-0 z-1"
+                      >
+                        Facility Management
+                      </Link>
+                    </div>
+                  </div>
+                </SwiperSlide>
+
+
+
+                <SwiperSlide className="swiper-slide">
+                  <div className="text-center">
+                    <div className="zoom-img position-relative d-inline-block z-1">
+                      <div className="rounded-3 fix">
+                        {/* <img
+                          className="img-fluid w-100"
+                          src="/assets/imgs/project-2/img-1.png"
+                          alt="limpiar"
+                        /> */}
+						                <Image
+                          src="/estate.webp"
+                          alt="Facility Management Software dashboard screenshot"
+                          width={400}
+                          height={800}
+                          style={{
+                            objectFit: "cover",
+                            height: "550px",
+                            width: "100%",
+                            maxHeight: "800px",
+                          }}
+                          className="img-fluid w-100"
+                        />
+                      </div>
+                      <Link
+                        href="https://blogs.limpiar.online/post/technology-in-facility-management-is-it-worth-the-investment"
+                        className="card-team text-start rounded-3 position-absolute bottom-0 start-0 end-0 z-1 backdrop-filter w-auto p-4 m-4 hover-up"
+                      >
+              
+                        <h6>Technology in Facility Management: Is it Worth the Investment? </h6>
+                        <p className="text-900">
+                          Discover how modern technology is transforming facility management. Learn the costs, benefits, and real ROI including how platforms like Limpiar help property managers save time, reduce costs, and improve tenant satisfaction.
+                        </p>
+                      </Link>
+                      <Link
+                        href="https://blogs.limpiar.online/post/technology-in-facility-management-is-it-worth-the-investment"
                         className="badge text-primary bg-white px-3 py-2 rounded-pill m-4 fs-7 position-absolute top-0 end-0 z-1"
                       >
                         Facility Management
@@ -184,65 +242,48 @@ export default function Project2() {
                   <div className="text-center">
                     <div className="zoom-img position-relative d-inline-block z-1">
                       <div className="rounded-3 fix">
-                        <img
-                          className="img-fluid w-100"
-                          src="/assets/imgs/project-2/img-1.png"
-                          alt="limpiar"
-                        />
-                      </div>
-                      <Link
-                        href="#"
-                        className="card-team text-start rounded-3 position-absolute bottom-0 start-0 end-0 z-1 backdrop-filter w-auto p-4 m-4 hover-up"
-                      >
-              
-                        <h6>vendor response insights</h6>
-                        <p className="text-900">
-                          Always-on communication and automated compliance
-                          tracking for property teams
-                        </p>
-                      </Link>
-                      <Link
-                        href="#"
-                        className="badge text-primary bg-white px-3 py-2 rounded-pill m-4 fs-7 position-absolute top-0 end-0 z-1"
-                      >
-                        Sustainability
-                      </Link>
-                    </div>
-                  </div>
-                </SwiperSlide>
-
-                <SwiperSlide className="swiper-slide">
-                  <div className="text-center">
-                    <div className="zoom-img position-relative d-inline-block z-1">
-                      <div className="rounded-3 fix">
-                        <img
+                        {/* <img
                           className="img-fluid w-100"
                           src="/assets/imgs/project-2/img-2.png"
                           alt="limpiar"
+                        /> */}
+
+
+						            <Image
+                          src="/choose.webp"
+                          alt="Facility Management Software dashboard screenshot"
+                          width={400}
+                          height={800}
+                          style={{
+                            objectFit: "cover",
+                            height: "550px",
+                            width: "100%",
+                            maxHeight: "800px",
+                          }}
+                          className="img-fluid w-100"
                         />
                       </div>
                       <Link
-                        href="#"
+                        href="https://blogs.limpiar.online/post/how-to-choose-and-manage-service-providers-as-a-property-manager"
                         className="card-team text-start rounded-3 position-absolute bottom-0 start-0 end-0 z-1 backdrop-filter w-auto p-4 m-4 hover-up"
                       >
       
-                        <h6>Streamlined compliance workflow </h6>
+                        <h6>How to Choose and Manage Service Providers as a Property Manager | Limpiar </h6>
                         <p className="text-900">
-                          Automated checks simplify reporting and reduce risk
-                          for operators.
+                          Learn how to find, vet, and manage reliable service providers as a property manager. Discover practical tips for booking, tracking, and ensuring transparency without the usual stress.
                         </p>
                       </Link>
                       <Link
-                        href="#"
+                        href="https://blogs.limpiar.online/post/how-to-choose-and-manage-service-providers-as-a-property-manager"
                         className="badge text-primary bg-white px-3 py-2 rounded-pill m-4 fs-7 position-absolute top-0 end-0 z-1"
                       >
-                        Case Studies
+                        Education
                       </Link>
                     </div>
                   </div>
                 </SwiperSlide>
 
-                <SwiperSlide className="swiper-slide">
+                {/* <SwiperSlide className="swiper-slide">
                   <div className="text-center">
                     <div className="zoom-img position-relative d-inline-block z-1">
                       <div className="rounded-3 fix">
@@ -271,9 +312,9 @@ export default function Project2() {
                       </Link>
                     </div>
                   </div>
-                </SwiperSlide>
+                </SwiperSlide> */}
 
-                <SwiperSlide className="swiper-slide">
+                {/* <SwiperSlide className="swiper-slide">
                   <div className="text-center">
                     <div className="zoom-img position-relative d-inline-block z-1">
                       <div className="rounded-3 fix">
@@ -302,9 +343,9 @@ export default function Project2() {
                       </Link>
                     </div>
                   </div>
-                </SwiperSlide>
+                </SwiperSlide> */}
 
-                <SwiperSlide className="swiper-slide">
+                {/* <SwiperSlide className="swiper-slide">
                   <div className="text-center">
                     <div className="zoom-img position-relative d-inline-block z-1">
                       <div className="rounded-3 fix">
@@ -333,9 +374,9 @@ export default function Project2() {
                       </Link>
                     </div>
                   </div>
-                </SwiperSlide>
+                </SwiperSlide> */}
 
-                <SwiperSlide className="swiper-slide">
+                {/* <SwiperSlide className="swiper-slide">
                   <div className="text-center">
                     <div className="zoom-img position-relative d-inline-block z-1">
                       <div className="rounded-3 fix">
@@ -364,9 +405,9 @@ export default function Project2() {
                       </Link>
                     </div>
                   </div>
-                </SwiperSlide>
+                </SwiperSlide> */}
 
-                <SwiperSlide className="swiper-slide">
+                {/* <SwiperSlide className="swiper-slide">
                   <div className="text-center">
                     <div className="zoom-img position-relative d-inline-block z-1">
                       <div className="rounded-3 fix">
@@ -395,9 +436,9 @@ export default function Project2() {
                       </Link>
                     </div>
                   </div>
-                </SwiperSlide>
+                </SwiperSlide> */}
 
-                <SwiperSlide className="swiper-slide">
+                {/* <SwiperSlide className="swiper-slide">
                   <div className="text-center">
                     <div className="zoom-img position-relative d-inline-block z-1">
                       <div className="rounded-3 fix">
@@ -426,8 +467,8 @@ export default function Project2() {
                       </Link>
                     </div>
                   </div>
-                </SwiperSlide>
-				</div> */}
+                </SwiperSlide> */}
+			
 
            
               </div>

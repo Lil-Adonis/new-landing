@@ -214,16 +214,16 @@ export default function Hero4() {
 								<ul className="carouselTicker__list">
 									<Marquee>
 										<li className="carouselTicker__item">
-											<img className="rounded-4" src="/assets/imgs/logo-cloud-3/logo-1.svg" alt="limpiar" />
+											<img className="rounded-4" src="/rimberio-fit.webp" alt="limpiar" style={{ height: 100, width: 100 }} />
 										</li>
 										<li className="carouselTicker__item">
-											<img className="rounded-4" src="/assets/imgs/logo-cloud-3/logo-2.svg" alt="limpiar" />
+											<img className="rounded-4" src="/rimberio-rest.webp" alt="limpiar" style={{ height: 80, width: 80 }} />
 										</li>
 										<li className="carouselTicker__item">
-											<img className="rounded-4" src="/assets/imgs/logo-cloud-3/logo-3.svg" alt="limpiar" />
+											<img className="rounded-4" src="/restaurant.webp" alt="limpiar" style={{ height: 80, width: 90 }} />
 										</li>
 										<li className="carouselTicker__item">
-											<img className="rounded-4" src="/assets/imgs/logo-cloud-3/logo-4.svg" alt="limpiar" />
+											<img className="rounded-4" src="/underground.png" alt="limpiar" style={{ height: 100, width: 100 }} />
 										</li>
 									</Marquee>
 								</ul>

@@ -123,46 +123,52 @@ export default function PageBlog1() {
 
 
 
+							<div className="col-lg-4 col-md-6 text-start">
+								<div className="card border-0 rounded-3 mt-4 position-relative d-inline-flex">
+									<img className="rounded-top-3" src="/house-sold.webp" alt="limpiar" />
+									<div className="card-body bg-white p-0">
+										<Link href="https://blogs.limpiar.online/post/5-things-to-consider-when-hiring-a-service-provider-company-as-a-property-manager" className="bg-primary-soft position-relative z-1 d-inline-flex rounded-pill px-3 py-2 mt-3">
+											<span className="tag-spacing fs-7 fw-bold text-linear-2 text-uppercase">Facility Management</span>
+										</Link>
+										<h6 className="my-3">5 Things to Consider When Hiring a Service Provider Company as a Property Manager</h6>
+										<p> Hiring the right service provider can make or break your property operations. Discover 5 key things every property manager must check before signing a contract.</p>
+									</div>
+									<Link href="https://blogs.limpiar.online/post/5-things-to-consider-when-hiring-a-service-provider-company-as-a-property-manager" className="position-absolute bottom-0 start-0 end-0 top-0 z-0" />
+								</div>
+							</div>
+
+
+
+							<div className="col-lg-4 col-md-6 text-start">
+								<div className="card border-0 rounded-3 mt-4 position-relative d-inline-flex">
+									<img className="rounded-top-3" src="/estate.webp" alt="limpiar" />
+									<div className="card-body bg-white p-0">
+										<Link href="https://blogs.limpiar.online/post/technology-in-facility-management-is-it-worth-the-investment" className="bg-primary-soft position-relative z-1 d-inline-flex rounded-pill px-3 py-2 mt-3">
+											<span className="tag-spacing fs-7 fw-bold text-linear-2 text-uppercase"> Facility Management</span>
+										</Link>
+										<h6 className="my-3">Technology in Facility Management: Is it Worth the Investment? </h6>
+										<p> Discover how modern technology is transforming facility management. Learn the costs, benefits, and real ROI including how platforms like Limpiar help property managers save time, reduce costs, and improve tenant satisfaction...</p>
+									</div>
+									<Link href="https://blogs.limpiar.online/post/technology-in-facility-management-is-it-worth-the-investment" className="position-absolute bottom-0 start-0 end-0 top-0 z-0" />
+								</div>
+							</div>
+
+
+
+							<div className="col-lg-4 col-md-6 text-start">
+								<div className="card border-0 rounded-3 mt-4 position-relative d-inline-flex">
+									<img className="rounded-top-3" src="/choose.webp" alt="limpiar" />
+									<div className="card-body bg-white p-0">
+										<Link href="https://blogs.limpiar.online/post/how-to-choose-and-manage-service-providers-as-a-property-manager" className="bg-primary-soft position-relative z-1 d-inline-flex rounded-pill px-3 py-2 mt-3">
+											<span className="tag-spacing fs-7 fw-bold text-linear-2 text-uppercase">Education</span>
+										</Link>
+										<h6 className="my-3">How to Choose and Manage Service Providers as a Property Manager | Limpiar</h6>
+										<p> Learn how to find, vet, and manage reliable service providers as a property manager. Discover practical tips for booking, tracking, and ensuring transparency without the usual stress.</p>
+									</div>
+									<Link href="https://blogs.limpiar.online/post/how-to-choose-and-manage-service-providers-as-a-property-manager" className="position-absolute bottom-0 start-0 end-0 top-0 z-0" />
+								</div>
+							</div>
 							{/* <div className="col-lg-4 col-md-6 text-start">
-								<div className="card border-0 rounded-3 mt-4 position-relative d-inline-flex">
-									<img className="rounded-top-3" src="/assets/imgs/blog-6/img-3.png" alt="limpiar" />
-									<div className="card-body bg-white p-0">
-										<Link href="#" className="bg-primary-soft position-relative z-1 d-inline-flex rounded-pill px-3 py-2 mt-3">
-											<span className="tag-spacing fs-7 fw-bold text-linear-2 text-uppercase">security</span>
-										</Link>
-										<h6 className="my-3">The Importance of Data Security in Your SaaS Projects</h6>
-										<p>Data security is a top priority for businesses adopting SaaS solutions. With increasing cyber threats, it's essential to understand...</p>
-									</div>
-									<Link href="#" className="position-absolute bottom-0 start-0 end-0 top-0 z-0" />
-								</div>
-							</div>
-							<div className="col-lg-4 col-md-6 text-start">
-								<div className="card border-0 rounded-3 mt-4 position-relative d-inline-flex">
-									<img className="rounded-top-3" src="/assets/imgs/blog-6/img-4.png" alt="limpiar" />
-									<div className="card-body bg-white p-0">
-										<Link href="#" className="bg-primary-soft position-relative z-1 d-inline-flex rounded-pill px-3 py-2 mt-3">
-											<span className="tag-spacing fs-7 fw-bold text-linear-2 text-uppercase">Technology</span>
-										</Link>
-										<h6 className="my-3">Choosing the Right SaaS Solution for Your Business</h6>
-										<p>Selecting the right SaaS solution can be a daunting task with so many options available. This guide breaks down the key...</p>
-									</div>
-									<Link href="#" className="position-absolute bottom-0 start-0 end-0 top-0 z-0" />
-								</div>
-							</div>
-							<div className="col-lg-4 col-md-6 text-start">
-								<div className="card border-0 rounded-3 mt-4 position-relative d-inline-flex">
-									<img className="rounded-top-3" src="/assets/imgs/blog-6/img-5.png" alt="limpiar" />
-									<div className="card-body bg-white p-0">
-										<Link href="#" className="bg-primary-soft position-relative z-1 d-inline-flex rounded-pill px-3 py-2 mt-3">
-											<span className="tag-spacing fs-7 fw-bold text-linear-2 text-uppercase">security</span>
-										</Link>
-										<h6 className="my-3">The Importance of Data Security in Your SaaS Projects</h6>
-										<p>Data security is a top priority for businesses adopting SaaS solutions. With increasing cyber threats, it's essential to understand...</p>
-									</div>
-									<Link href="#" className="position-absolute bottom-0 start-0 end-0 top-0 z-0" />
-								</div>
-							</div>
-							<div className="col-lg-4 col-md-6 text-start">
 								<div className="card border-0 rounded-3 mt-4 position-relative d-inline-flex">
 									<img className="rounded-top-3" src="/assets/imgs/blog-6/img-6.png" alt="limpiar" />
 									<div className="card-body bg-white p-0">
@@ -174,8 +180,8 @@ export default function PageBlog1() {
 									</div>
 									<Link href="#" className="position-absolute bottom-0 start-0 end-0 top-0 z-0" />
 								</div>
-							</div>
-							<div className="col-lg-4 col-md-6 text-start">
+							</div> */}
+							{/* <div className="col-lg-4 col-md-6 text-start">
 								<div className="card border-0 rounded-3 mt-4 position-relative d-inline-flex">
 									<img className="rounded-top-3" src="/assets/imgs/blog-6/img-7.png" alt="limpiar" />
 									<div className="card-body bg-white p-0">
@@ -187,8 +193,8 @@ export default function PageBlog1() {
 									</div>
 									<Link href="#" className="position-absolute bottom-0 start-0 end-0 top-0 z-0" />
 								</div>
-							</div>
-							<div className="col-lg-4 col-md-6 text-start">
+							</div> */}
+							{/* <div className="col-lg-4 col-md-6 text-start">
 								<div className="card border-0 rounded-3 mt-4 position-relative d-inline-flex">
 									<img className="rounded-top-3" src="/assets/imgs/blog-6/img-8.png" alt="limpiar" />
 									<div className="card-body bg-white p-0">
@@ -200,8 +206,8 @@ export default function PageBlog1() {
 									</div>
 									<Link href="#" className="position-absolute bottom-0 start-0 end-0 top-0 z-0" />
 								</div>
-							</div>
-							<div className="col-lg-4 col-md-6 text-start">
+							</div> */}
+							{/* <div className="col-lg-4 col-md-6 text-start">
 								<div className="card border-0 rounded-3 mt-4 position-relative d-inline-flex">
 									<img className="rounded-top-3" src="/assets/imgs/blog-6/img-9.png" alt="limpiar" />
 									<div className="card-body bg-white p-0">
@@ -213,8 +219,8 @@ export default function PageBlog1() {
 									</div>
 									<Link href="#" className="position-absolute bottom-0 start-0 end-0 top-0 z-0" />
 								</div>
-							</div>
-							<div className="col-lg-4 col-md-6 text-start">
+							</div> */}
+							{/* <div className="col-lg-4 col-md-6 text-start">
 								<div className="card border-0 rounded-3 mt-4 position-relative d-inline-flex">
 									<img className="rounded-top-3" src="/assets/imgs/blog-6/img-10.png" alt="limpiar" />
 									<div className="card-body bg-white p-0">
@@ -226,8 +232,8 @@ export default function PageBlog1() {
 									</div>
 									<Link href="#" className="position-absolute bottom-0 start-0 end-0 top-0 z-0" />
 								</div>
-							</div>
-							<div className="col-lg-4 col-md-6 text-start">
+							</div> */}
+							{/* <div className="col-lg-4 col-md-6 text-start">
 								<div className="card border-0 rounded-3 mt-4 position-relative d-inline-flex">
 									<img className="rounded-top-3" src="/assets/imgs/blog-6/img-11.png" alt="limpiar" />
 									<div className="card-body bg-white p-0">
@@ -239,8 +245,8 @@ export default function PageBlog1() {
 									</div>
 									<Link href="#" className="position-absolute bottom-0 start-0 end-0 top-0 z-0" />
 								</div>
-							</div>
-							<div className="col-lg-4 col-md-6 text-start">
+							</div> */}
+							{/* <div className="col-lg-4 col-md-6 text-start">
 								<div className="card border-0 rounded-3 mt-4 position-relative d-inline-flex">
 									<img className="rounded-top-3" src="/assets/imgs/blog-6/img-12.png" alt="limpiar" />
 									<div className="card-body bg-white p-0">
