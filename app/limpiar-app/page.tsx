@@ -90,7 +90,7 @@ const page = () => {
 							<div className="row align-items-center">
 								<div className="col-lg-5">
 									<div className="photo-description position-relative  rounded-4">
-										<img className="rounded-4 border border-2 border-white position-relative z-1" src="/assets/imgs/features-5/img-1.png" alt="infinia" />
+										<img className="rounded-4 border border-2 border-white position-relative z-1" src="/PHONE.gif" alt="infinia" />
 										<div className="box-gradient-1 ms-lg-8 position-absolute bottom-0 start-0 bg-linear-1 rounded-4 z-0" />
 									</div>
 								</div>
