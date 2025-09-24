@@ -15,7 +15,7 @@ export default function PageContact1() {
 								<div className="text-center section-padding">
 							<div className="d-flex align-items-center justify-content-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-4 py-2" data-aos="zoom-in" data-aos-delay={100}>
 								<img src="/assets/imgs/features-1/dots.png" alt="limpiar" />
-								<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Get in Tourch</span>
+								<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Get in Touch</span>
 							</div>
 							<h3 className="ds-3 mt-3 mb-3">Contact Our Team</h3>
 							<p className="fs-5">

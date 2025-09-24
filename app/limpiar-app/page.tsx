@@ -90,14 +90,14 @@ const page = () => {
 							<div className="row align-items-center">
 								<div className="col-lg-5">
 									<div className="photo-description position-relative  rounded-4">
-										<img className="rounded-4 border border-2 border-white position-relative z-1" src="/PHONE.gif" alt="infinia" />
+										<img className="rounded-4 border border-2 border-white position-relative z-1" src="/PHONE.gif" alt="limpiar" />
 										<div className="box-gradient-1 ms-lg-8 position-absolute bottom-0 start-0 bg-linear-1 rounded-4 z-0" />
 									</div>
 								</div>
 								<div className="col-lg-6 offset-lg-1 mt-lg-0 mt-5">
 									<h4 className="ds-4 fw-regular">Smarter Tools for  <span className="fw-bold" data-aos="fade-zoom-in" data-aos-delay={200}> <br className="d-none d-lg-inline" /> In-House Teams.</span></h4>
 									<p className="fs-5">⚡Give your staff everything they need to manage work orders, log hours and keep facilities running , all in one mobile-first app.</p>
-									<Link href="#" className="btn btn-outline-secondary hover-up bg-transparent mt-5" data-aos="fade-zoom-in" data-aos-delay={200}>
+									<Link href="https://api.leadconnectorhq.com/widget/form/c3PUsJgtYjyol6QQfUdM" className="btn btn-outline-secondary hover-up bg-transparent mt-5" data-aos="fade-zoom-in" data-aos-delay={200}>
 										Request Demo
 										<svg className="ms-2" xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
 											<path className="stroke-dark" d="M17.25 15.25V6.75H8.75" stroke="#000" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -129,12 +129,12 @@ const page = () => {
 								</div>
 								<div className="col-lg-6 offset-lg-1 order-1 order-lg-2 mt-5 text-lg-end text-center">
 									<div className="photo-description position-relative rounded-4 d-inline-block">
-										<img className="rounded-4 border border-2 border-white position-relative z-1" src="/assets/imgs/features-5/img-2.png" alt="infinia" />
+										<img className="rounded-4 border border-2 border-white position-relative z-1" src="/assets/imgs/features-5/img-2.png" alt="limpiar" />
 										<div className="position-absolute top-50 start-50 translate-middle z-0">
 											<div className="box-gradient-2 position-relative bg-linear-1 rounded-4 z-0">
 											</div>
 										</div>
-										<img className="position-absolute top-100 start-0 d-none d-md-block translate-middle rounded-4 border border-2 border-white position-relative z-1" src="/assets/imgs/features-5/img-3.png" alt="infinia" data-aos="zoom-in" data-aos-delay={100} />
+										<img className="position-absolute top-100 start-0 d-none d-md-block translate-middle rounded-4 border border-2 border-white position-relative z-1" src="/assets/imgs/features-5/img-3.png" alt="limpiar" data-aos="zoom-in" data-aos-delay={100} />
 									</div>
 								</div>
 							</div> */}
@@ -143,43 +143,43 @@ const page = () => {
 									<p className="text-500">Compatible with all operating systems and browsers in the world</p>
 									<div className="compatible-group bg-white p-5 mt-5 rounded-4 d-md-flex justify-content-between">
 										<div className="compatible hover-up">
-											<img src="/assets/imgs/features-5/icon-1.png" alt="infinia" />
+											<img src="/assets/imgs/features-5/icon-1.png" alt="limpiar" />
 											<p className="text-900 mt-3 mb-0">MacOs</p>
 										</div>
 										<div className="compatible hover-up">
-											<img src="/assets/imgs/features-5/icon-2.png" alt="infinia" />
+											<img src="/assets/imgs/features-5/icon-2.png" alt="limpiar" />
 											<p className="text-900 mt-3 mb-0">Windows</p>
 										</div>
 										<div className="compatible hover-up">
-											<img src="/assets/imgs/features-5/icon-3.png" alt="infinia" />
+											<img src="/assets/imgs/features-5/icon-3.png" alt="limpiar" />
 											<p className="text-900 mt-3 mb-0">Linux</p>
 										</div>
 										<div className="compatible hover-up">
-											<img src="/assets/imgs/features-5/icon-4.png" alt="infinia" />
+											<img src="/assets/imgs/features-5/icon-4.png" alt="limpiar" />
 											<p className="text-900 mt-3 mb-0">Android</p>
 										</div>
 										<div className="compatible hover-up">
-											<img src="/assets/imgs/features-5/icon-5.png" alt="infinia" />
+											<img src="/assets/imgs/features-5/icon-5.png" alt="limpiar" />
 											<p className="text-900 mt-3 mb-0">iOS</p>
 										</div>
 										<div className="compatible hover-up">
-											<img src="/assets/imgs/features-5/icon-6.png" alt="infinia" />
+											<img src="/assets/imgs/features-5/icon-6.png" alt="limpiar" />
 											<p className="text-900 mt-3 mb-0">Firefox</p>
 										</div>
 										<div className="compatible hover-up">
-											<img src="/assets/imgs/features-5/icon-7.png" alt="infinia" />
+											<img src="/assets/imgs/features-5/icon-7.png" alt="limpiar" />
 											<p className="text-900 mt-3 mb-0">Chrome</p>
 										</div>
 										<div className="compatible hover-up">
-											<img src="/assets/imgs/features-5/icon-8.png" alt="infinia" />
+											<img src="/assets/imgs/features-5/icon-8.png" alt="limpiar" />
 											<p className="text-900 mt-3 mb-0">Safari</p>
 										</div>
 										<div className="compatible hover-up">
-											<img src="/assets/imgs/features-5/icon-9.png" alt="infinia" />
+											<img src="/assets/imgs/features-5/icon-9.png" alt="limpiar" />
 											<p className="text-900 mt-3 mb-0">Opera</p>
 										</div>
 										<div className="compatible hover-up">
-											<img src="/assets/imgs/features-5/icon-10.png" alt="infinia" />
+											<img src="/assets/imgs/features-5/icon-10.png" alt="limpiar" />
 											<p className="text-900 mt-3 mb-0">Opera</p>
 										</div>
 									</div>
@@ -195,7 +195,7 @@ const page = () => {
 						<div className="row">
 							<div className="col-lg-4">
 								<div className="d-flex align-items-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-3 py-1">
-									<img src="/assets/imgs/features-1/dots.png" alt="infinia" />
+									<img src="/assets/imgs/features-1/dots.png" alt="limpiar" />
 									<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">How It Helps</span>
 								</div>
                 <ul className="mt-4 fs-4 fw-bold">
@@ -208,13 +208,13 @@ const page = () => {
 							<div className="col-lg-8">
 								<div className="d-flex flex-md-row flex-column align-items-center position-relative ps-lg-8 pt-lg-0 pt-10">
 									<div className="pe-md-3 pb-3 pb-md-0 position-relative z-1" data-aos="fade-zoom-in" data-aos-delay={100}>
-										<img className="rounded-3 border border-3 border-white" src="/assets/imgs/features-1/img-1.png" alt="infinia" />
+										<img className="rounded-3 border border-3 border-white" src="/assets/imgs/features-1/img-1.png" alt="limpiar" />
 									</div>
 									<div className="pe-md-3 pb-3 pb-md-0 position-relative z-1" data-aos="fade-zoom-in" data-aos-delay={200}>
-										<img className="rounded-3 border border-3 border-white" src="/assets/imgs/features-1/img-2.png" alt="infinia" />
+										<img className="rounded-3 border border-3 border-white" src="/assets/imgs/features-1/img-2.png" alt="limpiar" />
 									</div>
 									<div className="pe-md-3 pb-3 pb-md-0 position-relative z-1" data-aos="fade-zoom-in" data-aos-delay={300}>
-										<img className="rounded-3 border border-3 border-white" src="/assets/imgs/features-1/img-3.png" alt="infinia" />
+										<img className="rounded-3 border border-3 border-white" src="/assets/imgs/features-1/img-3.png" alt="limpiar" />
 										<a href="#" onClick={() => setOpen(true)} className="d-inline-flex align-items-center rounded-4 text-nowrap backdrop-filter px-3 py-2 popup-video hover-up position-absolute bottom-0 mb-4 start-50 translate-middle-x">
 											<span className="backdrop-filter me-2 icon-shape icon-md rounded-circle">
 												<svg xmlns="http://www.w3.org/2000/svg" width={16} height={16} viewBox="0 0 16 16" fill="none">
@@ -228,9 +228,9 @@ const page = () => {
 										<ModalVideo channel='youtube' isOpen={isOpen} videoId="gXFATcwrO-U" onClose={() => setOpen(false)} />
 
 									</div>
-									<img className="position-absolute top-50 start-0 translate-middle-y z-0" src="/assets/imgs/features-1/bg-ellipse.png" alt="infinia" />
-									<img className="position-absolute z-2 star-lg" src="/assets/imgs/features-1/star-lg.png" alt="infinia" />
-									<img className="position-absolute z-2 star-md" src="/assets/imgs/features-1/star-md.png" alt="infinia" />
+									<img className="position-absolute top-50 start-0 translate-middle-y z-0" src="/assets/imgs/features-1/bg-ellipse.png" alt="limpiar" />
+									<img className="position-absolute z-2 star-lg" src="/assets/imgs/features-1/star-lg.png" alt="limpiar" />
+									<img className="position-absolute z-2 star-md" src="/assets/imgs/features-1/star-md.png" alt="limpiar" />
 								</div>
 							</div>
 						</div>
@@ -242,7 +242,7 @@ const page = () => {
 								<div className="feature-item mb-5 mb-lg-0">
 									<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3 mb-4">
 										<div className="icon">
-											<img src="/assets/imgs/features-1/icon-1.svg" alt="infinia" />
+											<img src="/assets/imgs/features-1/icon-1.svg" alt="limpiar" />
 										</div>
 									</div>
 									<h6>Facility Teams</h6>
@@ -253,7 +253,7 @@ const page = () => {
 								<div className="feature-item mb-5 mb-lg-0">
 									<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3 mb-4">
 										<div className="icon">
-											<img src="/assets/imgs/features-1/icon-2.svg" alt="infinia" />
+											<img src="/assets/imgs/features-1/icon-2.svg" alt="limpiar" />
 										</div>
 									</div>
 									<h6>Field Technicians</h6>
@@ -264,7 +264,7 @@ const page = () => {
 								<div className="feature-item mb-5 mb-lg-0">
 									<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3 mb-4">
 										<div className="icon">
-											<img src="/assets/imgs/features-1/icon-3.svg" alt="infinia" />
+											<img src="/assets/imgs/features-1/icon-3.svg" alt="limpiar" />
 										</div>
 									</div>
 									<h6>Operations Managers</h6>
@@ -275,7 +275,7 @@ const page = () => {
 								<div className="feature-item mb-5 mb-lg-0">
 									<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3 mb-4">
 										<div className="icon">
-											<img src="/assets/imgs/features-1/icon-4.svg" alt="infinia" />
+											<img src="/assets/imgs/features-1/icon-4.svg" alt="limpiar" />
 										</div>
 									</div>
                   <h6>Executives</h6>

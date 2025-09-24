@@ -1,6 +1,7 @@
 "use client";
 import Layout from "@/components/layout/Layout";
 import Link from "next/link";
+import Image from "next/image";
 import CountUp from "react-countup";
 export default function PageAbout3() {
   return (
@@ -54,10 +55,12 @@ export default function PageAbout3() {
                 />
               </div>
               <div className="pe-3 position-relative z-1">
-                <img
+                <Image
                   className="rounded-3 border border-3 border-white"
-                  src="/assets/imgs/cta-15/img-3.png"
+                  src="/bfet.png"
                   alt="limpiar"
+                  width={700}
+                  height= {300}
                 />
               </div>
               <div className="pe-3 position-relative z-1">
@@ -143,7 +146,7 @@ export default function PageAbout3() {
         <section className="section-feature-12 border-bottom pb-120 pt-110">
           <div className="container">
             <div className="text-center">
-              <h5 className="ds-5">Our Core Values</h5>
+              <h5 className="ds-5 mb-5">Our Core Values</h5>
               {/* <p className="fs-5 pb-4">
 								We break down barriers so teams can focus on what matters – working together <br className="d-none d-lg-block" />
 								to create products their customers love.
@@ -170,7 +173,7 @@ export default function PageAbout3() {
                     we build solutions that create lasting impact.
                   </p>
                   {/* <Link href="#" className="text-primary fs-7 fw-bold">
-										Learm More
+										Learn More
 										<svg className=" ms-2 " xmlns="http://www.w3.org/2000/svg" width={19} height={18} viewBox="0 0 19 18" fill="none">
 											<g clipPath="url(#clip0_399_9647)">
 												<path className="fill-dark" d="M13.5633 4.06348L12.7615 4.86529L16.3294 8.43321H0.5V9.56716H16.3294L12.7615 13.135L13.5633 13.9369L18.5 9.00015L13.5633 4.06348Z" fill="#111827" />
@@ -261,42 +264,42 @@ export default function PageAbout3() {
                       />
                     </div>
                     <div className="zoom-img rounded-3 mt-2">
-                      <img
+                      {/* <img
                         className="rounded-3"
                         src="/assets/imgs/cta-11/img-3.png"
                         alt=""
-                      />
+                      /> */}
                     </div>
                   </div>
                   <div>
-                    <div className="d-flex justify-content-between mt-5">
-                      <div className="alltuchtopdown tag-year backdrop-filter bg-success rounded-4 px-5 py-4 text-center z-1">
+                    {/* <div className="d-flex justify-content-between mt-5">
+                      <div className="alltuchtopdown tag-year backdrop-filter bg-success rounded-4 px-3 py-4 text-center z-1">
                         <h5 className="count fw-bold mb-2 text-900 text-nowrap">
                           <span className="odometer" />
-                          <CountUp enableScrollSpy={true} end={25} />
-                          M+
+                          <CountUp enableScrollSpy={true} end={92} />
+                          %
                         </h5>
                         <p className="text-600-keep text-nowrap mb-0">
-                          Transaction <br />
-                          Completed
+                          Faster work order . <br />
+                          processing
                         </p>
                       </div>
-                      <div className="alltuchtopdown tag-year backdrop-filter bg-primary rounded-4 px-5 py-4 text-center z-1">
+                      <div className="alltuchtopdown tag-year backdrop-filter bg-primary rounded-4 px-3 py-4 text-center z-1">
                         <h5 className="count fw-bold mb-2 text-white text-nowrap">
                           <span className="odometer" />
-                          <CountUp enableScrollSpy={true} end={12} />
-                          k+
+                          <CountUp enableScrollSpy={true} end={10} />
+                          x
                         </h5>
                         <p className="text-white text-nowrap mb-0">
-                          Transaction <br />
-                          Completed
+                          AI-powered <br />
+                          issue resolution
                         </p>
                       </div>
-                    </div>
+                    </div> */}
                     <div className="zoom-img rounded-3">
                       <img
                         className="rounded-3 mw-lg-310"
-                        src="/assets/imgs/cta-11/img-2.png"
+                        src="/variety.png"
                         alt=""
                       />
                     </div>
@@ -418,8 +421,8 @@ export default function PageAbout3() {
                 </h5>
                 {/* <p className="fs-5 text-500 mb-8">Loved By Developers Trusted By Enterprises</p> */}
                 <div className="d-flex align-items-center mt-5">
-                  <Link href="#" className="btn btn-gradient">
-                    Get Free Quote
+                  <Link href="https://api.leadconnectorhq.com/widget/form/c3PUsJgtYjyol6QQfUdM" className="btn btn-gradient">
+                    Request Demo
                     <svg
                       className="ms-2"
                       xmlns="http://www.w3.org/2000/svg"
@@ -446,9 +449,9 @@ export default function PageAbout3() {
                       />
                     </svg>
                   </Link>
-                  <Link href="#" className="ms-5 fw-bold">
+                  {/* <Link href="#" className="ms-5 fw-bold">
                     How We Work
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
               <div className="col-lg-6 offset-lg-1 mt-lg-0 mt-8">

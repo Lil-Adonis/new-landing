@@ -60,7 +60,7 @@ export default function Hero4() {
 									For <span className=" fw-bold">Grow <br /></span> Your <span className=" fw-bold">Business</span> */}
 								</h3>
 								<p className="fs-5  py-3 responsive-text">Limpiar’s AI platform transforms buildings into self-optimizing assets,  automating cleaning, maintenance, and vendor management to cut costs, increase uptime, and set a new standard for facility management.</p>
-								<Link href="#" className="fw-bold btn bg-neutral-100 d-inline-flex align-items-center text-900 hover-up">
+								<Link href="https://api.leadconnectorhq.com/widget/booking/N59Uzph3F1P9QB1CfZLS" className="fw-bold btn bg-neutral-100 d-inline-flex align-items-center text-900 hover-up">
 									<span className="me-5">Get started</span>
 									<svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
 										<path className="fill-dark" d="M17.4177 5.41776L16.3487 6.48684L21.1059 11.2441H0V12.756H21.1059L16.3487 17.5132L17.4177 18.5823L24 12L17.4177 5.41776Z" fill="black" />

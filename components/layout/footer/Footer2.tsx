@@ -13,7 +13,7 @@ export default function Footer2() {
 										<img src="assets/imgs/template/logo.png" alt="limpiar"  style={{ width: '150px', height: 'auto' }}/>
 										{/* <span>limpiar</span> */}
 									</Link>
-									<p className="text-900 fw-medium mt-3 mb-6 opacity-50">You may also realize cost savings from your energy efficient choices in your custom home. Federal tax credits for some green materials can allow you to deduct as much.</p>
+									<p className="text-900 fw-medium mt-3 mb-6 opacity-50">Simplifying property operations for facility managers and operators. From work order scheduling to vendor management and inspections, Limpiar helps you stay on top of every detail.</p>
 									<div className="d-flex social-icons">
 										<Link href="/https://www.facebook.com/" className=" text-900 border border-end-0  border-opacity-10 icon-shape icon-md">
 											<svg xmlns="http://www.w3.org/2000/svg" width={10} height={17} viewBox="0 0 10 17" fill="none">
@@ -44,13 +44,13 @@ export default function Footer2() {
 											</div>
 										</div>
 										<div className="col-lg-3 col-md-3 col-6">
-											<h3 className="text-900 fs-6 fw-black text-uppercase pb-3 pt-5">Resource</h3>
+											{/* <h3 className="text-900 fs-6 fw-black text-uppercase pb-3 pt-5">Resource</h3>
 											<div className="d-flex flex-column align-items-start">
 												<Link className="hover-effect text-900 mb-2 fw-medium fs-6" href="/#">Knowledge Base</Link>
 												<Link className="hover-effect text-900 mb-2 fw-medium fs-6" href="/#">Documents</Link>
 												<Link className="hover-effect text-900 mb-2 fw-medium fs-6" href="/#">System Status</Link>
 												<Link className="hover-effect text-900 mb-2 fw-medium fs-6" href="/#">Security</Link>
-											</div>
+											</div> */}
 										</div>
 										<div className="col-lg-6 col-md-6 col-12 mt-5 mt-md-0">
 											<div
@@ -58,9 +58,9 @@ export default function Footer2() {
 												style={{ minHeight: '260px', boxShadow: '0 2px 16px rgba(0,0,0,0.04)' }}
 											>
 												<h3 className="text-900 fs-5 fw-black text-uppercase mb-3">Ready to get started?</h3>
-												<p className="text-900 opacity-75 mb-3" style={{ fontSize: '1rem' }}>
+												{/* <p className="text-900 opacity-75 mb-3" style={{ fontSize: '1rem' }}>
 													It is a long established fact that a reader will be distracted by the layout. Reach out to us for any queries or support.
-												</p>
+												</p> */}
 												<div className="mb-3">
 													<div className="d-flex align-items-center mb-2">
 														<i className="bi bi-geo-alt-fill me-2 text-primary" />
@@ -84,11 +84,11 @@ export default function Footer2() {
 													</div>
 												</div>
 												<Link
-													href="/contact"
+													href="https://api.leadconnectorhq.com/widget/form/c3PUsJgtYjyol6QQfUdM"
 													className="btn btn-primary w-100 mt-2 fw-bold"
 													style={{ fontSize: '1rem', borderRadius: '8px' }}
 												>
-													Contact Us
+													Request a Demo
 												</Link>
 											</div>
 										</div>
@@ -104,7 +104,7 @@ export default function Footer2() {
 									<p className="text-900 opacity-50 mb-0 fs-7">Copyright © 2024 Limpiar. All Rights Reserved</p>
 									<div className="d-flex">
 										<Link href="/#" className="text-900 me-3"> Privacy policy </Link>
-										<Link href="/#" className="text-900 me-3"> Cookies </Link>
+										{/* <Link href="/#" className="text-900 me-3"> Cookies </Link> */}
 										<Link href="/#" className="text-900 me-3"> Terms of service </Link>
 									</div>
 								</div>

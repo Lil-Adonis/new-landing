@@ -38,7 +38,7 @@ export default function PageServices2() {
 										<h5 className="my-3">Predictive Maintenance Strategies</h5>
 										<p className="mb-6">How to implement predictive maintenance to minimize downtime</p>
 										<Link href="#" className="text-primary fs-7 fw-bold">
-											Learm More
+											Learn More
 											<svg className=" ms-2 " xmlns="http://www.w3.org/2000/svg" width={19} height={18} viewBox="0 0 19 18" fill="none">
 												<g clipPath="url(#clip0_399_9647)">
 													<path d="M13.5633 4.06348L12.7615 4.86529L16.3294 8.43321H0.5V9.56716H16.3294L12.7615 13.135L13.5633 13.9369L18.5 9.00015L13.5633 4.06348Z" fill="#111827" />
@@ -64,7 +64,7 @@ export default function PageServices2() {
 										<h5 className="my-3">Ai for smarter facility operations</h5>
 										<p className="mb-6">Leveraging artificial intelligence to optimize facility management.</p>
 										<Link href="#" className="text-primary fs-7 fw-bold">
-											Learm More
+											Learn More
 											<svg className=" ms-2 " xmlns="http://www.w3.org/2000/svg" width={19} height={18} viewBox="0 0 19 18" fill="none">
 												<g clipPath="url(#clip0_399_9647)">
 													<path d="M13.5633 4.06348L12.7615 4.86529L16.3294 8.43321H0.5V9.56716H16.3294L12.7615 13.135L13.5633 13.9369L18.5 9.00015L13.5633 4.06348Z" fill="#111827" />
@@ -90,7 +90,7 @@ export default function PageServices2() {
 										<h5 className="my-3">Achieving Compliance in Healthcare</h5>
 										<p className="mb-6">A step-by-step guide to maintaining compliance in healthcare facilities.</p>
 										<Link href="#" className="text-primary fs-7 fw-bold">
-											Learm More
+											Learn More
 											<svg className=" ms-2 " xmlns="http://www.w3.org/2000/svg" width={19} height={18} viewBox="0 0 19 18" fill="none">
 												<g clipPath="url(#clip0_399_9647)">
 													<path d="M13.5633 4.06348L12.7615 4.86529L16.3294 8.43321H0.5V9.56716H16.3294L12.7615 13.135L13.5633 13.9369L18.5 9.00015L13.5633 4.06348Z" fill="#111827" />
@@ -116,7 +116,7 @@ export default function PageServices2() {
 										<h5 className="my-3">Vendor Management Best Practices</h5>
 										<p className="mb-6">Optimize vendor relationships and streamline operations.</p>
 										<Link href="#" className="text-primary fs-7 fw-bold">
-											Learm More
+											Learn More
 											<svg className=" ms-2 " xmlns="http://www.w3.org/2000/svg" width={19} height={18} viewBox="0 0 19 18" fill="none">
 												<g clipPath="url(#clip0_399_9647)">
 													<path d="M13.5633 4.06348L12.7615 4.86529L16.3294 8.43321H0.5V9.56716H16.3294L12.7615 13.135L13.5633 13.9369L18.5 9.00015L13.5633 4.06348Z" fill="#111827" />
@@ -142,7 +142,7 @@ export default function PageServices2() {
 										<h5 className="my-3">Towards Greener Facilities</h5>
 										<p className="mb-6">Sustainable Practices to reduce your facilities environmental impact.</p>
 										<Link href="#" className="text-primary fs-7 fw-bold">
-											Learm More
+											Learn More
 											<svg className=" ms-2 " xmlns="http://www.w3.org/2000/svg" width={19} height={18} viewBox="0 0 19 18" fill="none">
 												<g clipPath="url(#clip0_399_9647)">
 													<path d="M13.5633 4.06348L12.7615 4.86529L16.3294 8.43321H0.5V9.56716H16.3294L12.7615 13.135L13.5633 13.9369L18.5 9.00015L13.5633 4.06348Z" fill="#111827" />
@@ -168,7 +168,7 @@ export default function PageServices2() {
 										<h5 className="my-3">Automation in Retail Environments</h5>
 										<p className="mb-6">How retail facilities can benefit from automated system.</p>
 										<Link href="#" className="text-primary fs-7 fw-bold">
-											Learm More
+											Learn More
 											<svg className=" ms-2 " xmlns="http://www.w3.org/2000/svg" width={19} height={18} viewBox="0 0 19 18" fill="none">
 												<g clipPath="url(#clip0_399_9647)">
 													<path d="M13.5633 4.06348L12.7615 4.86529L16.3294 8.43321H0.5V9.56716H16.3294L12.7615 13.135L13.5633 13.9369L18.5 9.00015L13.5633 4.06348Z" fill="#111827" />

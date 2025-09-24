@@ -183,7 +183,7 @@ export default function MobileMenu({
           <Link href="/login" className="btn btn-outline-dark flex-grow-1">
             Login
           </Link>
-          <Link href="/book-demo" className="btn btn-dark flex-grow-2">
+          <Link href="https://api.leadconnectorhq.com/widget/form/c3PUsJgtYjyol6QQfUdM" className="btn btn-dark flex-grow-2">
             Book a Demo
           </Link>
         </div>

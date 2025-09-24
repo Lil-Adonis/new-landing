@@ -38,6 +38,8 @@ export default function HowItWork1() {
 								</div>
 							</div>
 
+							<div className="dashed-line-1 d-none d-lg-block" />
+
 							<div className="d-flex feature-item position-relative z-1">
 								<div className="bg-primary-soft-keep icon-flip position-relative icon-shape icon-xxl rounded-3 me-5">
 									<div className="icon">
@@ -50,6 +52,8 @@ export default function HowItWork1() {
 								</div>
 							</div>
 
+								<div className="dashed-line-2 d-none d-lg-block" />
+
 							<div className="d-flex feature-item">
 								<div className="bg-primary-soft-keep icon-flip position-relative icon-shape icon-xxl rounded-3 me-5">
 									<div className="icon">
@@ -61,6 +65,8 @@ export default function HowItWork1() {
 									<p className="text-lg-white text-900 opacity-75">Manage every property from anywhere.</p>
 								</div>
 							</div>
+
+								<div className="dashed-line-3 d-none d-lg-block pt-[2rem]" />
 
 								<div className="d-flex feature-item position-relative z-1">
 								<div className="bg-primary-soft-keep icon-flip position-relative icon-shape icon-xxl rounded-3 me-5">
@@ -77,8 +83,9 @@ export default function HowItWork1() {
 							
 
 
-							<div className="dashed-line-1 d-none d-lg-block" />
-							<div className="dashed-line-2 d-none d-lg-block" />
+							
+						
+							
 						</div>
 						<div className="position-relative d-inline-block">
 							<img className="rounded-3 w-100 img-fluid" src="/assets/imgs/howitwork-1/img-bg.png" alt="limpiar" />
@@ -96,7 +103,7 @@ export default function HowItWork1() {
 										</span>
 									</Link>
 									<ModalVideo channel='youtube' isOpen={isOpen} videoId="gXFATcwrO-U" onClose={() => setOpen(false)} />
-									<Link href="#" className="btn btn-gradient d-none d-md-block rounded-4">
+									<Link href="https://api.leadconnectorhq.com/widget/booking/N59Uzph3F1P9QB1CfZLS" className="btn btn-gradient d-none d-md-block rounded-4">
 										Get started
 										<svg className="ms-2" xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
 											<path className="stroke-white" d="M17.25 15.25V6.75H8.75" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />

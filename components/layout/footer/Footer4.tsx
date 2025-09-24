@@ -43,7 +43,7 @@ export default function Footer4() {
 							<div className="row py-90">
 								<div className="col-lg-4 pe-10">
 									<Link href="/"><img src="assets/imgs/logo/logo-white.svg" alt="limpiar" /></Link>
-									<p className="text-white fw-medium mt-3 mb-6 opacity-50">You may also realize cost savings from your energy efficient choices in your custom home. Federal tax credits for some green materials can allow you to deduct as much.</p>
+									<p className="text-white fw-medium mt-3 mb-6 opacity-50">Simplifying property operations for facility managers and operators. From work order scheduling to vendor management and inspections, Limpiar helps you stay on top of every detail.</p>
 									<div className="d-flex social-icons">
 										<Link href="/https://www.facebook.com/" className=" text-white border border-end-0 border-light border-opacity-10 icon-shape icon-md">
 											<svg xmlns="http://www.w3.org/2000/svg" width={10} height={17} viewBox="0 0 10 17" fill="none">
