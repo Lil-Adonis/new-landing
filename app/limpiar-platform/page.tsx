@@ -116,7 +116,7 @@ const page = () => {
 										<img src="/Variety.png" alt="limpiar" />
 									</div>
 									<div className="position-absolute alltuchtopdown bottom-0 start-0 m-md-5 backdrop-filter rounded-4 px-7 py-4 text-center z-1">
-										<p className="pt-2">Loved by over 4k <br /> happy clients</p>
+										<p className="pt-2">Loved by over 2k <br /> Facility Managers</p>
 										<div className="d-flex align-items-center justify-content-center py-4">
 											<img src="/assets/imgs/features-3/avatar-1.png" alt="limpiar" />
 											<img className="avt-hero z-1" src="/assets/imgs/features-3/avatar-2.png" alt="limpiar" />
@@ -147,18 +147,26 @@ const page = () => {
 									<div className="col-md-6 col-lg-12">
 										<div className="backdrop-filter bg-linear-2 rounded-4 px-6 py-4 z-1">
 											<div className="d-flex align-items-center justify-content-between">
-												<div className="my-lg-3 text-center">
-													<span className="h2 count fw-black mb-0 lh-1 text-white text-nowrap">+<span className="odometer" /><CountUp end={23} enableScrollSpy={true} />k</span>
-													<p className="text-white text-nowrap border-opacity-50 border-white pb-3 mb-3">Projects Completed</p>
-													<span className="h2 count fw-black my-0 lh-1 text-white text-nowrap">+<span className="odometer" /><CountUp end={98} enableScrollSpy={true} />k</span>
-													<p className="text-white text-nowrap mb-0">Happy Clients</p>
-												</div>
-												<div className="my-lg-3 text-center">
-													<span className="h2 count fw-black mb-0 lh-1 text-white text-nowrap">+<span className="odometer" /><CountUp end={38} enableScrollSpy={true} />k</span>
-													<p className="text-white text-nowrap border-opacity-50 border-white pb-3 mb-3">Users Actived</p>
-													<span className="h2 count fw-black my-0 lh-1 text-white text-nowrap"><span className="odometer" /><CountUp end={150} enableScrollSpy={true} /></span>
-													<p className="text-white text-nowrap mb-0">Operating countries</p>
-												</div>
+                        <div className="my-lg-3 text-center">
+                          <span className="h2 count fw-black mb-0 lh-1 text-white text-nowrap">
+                            <CountUp end={92} enableScrollSpy={true} />%
+                          </span>
+                          <p className="text-white text-nowrap border-opacity-50 border-white pb-3 mb-3">Faster Orders</p>
+                          <span className="h2 count fw-black my-0 lh-1 text-white text-nowrap">
+                            <CountUp end={37} enableScrollSpy={true} />%
+                          </span>
+                          <p className="text-white text-nowrap mb-0">Cost Saved</p>
+                        </div>
+                        <div className="my-lg-3 text-center">
+                          <span className="h2 count fw-black mb-0 lh-1 text-white text-nowrap">
+                            +<CountUp end={500} enableScrollSpy={true} />k
+                          </span>
+                          <p className="text-white text-nowrap border-opacity-50 border-white pb-3 mb-3">Jobs Done</p>
+                          <span className="h2 count fw-black my-0 lh-1 text-white text-nowrap">
+                            <CountUp end={15} enableScrollSpy={true} />
+                          </span>
+                          <p className="text-white text-nowrap mb-0">Countries</p>
+                        </div>
 											</div>
 										</div>
 									</div>
@@ -205,7 +213,7 @@ const page = () => {
 											<h5 className="my-3">Ai driven Workflows</h5>
 											<p className="mb-6">Beauis utter enim amet lacus ornare ullamcorper Praesent
 												neque purus rhoncus.</p>
-											<Link href="#" className="text-primary fs-7 fw-bold">
+											{/* <Link href="#" className="text-primary fs-7 fw-bold">
 												Learn More
 												<svg className=" ms-2 " xmlns="http://www.w3.org/2000/svg" width={19} height={18} viewBox="0 0 19 18" fill="none">
 													<g clipPath="url(#clip0_399_9647)">
@@ -217,7 +225,7 @@ const page = () => {
 														</clipPath>
 													</defs>
 												</svg>
-											</Link>
+											</Link> */}
 											<div className="rectangle position-absolute bottom-0 start-50 translate-middle-x" />
 										</div>
 									</SwiperSlide>
@@ -231,7 +239,7 @@ const page = () => {
 											<h5 className="my-3">Predictive Maintenance</h5>
 											<p className="mb-6">Beauis utter enim amet lacus ornare ullamcorper Praesent
 												neque purus rhoncus.</p>
-											<Link href="#" className="text-primary fs-7 fw-bold">
+											{/* <Link href="#" className="text-primary fs-7 fw-bold">
 												Learn More
 												<svg className=" ms-2 " xmlns="http://www.w3.org/2000/svg" width={19} height={18} viewBox="0 0 19 18" fill="none">
 													<g clipPath="url(#clip0_399_9647)">
@@ -243,7 +251,7 @@ const page = () => {
 														</clipPath>
 													</defs>
 												</svg>
-											</Link>
+											</Link> */}
 											<div className="rectangle position-absolute bottom-0 start-50 translate-middle-x" />
 										</div>
 									</SwiperSlide>
@@ -257,7 +265,7 @@ const page = () => {
 											<h5 className="my-3">Vendor Intelligence</h5>
 											<p className="mb-6">Beauis utter enim amet lacus ornare ullamcorper Praesent
 												neque purus rhoncus.</p>
-											<Link href="#" className="text-primary fs-7 fw-bold">
+											{/* <Link href="#" className="text-primary fs-7 fw-bold">
 												Learn More
 												<svg className=" ms-2 " xmlns="http://www.w3.org/2000/svg" width={19} height={18} viewBox="0 0 19 18" fill="none">
 													<g clipPath="url(#clip0_399_9647)">
@@ -269,7 +277,7 @@ const page = () => {
 														</clipPath>
 													</defs>
 												</svg>
-											</Link>
+											</Link> */}
 											<div className="rectangle position-absolute bottom-0 start-50 translate-middle-x" />
 										</div>
 									</SwiperSlide>
@@ -277,13 +285,13 @@ const page = () => {
 										<div className="card-service-4 position-relative bg-white p-6 border rounded-3 text-center shadow-1 hover-up mt-2">
 											<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3 me-5">
 												<div className="icon">
-													<img src="/assets/imgs/service-3/icon-4.svg" alt="limpiar" />
+													<img src="/assets/imgs/service-3/icon-1.svg" alt="limpiar" />
 												</div>
 											</div>
 											<h5 className="my-3">Sustainability Tracking</h5>
 											<p className="mb-6">Beauis utter enim amet lacus ornare ullamcorper Praesent
 												neque purus rhoncus.</p>
-											<Link href="#" className="text-primary fs-7 fw-bold">
+											{/* <Link href="#" className="text-primary fs-7 fw-bold">
 												Learn More
 												<svg className=" ms-2 " xmlns="http://www.w3.org/2000/svg" width={19} height={18} viewBox="0 0 19 18" fill="none">
 													<g clipPath="url(#clip0_399_9647)">
@@ -295,7 +303,7 @@ const page = () => {
 														</clipPath>
 													</defs>
 												</svg>
-											</Link>
+											</Link> */}
 											<div className="rectangle position-absolute bottom-0 start-50 translate-middle-x" />
 										</div>
 									</SwiperSlide>
@@ -309,7 +317,7 @@ const page = () => {
 											<h5 className="my-3">Centralized Dashboard</h5>
 											<p className="mb-6">Beauis utter enim amet lacus ornare ullamcorper Praesent
 												neque purus rhoncus.</p>
-											<Link href="#" className="text-primary fs-7 fw-bold">
+											{/* <Link href="#" className="text-primary fs-7 fw-bold">
 												Learn More
 												<svg className=" ms-2 " xmlns="http://www.w3.org/2000/svg" width={19} height={18} viewBox="0 0 19 18" fill="none">
 													<g clipPath="url(#clip0_399_9647)">
@@ -321,7 +329,7 @@ const page = () => {
 														</clipPath>
 													</defs>
 												</svg>
-											</Link>
+											</Link> */}
 											<div className="rectangle position-absolute bottom-0 start-50 translate-middle-x" />
 										</div>
 									</SwiperSlide>
@@ -335,7 +343,7 @@ const page = () => {
 											<h5 className="my-3">Control</h5>
 											<p className="mb-6">Beauis utter enim amet lacus ornare ullamcorper Praesent
 												neque purus rhoncus.</p>
-											<Link href="#" className="text-primary fs-7 fw-bold">
+											{/* <Link href="#" className="text-primary fs-7 fw-bold">
 												Learn More
 												<svg className=" ms-2 " xmlns="http://www.w3.org/2000/svg" width={19} height={18} viewBox="0 0 19 18" fill="none">
 													<g clipPath="url(#clip0_399_9647)">
@@ -347,7 +355,7 @@ const page = () => {
 														</clipPath>
 													</defs>
 												</svg>
-											</Link>
+											</Link> */}
 											<div className="rectangle position-absolute bottom-0 start-50 translate-middle-x" />
 										</div>
 									</SwiperSlide>
@@ -448,7 +456,7 @@ const page = () => {
                   {" "}
                   Need more help? Go to our{" "}
                   <Link
-                    href="/ #"
+                    href="/contact"
                     className="text-primary text-decoration-underline"
                   >
                     Support Center
@@ -541,19 +549,19 @@ const page = () => {
             <div className="container">
               <div className="row align-items-center">
                 <div className="col-lg-3 pb-lg-0 pb-8">
-                  <h4 className="text-nowrap">
+                  <h4 className="text-nowrap ">
                     Industries<br />
                     We serve
                   </h4>
-                  <p className="pt-2 pb-4">
+                  {/* <p className="pt-2 pb-4">
                     We helped these brands turn online assessments into success
                     stories.{" "}
-                  </p>
+                  </p> */}
                   <Link
-                    href="#"
-                    className="shadow-1 btn text-start bg-white d-inline-block text-primary hover-up"
+                    href="https://api.leadconnectorhq.com/widget/form/c3PUsJgtYjyol6QQfUdM"
+                    className="mt-5 shadow-1 btn text-start bg-white d-inline-block text-primary hover-up"
                   >
-                    View our partners
+                    Request a demo
                     <svg
                       className="ms-3"
                       xmlns="http://www.w3.org/2000/svg"
@@ -570,33 +578,40 @@ const page = () => {
                     </svg>
                   </Link>
                 </div>
-                <div className="col-lg-9 ps-lg-8">
-                  <div className="bg-white py-3 px-3 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
+                <div className="col-lg-9 ps-lg-8 ">
+                  <div className="py-3 px-3 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
+                   <img
+                    className="rounded-4"
+                    src="/rimberio-fit.webp"
+                    alt="limpiar"
+                    style={{ height: 100, width: 100 }}
+                  />
+                  </div>
+                  <div className=" py-3 px-3 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
                     <img
-                      className="filter-invert"
-                      src="/assets/imgs/logo-cloud-3/logo-1.svg"
+                      className="rounded-4"
+                      src="/rimberio-rest.webp"
                       alt="limpiar"
+                      style={{ height: 100, width: 100 }}
                     />
                   </div>
-                  <div className="bg-white py-3 px-3 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
-                    <img
-                      src="/assets/imgs/logo-cloud-3/logo-2.svg"
-                      alt="limpiar"
-                    />
+                  <div className=" py-3 px-3 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
+                      <img
+                    className="rounded-4"
+                    src="/restaurant.webp"
+                    alt="limpiar"
+                    style={{ height: 80, width: 100 }}
+                  />
                   </div>
-                  <div className="bg-white py-3 px-3 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
+                  <div className=" py-3 px-3 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
                     <img
-                      src="/assets/imgs/logo-cloud-3/logo-3.svg"
-                      alt="limpiar"
-                    />
+                    className="rounded-4"
+                    src="/underground.png"
+                    alt="limpiar"
+                    style={{ height: 100, width: 100 }}
+                  />
                   </div>
-                  <div className="bg-white py-3 px-3 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
-                    <img
-                      src="/assets/imgs/logo-cloud-3/logo-4.svg"
-                      alt="limpiar"
-                    />
-                  </div>
-                  <div className="bg-white py-4 px-4 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
+                  <div className=" py-4 px-4 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
                     {/* <img src="/assets/imgs/logo-cloud-3/logo-5.svg" alt="limpiar"> */}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -629,57 +644,68 @@ const page = () => {
                       </defs>
                     </svg>
                   </div>
-                  <div className="bg-white py-3 px-3 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
+                  <div className=" py-3 px-3 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
                     <img
-                      src="/assets/imgs/logo-cloud-3/logo-6.svg"
-                      alt="limpiar"
-                    />
+                    className="rounded-4"
+                    src="/SUDDATH.png"
+                    alt="limpiar"
+                    style={{ height: 100, width: 100 }}
+                  />
                   </div>
-                  <div className="bg-white py-3 px-3 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
-                    <img
-                      className="filter-invert"
-                      src="/assets/imgs/logo-cloud-3/logo-8.svg"
-                      alt="limpiar"
-                    />
+                  
+                  <div className=" py-3 mt-8 px-3 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
+                      <img
+                    className="rounded-4"
+                    src="/pf-changs.png"
+                    alt="limpiar"
+                    style={{ height: 100, width: 100 }}
+                  />
                   </div>
-                  <div className="bg-white py-3 px-3 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
-                    <img
-                      className="filter-invert"
-                      src="/assets/imgs/logo-cloud-3/logo-9.svg"
-                      alt="limpiar"
-                    />
+                  <div className="mt-8 py-3 px-3 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
+                     <img
+                        className="rounded-4"
+                        src="/aldena.webp"
+                        alt="limpiar"
+                        style={{ height: 100, width: 100 }}
+                      />
                   </div>
-                  <div className="bg-white py-3 px-3 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
-                    <img
-                      src="/assets/imgs/logo-cloud-3/logo-3.svg"
-                      alt="limpiar"
-                    />
+                  <div className="mt-8 py-3 px-3 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
+                  <img
+                        className="rounded-4"
+                        src="/PRIDE-INDUSTRIES.png"
+                        alt="limpiar"
+                        style={{ height: 100, width: 100 }}
+                      />
                   </div>
-                  <div className="bg-white py-3 px-3 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
-                    <img
-                      className="filter-invert"
-                      src="/assets/imgs/logo-cloud-3/logo-13.svg"
-                      alt="limpiar"
-                    />
+                  <div className="mt-8 py-3 px-3 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
+                <img
+                        className="rounded-4"
+                        src="/LA-FITNESS.png"
+                        alt="limpiar"
+                        style={{ height: 100, width: 100 }}
+                      />
                   </div>
-                  <div className="bg-white py-3 px-3 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
-                    <img
-                      src="/assets/imgs/logo-cloud-3/logo-11.svg"
-                      alt="limpiar"
-                    />
+                  <div className="mt-8 py-3 px-3 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
+                     <img
+                        className="rounded-4"
+                        src="/PETSMART.png"
+                        alt="limpiar"
+                        style={{ height: 120, width: 100 }}
+                      />
                   </div>
-                  <div className="bg-white py-3 px-3 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
+                  <div className="mt-8 py-3 px-3 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
                     <img
-                      className="filter-invert"
-                      src="/assets/imgs/logo-cloud-3/logo-12.svg"
-                      alt="limpiar"
-                    />
+                        className="rounded-4"
+                        src="/restaurant.webp"
+                        alt="limpiar"
+                        style={{ height: 100, width: 100 }}
+                      />
                   </div>
-                  <div className="bg-white py-3 px-3 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
-                    <img
+                  <div className="mt-8 py-3 px-3 shadow-1 rounded-2 align-self-center icon-height icon-shape hover-up me-2 mb-2">
+                    {/* <img
                       src="/assets/imgs/logo-cloud-3/logo-7.svg"
                       alt="limpiar"
-                    />
+                    /> */}
                   </div>
                 </div>
               </div>
