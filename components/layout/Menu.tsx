@@ -120,7 +120,7 @@ export default function Menu() {
                             />
                             <div className="position-absolute top-40 start-50 translate-middle z-0">
                               {/* <img className="ms-1 pt-2" src="assets/imgs/template/logo.png" alt="limpiar" /> */}
-                              <p className="fs-7 pt-2 fw-bold text-900 text-center my-3 text-nowrap">
+                              <p className="fs-7 pt-5 fw-bold text-900 text-center my-5 text-nowrap">
                                 Automated operations
                                 <br /> made simple
                               </p>
