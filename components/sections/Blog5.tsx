@@ -18,8 +18,8 @@ export default function Blog2() {
 									<img src="/assets/imgs/features-1/dots.png" alt="limpiar" />
 									<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Case study</span>
 								</div>
-								<h3 className="ds-3 mt-3 mb-3" data-aos="fade-zoom-in" data-aos-delay={0}>Our Latest Case study and Articles</h3>
-								<span className="fs-5 fw-medium" data-aos="fade-zoom-in" data-aos-delay={0}>Explore the insights and trends shaping our industry. 🔥 </span>
+								<h3 className="ds-3 mt-3 mb-3" data-aos="fade-zoom-in" data-aos-delay={0}>Our Latest Case study</h3>
+								<span className="fs-5 fw-medium" data-aos="fade-zoom-in" data-aos-delay={0}>See how we’ve helped leading companies achieve their goals and improve their operations.🔥 </span>
 								<div className="d-flex align-items-center mt-8">
 									<Link href="/case-study" className="fw-bold btn bg-white text-primary hover-up">See all case studies
 										<svg className="ms-2" xmlns="http://www.w3.org/2000/svg" width={24} height={14} viewBox="0 0 24 14" fill="none">

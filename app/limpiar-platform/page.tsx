@@ -211,8 +211,7 @@ const page = () => {
 												</div>
 											</div>
 											<h5 className="my-3">Ai driven Workflows</h5>
-											<p className="mb-6">Beauis utter enim amet lacus ornare ullamcorper Praesent
-												neque purus rhoncus.</p>
+											<p className="mb-6">From request to resolution, streamline every step with automation that eliminates delays and manual effort.</p>
 											{/* <Link href="#" className="text-primary fs-7 fw-bold">
 												Learn More
 												<svg className=" ms-2 " xmlns="http://www.w3.org/2000/svg" width={19} height={18} viewBox="0 0 19 18" fill="none">
@@ -237,8 +236,7 @@ const page = () => {
 												</div>
 											</div>
 											<h5 className="my-3">Predictive Maintenance</h5>
-											<p className="mb-6">Beauis utter enim amet lacus ornare ullamcorper Praesent
-												neque purus rhoncus.</p>
+											<p className="mb-6">Stay ahead of costly breakdowns with AI that monitors asset health and predicts failures before they happen.</p>
 											{/* <Link href="#" className="text-primary fs-7 fw-bold">
 												Learn More
 												<svg className=" ms-2 " xmlns="http://www.w3.org/2000/svg" width={19} height={18} viewBox="0 0 19 18" fill="none">
@@ -263,8 +261,7 @@ const page = () => {
 												</div>
 											</div>
 											<h5 className="my-3">Vendor Intelligence</h5>
-											<p className="mb-6">Beauis utter enim amet lacus ornare ullamcorper Praesent
-												neque purus rhoncus.</p>
+											<p className="mb-6">Easily manage vendors with transparency into performance, compliance, and costs.</p>
 											{/* <Link href="#" className="text-primary fs-7 fw-bold">
 												Learn More
 												<svg className=" ms-2 " xmlns="http://www.w3.org/2000/svg" width={19} height={18} viewBox="0 0 19 18" fill="none">
@@ -289,8 +286,7 @@ const page = () => {
 												</div>
 											</div>
 											<h5 className="my-3">Sustainability Tracking</h5>
-											<p className="mb-6">Beauis utter enim amet lacus ornare ullamcorper Praesent
-												neque purus rhoncus.</p>
+											<p className="mb-6">Measure, report, and improve sustainability metrics across your properties.</p>
 											{/* <Link href="#" className="text-primary fs-7 fw-bold">
 												Learn More
 												<svg className=" ms-2 " xmlns="http://www.w3.org/2000/svg" width={19} height={18} viewBox="0 0 19 18" fill="none">
@@ -315,8 +311,7 @@ const page = () => {
 												</div>
 											</div>
 											<h5 className="my-3">Centralized Dashboard</h5>
-											<p className="mb-6">Beauis utter enim amet lacus ornare ullamcorper Praesent
-												neque purus rhoncus.</p>
+											<p className="mb-6">All your property operations, in one simple view.</p>
 											{/* <Link href="#" className="text-primary fs-7 fw-bold">
 												Learn More
 												<svg className=" ms-2 " xmlns="http://www.w3.org/2000/svg" width={19} height={18} viewBox="0 0 19 18" fill="none">
@@ -341,8 +336,7 @@ const page = () => {
 												</div>
 											</div>
 											<h5 className="my-3">Control</h5>
-											<p className="mb-6">Beauis utter enim amet lacus ornare ullamcorper Praesent
-												neque purus rhoncus.</p>
+											<p className="mb-6">Access data you need to make informed decisions and maintain full control over every aspect of your property operations.</p>
 											{/* <Link href="#" className="text-primary fs-7 fw-bold">
 												Learn More
 												<svg className=" ms-2 " xmlns="http://www.w3.org/2000/svg" width={19} height={18} viewBox="0 0 19 18" fill="none">
@@ -383,7 +377,7 @@ const page = () => {
               </div>
               <h3 className="ds-3 my-3 fw-black">How It Works</h3>
               <p className="fs-5 mb-0">
-                Comprehensive Suite of Cutting-Edge IT Services.
+                Connect, Automate and Optimize Your Operations
               </p>
             </div>
           </div>
@@ -404,8 +398,7 @@ const page = () => {
                   </div>
                   <h5 className="my-3">Connect</h5>
                   <p className="mb-6">
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page.
+                   Connect with vetted service providers on one single platform.
                   </p>
                 </div>
               </div>
@@ -421,8 +414,7 @@ const page = () => {
                   </div>
                   <h5 className="my-3">Automate</h5>
                   <p className="mb-6">
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page.
+                  Leverage our AI-driven workflows to automate routine and respond to operations instantly.
                   </p>
                 </div>
               </div>
@@ -438,8 +430,7 @@ const page = () => {
                   </div>
                   <h5 className="my-3">Optimise</h5>
                   <p className="mb-6">
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page.
+                    Use the power of our data analytics to continuously improve your property operations performance.
                   </p>
                 </div>
               </div>

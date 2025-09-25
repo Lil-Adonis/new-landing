@@ -15,7 +15,7 @@ export default function Testimonial1() {
 									<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Testimonials</span>
 								</div>
 								<h3 className="ds-3 mt-3 mb-3" data-aos="fade-zoom-in" data-aos-delay={100}>What our clients say</h3>
-								<span className="fs-5 fw-medium" data-aos="fade-zoom-in" data-aos-delay={300}>Access top-tier group mentoring plans and exclusive professional benefits for your team. 🔥</span>
+								<span className="fs-5 fw-medium" data-aos="fade-zoom-in" data-aos-delay={300}>See what our clients have to say about working with us. 🔥</span>
 								<div className="d-flex flex-wrap align-items-center mt-8">
 									<Link href="/page-contact-1" className="btn btn-outline-secondary hover-up" data-aos="fade-zoom-in" data-aos-delay={100}>
 										<svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">

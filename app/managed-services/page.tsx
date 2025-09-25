@@ -20,7 +20,7 @@ const page = () => {
 								Facility Services, simplified<br />
 								{/* <span className="fw-bold" data-aos="fade-zoom-in" data-aos-delay={20}>High-Quality</span> Video and Audio */}
 							</h3>
-                            <p>From Janitorial to preventive maintenance, Limpiar's Managed Services give you a reliable, nationwide <br/>network oof providers, all managed through our platform</p>
+                            <p>From Janitorial to preventive maintenance, Limpiar's Managed Services give you a reliable, nationwide <br/>network of providers, all managed through our platform</p>
 							<div className="d-flex gap-3 pt-10 flex-column flex-md-row justify-content-center">
 								<Link href="https://api.leadconnectorhq.com/widget/booking/N59Uzph3F1P9QB1CfZLS" className="btn btn-gradient" >
 									Get Started
@@ -237,7 +237,7 @@ const page = () => {
               </div>
               <h3 className="ds-3 my-3 fw-black">How It Works</h3>
               <p className="fs-5 mb-0">
-                Comprehensive Suite of Cutting-Edge IT Services.
+                A seamless Process for Getting Things Done
               </p>
             </div>
           </div>
@@ -258,8 +258,7 @@ const page = () => {
                   </div>
                   <h5 className="my-3">Request Service</h5>
                   <p className="mb-6">
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page.
+                    Easily submit a service request through our intuitive platform.
                   </p>
                 </div>
               </div>
@@ -275,8 +274,7 @@ const page = () => {
                   </div>
                   <h5 className="my-3">Get Matched</h5>
                   <p className="mb-6">
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page.
+                  Our intelligent system automatically matches your request with the best-suited vendor or service provider.
                   </p>
                 </div>
               </div>
@@ -292,8 +290,7 @@ const page = () => {
                   </div>
                   <h5 className="my-3">Track Results</h5>
                   <p className="mb-6">
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page.
+                   Monitor the progress of your request, receive status updates, and view completion reports from a centralized dashboard.
                   </p>
                 </div>
               </div>
@@ -327,7 +324,7 @@ const page = () => {
 										<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Download Mobile App</span>
 									</div> */}
 									<h2 className=" mt-3 mb-4 fw-black">Why Limpiar Managed Services ?</h2>
-									<p className="mb-6">⚡Don't miss any contact. Stay connected.</p>
+									<p className="mb-6">Unlock efficiency, reliability, and peace of mind with our all-in-one management platform.</p>
 									<ul className="list-unstyled phase-items">
 										<li>
 											<div  className="phase-item d-flex align-items-center mb-3">
@@ -365,7 +362,7 @@ const page = () => {
 												<img src="/assets/imgs/cta-3/icon-contact.svg" alt="limpiar" />
 												<span className="ms-3">
 													<span className="text-white text-uppercase mb-0 fs-7">Contact Us</span>
-													<span className="fs-4 d-block">+01 (24) 568 900</span>
+													<span className="fs-4 d-block">(833) 546 - 7427</span>
 												</span>
 											</Link>
 										</div>

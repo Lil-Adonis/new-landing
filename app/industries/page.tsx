@@ -24,7 +24,7 @@ const CoreValuesSection: React.FC = () => {
     },
     {
       title: "Grocery & Convenience",
-      description: "Seamless daily upkeep",
+      description: "Seamless daily upkeep.",
       label : "track refrigeration, vendor deliveries, and daily upkeep to prevent disruptions."
     },
     {
@@ -34,15 +34,15 @@ const CoreValuesSection: React.FC = () => {
     },
     {
       title: "Education",
-      description: "Safe, efficient campuses",
+      description: "Safe, efficient campuses.",
       label : "keep campuses running with scheduled maintenance, vendor oversight, and safety compliance."
     },
 
 
       {
       title: "Corporate Offices",
-      description: " Streamlined workplace ops",
-      label : "waiting on demi"
+      description: " Streamlined workplace ops.",
+      label : "Simplify maintenance requests, vendor coordination, and cleaning schedules so employees can focus on productivity."
 
     },
 
@@ -50,8 +50,8 @@ const CoreValuesSection: React.FC = () => {
 
       {
       title: "Industrial & Warehousing",
-      description: " Reduce downtime, boost output",
-      label : "waiting on demi"
+      description: " Reduce downtime, boost output.",
+      label : "Stay on top of equipment maintenance, facility upkeep, and safety compliance to keep operations running smoothly."
     }
   ];
 

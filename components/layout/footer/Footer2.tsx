@@ -67,24 +67,24 @@ export default function Footer2() {
 												<div className="mb-3">
 													<div className="d-flex align-items-center mb-2">
 														<i className="bi bi-geo-alt-fill me-2 text-primary" />
-														<span className="text-900 fw-medium">123 Main Street, City, Country</span>
+														<span className="text-900 fw-medium">Dallas Texas, United States</span>
 													</div>
 													<div className="d-flex align-items-center mb-2">
 														<i className="bi bi-envelope-fill me-2 text-primary" />
-														<span className="text-900 fw-medium">contact.tech@gmail.com</span>
+														<span className="text-900 fw-medium">helpdesk@uselimpiar.online</span>
 													</div>
-													<div className="d-flex align-items-center mb-2">
+													{/* <div className="d-flex align-items-center mb-2">
 														<i className="bi bi-envelope-fill me-2 text-primary" />
 														<span className="text-900 fw-medium">info@limpiar.com</span>
-													</div>
+													</div> */}
 													<div className="d-flex align-items-center mb-2">
 														<i className="bi bi-telephone-fill me-2 text-primary" />
-														<span className="text-900 fw-medium">+880 123 654 789 00</span>
+														<span className="text-900 fw-medium">(833) 546 - 7427</span>
 													</div>
-													<div className="d-flex align-items-center">
+													{/* <div className="d-flex align-items-center">
 														<i className="bi bi-telephone-fill me-2 text-primary" />
 														<span className="text-900 fw-medium">+001 6520 698 00</span>
-													</div>
+													</div> */}
 												</div>
 												<Link
 													href="https://api.leadconnectorhq.com/widget/form/c3PUsJgtYjyol6QQfUdM"
@@ -104,7 +104,7 @@ export default function Footer2() {
 						<div className="container">
 							<div className="row">
 								<div className="d-flex flex-column flex-md-row align-items-center justify-content-between gap-3 py-4 border-top border-white border-opacity-10">
-									<p className="text-900 opacity-50 mb-0 fs-7">Copyright © 2024 Limpiar. All Rights Reserved</p>
+									<p className="text-900 opacity-50 mb-0 fs-7">Copyright © 2025 Limpiar. All Rights Reserved</p>
 									<div className="d-flex">
 										<Link href="/privacy-policy" className="text-900 me-3"> Privacy policy </Link>
 										{/* <Link href="/#" className="text-900 me-3"> Cookies </Link> */}

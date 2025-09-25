@@ -76,8 +76,7 @@ export default function Menu() {
                                   Limpiar Managed Services
                                 </Link>
                                 <p style={{ fontSize: "0.85rem" }}>
-                                  Your all-in-one hub for autonomous property
-                                  operations
+                                 Extend your team with trusted cleaning, maintenance, and vendor partners.
                                 </p>
                               </li>
 
@@ -100,8 +99,7 @@ export default function Menu() {
                                   Limpiar App Service
                                 </Link>
                                 <p style={{ fontSize: "0.85rem" }}>
-                                  Your all-in-one hub for autonomous property
-                                  operations
+                                Mobile-first tools for internal teams to streamline daily operations.
                                 </p>
                               </li>
                               {/* <li><Link className="dropdown-item position-relative z-1" href="">Centralized Dashboard</Link>

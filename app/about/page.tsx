@@ -488,15 +488,17 @@ export default function PageAbout3() {
                     height={110}
                   />
                   <div className="ms-2">
-                    <p className="fs-6 text-900 mb-2" style={{fontStyle: 'italic', fontWeight: 'bold'}}>
-                      Demi Oloyede
-                    </p>
+                
                     <h6 className="mt-1 mb-0">
                       Demi Oloyede <br />
                       <span className="text-500 fs-6">
                         Founder & CEO, Limpiar
                       </span>
                     </h6>
+
+                        <p className="fs-6 text-900 mb-2" style={{fontStyle: 'italic', fontWeight: 'bold'}}>
+                      Demi Oloyede
+                    </p>
                   </div>
                 </div>
               </div>
