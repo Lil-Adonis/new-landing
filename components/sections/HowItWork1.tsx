@@ -99,10 +99,38 @@ export default function HowItWork1() {
 											</svg>
 										</span>
 										<span className="fw-bold fs-7 text-900">
-											Video Guide
+											Watch more
 										</span>
 									</Link>
-									<ModalVideo channel='youtube' isOpen={isOpen} videoId="gXFATcwrO-U" onClose={() => setOpen(false)} />
+									<div
+										className={`modal-video ${isOpen ? 'modal-video-open' : ''}`}
+										style={{
+											display: isOpen ? 'block' : 'none',
+											position: 'fixed',
+											top: 0,
+											left: 0,
+											width: '100%',
+											height: '100%',
+											backgroundColor: 'rgba(0,0,0,0.8)',
+											zIndex: 9999
+										}}
+										onClick={() => setOpen(false)}
+									>
+										<video
+											src="/Announcement.mp4"
+											controls
+											autoPlay
+											style={{
+												position: 'absolute',
+												top: '50%',
+												left: '50%',
+												transform: 'translate(-50%, -50%)',
+												maxWidth: '90%',
+												maxHeight: '90%'
+											}}
+											onClick={(e) => e.stopPropagation()}
+										/>
+									</div>
 									<Link href="https://api.leadconnectorhq.com/widget/booking/N59Uzph3F1P9QB1CfZLS" className="btn btn-gradient d-none d-md-block rounded-4">
 										Get started
 										<svg className="ms-2" xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">

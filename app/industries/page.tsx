@@ -9,40 +9,49 @@ const CoreValuesSection: React.FC = () => {
   const values = [
     {
       title: "Restaurants",
-      description: "Front to back of house, simplified."
+      description: "Front to back of house, simplified.",
+      label : "manage vendors, tracks repairs, and keeps kitchens compliant, all in one place."
     },
     {
       title: "Healthcare",
-      description: "Stay compliant, stay operational."
+      description: "Stay compliant, stay operational.",
+      label : "ensure facilities meet strict regulations while automating work orders for critical systems."
     },
     {
       title: "Gym & Fitness",
-      description: "Always clean, always ready."
+      description: "Always clean, always ready.",
+      label : "sync with class schedules and automate cleaning/maintenance so members never see downtime."
     },
     {
       title: "Grocery & Convenience",
-      description: "Seamless daily upkeep"
+      description: "Seamless daily upkeep",
+      label : "track refrigeration, vendor deliveries, and daily upkeep to prevent disruptions."
     },
     {
       title: "Hospitality & Medspace",
-      description: "Deliver flawless guest experience."
+      description: "Deliver flawless guest experience.",
+      label : "centralize cleaning, repairs, and vendor tasks to ensure guests always experience excellence."
     },
     {
       title: "Education",
-      description: "Safe, efficient campuses"
+      description: "Safe, efficient campuses",
+      label : "keep campuses running with scheduled maintenance, vendor oversight, and safety compliance."
     },
 
 
       {
       title: "Corporate Offices",
-      description: " Streamlined workplace ops"
+      description: " Streamlined workplace ops",
+      label : "waiting on demi"
+
     },
 
 
 
       {
       title: "Industrial & Warehousing",
-      description: " Reduce downtime, boost output"
+      description: " Reduce downtime, boost output",
+      label : "waiting on demi"
     }
   ];
 
@@ -112,11 +121,10 @@ const CoreValuesSection: React.FC = () => {
                             className="display-4 fw-bold text-white mb-4"
                             style={{ fontSize: 'clamp(1.5rem, 3vw, 2.5rem)' }}
                         >
-                            High Performance
-                            Services For All Industries.
+                            Automation for Every Industry
                         </h1>
                         <p className="text-white fs-5 mb-5" style={{ opacity: 0.9 }}>
-                            No Matter the Industries, the Results are the same
+                            Limpiar’s Automated Maintenance System simplifies operations for gyms, restaurants, retail, and more
                         </p>
                     </div>
                 </div>
@@ -164,6 +172,7 @@ const CoreValuesSection: React.FC = () => {
                                     >
                                         {value.description}
                                     </p>
+                                    <p className="text-white mb-0 small">{value.label}</p>
                                 </div>
                             </div>
                         ))}

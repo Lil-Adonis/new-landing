@@ -239,15 +239,15 @@ export default function PageServices2() {
 										</li>
 									</ul>
 									<div className="d-flex align-items-center mb-8 gap-2">
-										<Link href="#">
+										<Link href="">
 											<img src="/assets/imgs/cta-1/app-1.png" alt="limpiar" />
 										</Link>
-										<Link href="#">
+										<Link href="">
 											<img src="/assets/imgs/cta-1/app-2.png" alt="limpiar" />
 										</Link>
-										<Link href="#">
+										{/* <Link href="#">
 											<img src="/assets/imgs/cta-1/app-3.png" alt="limpiar" />
-										</Link>
+										</Link> */}
 									</div>
 									<div className="d-flex align-items-center">
 										<div className="d-flex">
