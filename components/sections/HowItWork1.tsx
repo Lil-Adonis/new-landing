@@ -119,7 +119,7 @@ export default function HowItWork1() {
 										<video
 											src="/Announcement.mp4"
 											controls
-											autoPlay
+											
 											style={{
 												position: 'absolute',
 												top: '50%',
