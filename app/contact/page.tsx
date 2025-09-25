@@ -69,7 +69,7 @@ export default function PageContact1() {
 									<h6>Business Department</h6>
 									<p className="text-500">
 										Contact the sales department about cooperation projects <br />
-										(+01) 789 456 23
+										+1 945-207-2729
 									</p>
 								</div>
 							</div>

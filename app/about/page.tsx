@@ -60,7 +60,7 @@ export default function PageAbout3() {
                   src="/bfet.png"
                   alt="limpiar"
                   width={700}
-                  height= {300}
+                  height={300}
                 />
               </div>
               <div className="pe-3 position-relative z-1">
@@ -88,7 +88,10 @@ export default function PageAbout3() {
                 <p className="text-900 mb-0">Follow us:</p>
                 <ul className="list-unstyled d-flex mb-0">
                   <li className="ms-3">
-                    <Link href="https://www.facebook.com/share/18TQVwN43S/?mibextid=wwXIfr" target="_blank">
+                    <Link
+                      href="https://www.facebook.com/share/18TQVwN43S/?mibextid=wwXIfr"
+                      target="_blank"
+                    >
                       <span className="icon">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -100,7 +103,10 @@ export default function PageAbout3() {
                     </Link>
                   </li>
                   <li className="ms-3">
-                    <Link href="https://www.instagram.com/limpiaronline/" target="_blank">
+                    <Link
+                      href="https://www.instagram.com/limpiaronline/"
+                      target="_blank"
+                    >
                       <span className="icon">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -422,7 +428,7 @@ export default function PageAbout3() {
                 {/* <p className="fs-5 text-500 mb-8">Loved By Developers Trusted By Enterprises</p> */}
                 <div className="d-flex align-items-center mt-5">
                   <Link href="/careers" className="btn btn-gradient">
-                   Join the team
+                    Join the team
                     <svg
                       className="ms-2"
                       xmlns="http://www.w3.org/2000/svg"
@@ -474,21 +480,21 @@ export default function PageAbout3() {
                   your partner in building smarter, more resilient operations.
                 </p>
                 <div className="d-flex">
-                  <img
+                  <Image
                     className="rounded-circle border border-5 border-primary-light"
-                    src="/assets/imgs/cta-12/avatar-1.png"
+                    src="/demi.jpg"
                     alt=""
+                    width={102}
+                    height={110}
                   />
                   <div className="ms-2">
-                    <img
-                      className="filter-invert"
-                      src="/assets/imgs/cta-12/name.svg"
-                      alt=""
-                    />
+                    <p className="fs-6 text-900 mb-2" style={{fontStyle: 'italic', fontWeight: 'bold'}}>
+                      Demi Oloyede
+                    </p>
                     <h6 className="mt-1 mb-0">
-                      Demi Oloyede{" "}
+                      Demi Oloyede <br />
                       <span className="text-500 fs-6">
-                        , Founder & CEO, Limpiar
+                        Founder & CEO, Limpiar
                       </span>
                     </h6>
                   </div>

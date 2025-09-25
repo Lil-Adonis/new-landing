@@ -106,7 +106,7 @@ export default function Footer2() {
 								<div className="d-flex flex-column flex-md-row align-items-center justify-content-between gap-3 py-4 border-top border-white border-opacity-10">
 									<p className="text-900 opacity-50 mb-0 fs-7">Copyright © 2024 Limpiar. All Rights Reserved</p>
 									<div className="d-flex">
-										<Link href="/#" className="text-900 me-3"> Privacy policy </Link>
+										<Link href="/privacy-policy" className="text-900 me-3"> Privacy policy </Link>
 										{/* <Link href="/#" className="text-900 me-3"> Cookies </Link> */}
 										<Link href="/#" className="text-900 me-3"> Terms of service </Link>
 									</div>
