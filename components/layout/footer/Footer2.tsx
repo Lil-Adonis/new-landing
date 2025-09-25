@@ -15,20 +15,23 @@ export default function Footer2() {
 									</Link>
 									<p className="text-900 fw-medium mt-3 mb-6 opacity-50">Simplifying property operations for facility managers and operators. From work order scheduling to vendor management and inspections, Limpiar helps you stay on top of every detail.</p>
 									<div className="d-flex social-icons">
-										<Link href="/https://www.facebook.com/" className=" text-900 border border-end-0  border-opacity-10 icon-shape icon-md">
+										<Link href="https://www.facebook.com/share/18TQVwN43S/?mibextid=wwXIfr" className=" text-900 border border-end-0  border-opacity-10 icon-shape icon-md">
 											<svg xmlns="http://www.w3.org/2000/svg" width={10} height={17} viewBox="0 0 10 17" fill="none">
 												<path className="fill-dark" d="M8.84863 9.20312H6.5415V16.0938H3.46533V9.20312H0.942871V6.37305H3.46533V4.18896C3.46533 1.72803 4.94189 0.34375 7.1875 0.34375C8.26416 0.34375 9.40234 0.559082 9.40234 0.559082V2.98926H8.14111C6.91064 2.98926 6.5415 3.72754 6.5415 4.52734V6.37305H9.2793L8.84863 9.20312Z" fill="black" />
 											</svg>
 										</Link>
-										<Link href="/https://twitter.com/" className=" text-900 border border-end-0    border-opacity-10 icon-shape icon-md">
-											<i className="bi bi-twitter-x" />
+
+
+
+										<Link href="https://www.instagram.com/limpiaronline/" className=" text-900 border border-end-0    border-opacity-10 icon-shape icon-md">
+											<i className="bi bi-instagram" />
 										</Link>
-										<Link href="/https://www.linkedin.com/" className=" text-900 border    border-opacity-10 icon-shape icon-md">
+										<Link href="https://www.linkedin.com/company/limpiaronline/" className=" text-900 border    border-opacity-10 icon-shape icon-md">
 											<i className="bi bi-linkedin" />
 										</Link>
-										<Link href="/https://www.behance.net/" className=" text-900 border border-start-0    border-opacity-10 icon-shape icon-md">
+										{/* <Link href="/https://www.behance.net/" className=" text-900 border border-start-0    border-opacity-10 icon-shape icon-md">
 											<i className="bi bi-behance" />
-										</Link>
+										</Link> */}
 									</div>
 								</div>
 								<div className="col-lg-8">
@@ -36,10 +39,10 @@ export default function Footer2() {
 										<div className="col-lg-3 col-md-3 col-6">
 											<h3 className="text-900 fs-6 fw-black text-uppercase pb-3 pt-5">Company</h3>
 											<div className="d-flex flex-column align-items-start">
-												<Link className="hover-effect text-900 mb-2 fw-medium fs-6" href="/#">Mission &amp; Vision</Link>
+												<Link className="hover-effect text-900 mb-2 fw-medium fs-6" href="/about">Mission &amp; Vision</Link>
 												<Link className="hover-effect text-900 mb-2 fw-medium fs-6" href="/team">Our Team</Link>
 												<Link className="hover-effect text-900 mb-2 fw-medium fs-6" href="/careers">Careers</Link>
-												<Link className="hover-effect text-900 mb-2 fw-medium fs-6" href="/#">Press &amp; Media</Link>
+												<Link className="hover-effect text-900 mb-2 fw-medium fs-6" href="/podcast">Press &amp; Media</Link>
 
 											</div>
 										</div>

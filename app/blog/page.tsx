@@ -168,19 +168,22 @@ export default function PageBlog1() {
 									<Link href="https://blogs.limpiar.online/post/how-to-choose-and-manage-service-providers-as-a-property-manager" className="position-absolute bottom-0 start-0 end-0 top-0 z-0" />
 								</div>
 							</div>
-							{/* <div className="col-lg-4 col-md-6 text-start">
+
+
+
+							<div className="col-lg-4 col-md-6 text-start">
 								<div className="card border-0 rounded-3 mt-4 position-relative d-inline-flex">
-									<img className="rounded-top-3" src="/assets/imgs/blog-6/img-6.png" alt="limpiar" />
+									<img className="rounded-top-3" src="/sustain.webp" alt="limpiar" />
 									<div className="card-body bg-white p-0">
-										<Link href="#" className="bg-primary-soft position-relative z-1 d-inline-flex rounded-pill px-3 py-2 mt-3">
-											<span className="tag-spacing fs-7 fw-bold text-linear-2 text-uppercase">Technology</span>
+										<Link href="https://blogs.limpiar.online/post/sustainability-as-a-business-advantage-for-service-providers" className="bg-primary-soft position-relative z-1 d-inline-flex rounded-pill px-3 py-2 mt-3">
+											<span className="tag-spacing fs-7 fw-bold text-linear-2 text-uppercase">Sustainability</span>
 										</Link>
-										<h6 className="my-3">Choosing the Right SaaS Solution for Your Business</h6>
-										<p>Selecting the right SaaS solution can be a daunting task with so many options available. This guide breaks down the key...</p>
+										<h6 className="my-3">Sustainability as a Business Advantage for Service Providers</h6>
+										<p>Discover how adopting sustainable practices gives service providers a competitive edge boosting profits, attracting clients, and future-proofing their businesses. Learn why sustainability isn’t just good for the planet, but also good for business.</p>
 									</div>
-									<Link href="#" className="position-absolute bottom-0 start-0 end-0 top-0 z-0" />
+									<Link href="https://blogs.limpiar.online/post/sustainability-as-a-business-advantage-for-service-providers" className="position-absolute bottom-0 start-0 end-0 top-0 z-0" />
 								</div>
-							</div> */}
+							</div>
 							{/* <div className="col-lg-4 col-md-6 text-start">
 								<div className="card border-0 rounded-3 mt-4 position-relative d-inline-flex">
 									<img className="rounded-top-3" src="/assets/imgs/blog-6/img-7.png" alt="limpiar" />
