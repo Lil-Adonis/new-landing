@@ -20,7 +20,7 @@ const page = () => {
 								Facility Services, simplified<br />
 								{/* <span className="fw-bold" data-aos="fade-zoom-in" data-aos-delay={20}>High-Quality</span> Video and Audio */}
 							</h3>
-                            <p>From Janitorial to preventive maintenance, Limpiar's Managed Services give you a reliable, nationwide <br/>network oof providers, all managed throug h our platform</p>
+                            <p>From Janitorial to preventive maintenance, Limpiar's Managed Services give you a reliable, nationwide <br/>network oof providers, all managed through our platform</p>
 							<div className="d-flex gap-3 pt-10 flex-column flex-md-row justify-content-center">
 								<Link href="https://api.leadconnectorhq.com/widget/booking/N59Uzph3F1P9QB1CfZLS" className="btn btn-gradient" >
 									Get Started
