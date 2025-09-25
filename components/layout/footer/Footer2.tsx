@@ -38,7 +38,7 @@ export default function Footer2() {
 											<div className="d-flex flex-column align-items-start">
 												<Link className="hover-effect text-900 mb-2 fw-medium fs-6" href="/#">Mission &amp; Vision</Link>
 												<Link className="hover-effect text-900 mb-2 fw-medium fs-6" href="/team">Our Team</Link>
-												<Link className="hover-effect text-900 mb-2 fw-medium fs-6" href="/#">Careers</Link>
+												<Link className="hover-effect text-900 mb-2 fw-medium fs-6" href="/careers">Careers</Link>
 												<Link className="hover-effect text-900 mb-2 fw-medium fs-6" href="/#">Press &amp; Media</Link>
 
 											</div>

@@ -421,8 +421,8 @@ export default function PageAbout3() {
                 </h5>
                 {/* <p className="fs-5 text-500 mb-8">Loved By Developers Trusted By Enterprises</p> */}
                 <div className="d-flex align-items-center mt-5">
-                  <Link href="https://api.leadconnectorhq.com/widget/form/c3PUsJgtYjyol6QQfUdM" className="btn btn-gradient">
-                    Request Demo
+                  <Link href="/careers" className="btn btn-gradient">
+                   Join the team
                     <svg
                       className="ms-2"
                       xmlns="http://www.w3.org/2000/svg"
