@@ -29,9 +29,9 @@ export default function Footer2() {
 										<Link href="https://www.linkedin.com/company/limpiaronline/" className=" text-900 border    border-opacity-10 icon-shape icon-md">
 											<i className="bi bi-linkedin" />
 										</Link>
-										{/* <Link href="/https://www.behance.net/" className=" text-900 border border-start-0    border-opacity-10 icon-shape icon-md">
-											<i className="bi bi-behance" />
-										</Link> */}
+										<Link href="https://www.youtube.com/@limpiarOnline" className=" text-900 border border-start-0    border-opacity-10 icon-shape icon-md">
+											<i className="bi bi-youtube" />
+										</Link>
 									</div>
 								</div>
 								<div className="col-lg-8">
