@@ -22,12 +22,12 @@ export default function PageFeatures2() {
 	return (
 		<>
 
-			<Layout >
+			 <Layout headerStyle={4} footerStyle={3}>
 
 				
 			
 				{/* feature-13 */}
-				<section className="section-feature-13 border-bottom border-top bg-1 section-padding">
+				<section className="border-bottom border-top bg-1  fix pt-150 position-relative section-hero-4">
 					<div className="text-center container section-padding-mini">
 						<div className=" d-flex align-items-center justify-content-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-4 py-2" data-aos="zoom-in" data-aos-delay={100}>
 							<img src="/assets/imgs/features-1/dots.png" alt="limpiar" />

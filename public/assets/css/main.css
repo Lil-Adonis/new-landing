@@ -2655,9 +2655,9 @@ textarea {
   transition: all 0.9s ease-in-out;
 }
 @media (min-width: 992px) {
-  .navbar.header-4 {
+  /* .navbar.header-4 {
     padding: 20px 0;
-  }
+  } */
 }
 
 @media (min-width: 1200px) {
@@ -13564,6 +13564,10 @@ a:hover {
 
 .pt-150 {
   padding-top: 150px;
+}
+
+.pt-200 {
+  padding-top: 200px;
 }
 
 .pb-150 {
