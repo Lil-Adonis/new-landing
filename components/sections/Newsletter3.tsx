@@ -15,7 +15,7 @@ export default function Newsletter3() {
 										<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Let’s work together</span>
 									</div>
 									<h4 className="my-5">Join 25+ enterprise clients and 10,000+ service providers already using Limpiar to cut costs and boost uptime.</h4>
-									<p className="fs-6 fw-medium text-900">By clicking the button, you are agreeing with our <Link href="#" className="text-decoration-underline link-hover-primary-light">Term  Conditions</Link></p>
+									<p className="fs-6 fw-medium text-900">By clicking the button, you are agreeing with our <Link href="/privacy-policy" className="text-decoration-underline link-hover-primary-light">Term  Conditions</Link></p>
 									<form className="input-group mt-5 position-relative px-2">
 										<input type="text" className="ps-5 py-3 form-control bg-white rounded-start-pill border-2 border-end-0 border-white" name="name" placeholder="Enter your mail .." />
 										<div className="bg-white border-2 border border-start-0 border-white rounded-end-pill">
