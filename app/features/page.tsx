@@ -1,331 +1,684 @@
-
-"use client"
-import Layout from "@/components/layout/Layout"
-import Link from "next/link"
-import { useState } from "react"
+"use client";
+import Layout from "@/components/layout/Layout";
+import Link from "next/link";
+import { useState } from "react";
 export default function PageFeatures2() {
+  const [isNav, setIsNav] = useState(1);
+  const [email, setEmail] = useState("");
 
+  const handleNav = (i: any) => {
+    setIsNav(i);
+  };
 
-		const [isNav, setIsNav] = useState(1)
+  // Accordion
+  const [activeItem, setActiveItem] = useState(1);
 
-	const handleNav = (i: any) => {
-		setIsNav(i)
-	}
+  const handleActiveItem = (index: any) => {
+    setActiveItem(index);
+  };
 
-	// Accordion
-	const [activeItem, setActiveItem] = useState(1)
+  //   const handleSubmitToGHL = async () => {
+  //     try {
+  //       const response = await fetch("https://services.leadconnectorhq.com/hooks/x3y0Qs6W7zH55b6UaM7r/webhook-trigger/00c9c213-6bc7-4442-a4e2-aeb28a96d1f8", {
+  //         method: "POST",
+  //         headers: {
+  //           "Content-Type": "application/json",
+  //           "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJsb2NhdGlvbl9pZCI6InNXR0RpVzh2dE9LZGR3UTk0NG1zIiwiY29tcGFueV9pZCI6IjNIalJCaE5UVjJhZXNFWWJvQUJwIiwidmVyc2lvbiI6MSwiaWF0IjoxNzM0NDgzODc3MDA3LCJzdWIiOiJ1c2VyX2lkIn0.5gVKzl4Nxmf85XEeOmNpIV2fVJBXn4lGE-qX9V2nSvQ"
+  //         },
+  //         body: JSON.stringify({
+  //           email,
+  //           tags: ["newsletter"],
+  //         }),
+  //       });
 
-	const handleActiveItem = (index: any) => {
-		setActiveItem(index)
-	}
+  //       if (response.ok) {
+  //         setEmail("");
+  //         alert('Thank you for subscribing to our newsletter!')
+  //       } else {
+  //         alert('There was an error subscribing to the newsletter. Please try again.')
+  //       }
+  //     } catch (error) {
+  //       console.error('Error submitting to GHL:', error)
+  //       alert('There was an error subscribing to the newsletter. Please try again.')
+  //     }
+  //   };
 
-	return (
-		<>
+  const handleSubmitToGHL = async (e: any) => {
+    e.preventDefault();
+    let data = JSON.stringify({
+      email,
+      locationId: process.env.NEXT_PUBLIC_GHL_LOCATION_ID,
+      tags: ["newsletter"],
+    });
 
-			 <Layout headerStyle={4} footerStyle={3}>
+    let config = {
+      method: "POST",
+      url: "https://services.leadconnectorhq.com/contacts/upsert",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+        Authorization: `Bearer ${process.env.NEXT_PUBLIC_GHL_API_KEY}`,
+        Version: "2021-07-28",
+      },
+      data: data,
+    };
 
-				
-			
-				{/* feature-13 */}
-				<section className="border-bottom border-top bg-1  fix pt-150 position-relative section-hero-4">
-					<div className="text-center container section-padding-mini">
-						<div className=" d-flex align-items-center justify-content-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-4 py-2" data-aos="zoom-in" data-aos-delay={100}>
-							<img src="/assets/imgs/features-1/dots.png" alt="limpiar" />
-							<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Features</span>
-						</div>
-						<h5 className="ds-5 mb-3 mt-4">
-							Smarter Property Operations. <br />
-							Autonomous by Design.
-						</h5>
-						<p className="text-500">
-							Autonomous workflows, predictive maintenance, vendor intelligence and compliance tools <br />
-							all in one platform 
-						</p>
-						<div className="container mt-8">
-							<div className="d-flex">
-								<div className="zoom-img rounded-3 me-2">
-									<img src="/bfet2.png" alt="limpiar" />
-								</div>
-								{/* <div className="zoom-img rounded-3 ms-2">
+    const res = await fetch(config.url, {
+      method: config.method,
+      headers: config.headers,
+      body: config.data,
+    });
+    console.log("Res>>", res);
+
+    if (res.ok) {
+      alert("Thank you for subscribing to our newsletter!");
+    } else {
+      alert("There was an issue. Please try again later.");
+    }
+  };
+
+  return (
+    <>
+      <Layout headerStyle={4} footerStyle={3}>
+        {/* feature-13 */}
+        <section className="border-bottom border-top bg-1  fix pt-150 position-relative section-hero-4">
+          <div className="text-center container section-padding-mini">
+            <div
+              className=" d-flex align-items-center justify-content-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-4 py-2"
+              data-aos="zoom-in"
+              data-aos-delay={100}
+            >
+              <img src="/assets/imgs/features-1/dots.png" alt="limpiar" />
+              <span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">
+                Features
+              </span>
+            </div>
+            <h5 className="ds-5 mb-3 mt-4">
+              Smarter Property Operations. <br />
+              Autonomous by Design.
+            </h5>
+            <p className="text-500">
+              Autonomous workflows, predictive maintenance, vendor intelligence
+              and compliance tools <br />
+              all in one platform
+            </p>
+            <div className="container mt-8">
+              <div className="d-flex">
+                <div className="zoom-img rounded-3 me-2">
+                  <img src="/bfet2.png" alt="limpiar" />
+                </div>
+                {/* <div className="zoom-img rounded-3 ms-2">
 									<img src="/Variety.png" alt="limpiar" />
 								</div> */}
-							</div>
-						</div>
-					</div>
-				</section>
+              </div>
+            </div>
+          </div>
+        </section>
 
-
-
-									<section className="section-services-4 position-relative fix section-padding">
-					<div className="container position-relative z-2">
-						<div className="text-center">
-							<div className="d-flex align-items-center justify-content-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-4 py-2" data-aos="zoom-in" data-aos-delay={100}>
-								<img src="/assets/imgs/features-1/dots.png" alt="limpiar" />
-								<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">What we offer</span>
-							</div>
-							<h3 className="ds-3 my-3 fw-regular">Building <span className=" fw-bold">enduring value <br className="d-none d-md-inline" /> </span>through <span className="fw-bold">bold</span> strategies</h3>
-						</div>
-						<div className="row pt-8">
-							<div className="col-lg-4">
-								<div className="d-flex align-items-start">
-									<div className="nav w-100 flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-										<button className={`${isNav == 1 ? "active" : ""} nav-link pe-5 justify-content-between d-flex`} onClick={() => handleNav(1)} id="v-pills-financial-tab" data-bs-toggle="pill" data-bs-target="#v-pills-financial" type="button" role="tab" aria-controls="v-pills-financial" aria-selected="true">
-											AI-Driven Workflows
-											<svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
-												<path className="fill-white" d="M17.4177 5.41772L16.3487 6.48681L21.1059 11.244H0V12.756H21.1059L16.3487 17.5132L17.4177 18.5822L24 12L17.4177 5.41772Z" fill="white" />
-											</svg>
-										</button>
-										<button className={`${isNav == 2 ? "active" : ""} nav-link pe-5 justify-content-between d-flex`} onClick={() => handleNav(2)} id="v-pills-business-tab" data-bs-toggle="pill" data-bs-target="#v-pills-business" type="button" role="tab" aria-controls="v-pills-business" aria-selected="false">
-											Predictive Maintenance
-											<svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
-												<path className="fill-white" d="M17.4177 5.41772L16.3487 6.48681L21.1059 11.244H0V12.756H21.1059L16.3487 17.5132L17.4177 18.5822L24 12L17.4177 5.41772Z" fill="white" />
-											</svg>
-										</button>
-										<button className={`${isNav == 3 ? "active" : ""} nav-link pe-5 justify-content-between d-flex`} onClick={() => handleNav(3)} id="v-pills-solicitory-tab" data-bs-toggle="pill" data-bs-target="#v-pills-solicitory" type="button" role="tab" aria-controls="v-pills-solicitory" aria-selected="false">
-											Vendor Intelligence
-											<svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
-												<path className="fill-white" d="M17.4177 5.41772L16.3487 6.48681L21.1059 11.244H0V12.756H21.1059L16.3487 17.5132L17.4177 18.5822L24 12L17.4177 5.41772Z" fill="white" />
-											</svg>
-										</button>
-										<button className={`${isNav == 4 ? "active" : ""} nav-link pe-5 justify-content-between d-flex`} onClick={() => handleNav(4)} id="v-pills-hr-consultancy-tab" data-bs-toggle="pill" data-bs-target="#v-pills-hr-consultancy" type="button" role="tab" aria-controls="v-pills-hr-consultancy" aria-selected="false">
-											Sustainability Tracking
-											<svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
-												<path className="fill-white" d="M17.4177 5.41772L16.3487 6.48681L21.1059 11.244H0V12.756H21.1059L16.3487 17.5132L17.4177 18.5822L24 12L17.4177 5.41772Z" fill="white" />
-											</svg>
-										</button>
-										<button className={`${isNav == 5 ? "active" : ""} nav-link pe-5 justify-content-between d-flex`} onClick={() => handleNav(5)} id="v-pills-strategy-tab" data-bs-toggle="pill" data-bs-target="#v-pills-strategy" type="button" role="tab" aria-controls="v-pills-strategy" aria-selected="false">
-											Centralized Dashboard
-											<svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
-												<path className="fill-white" d="M17.4177 5.41772L16.3487 6.48681L21.1059 11.244H0V12.756H21.1059L16.3487 17.5132L17.4177 18.5822L24 12L17.4177 5.41772Z" fill="white" />
-											</svg>
-										</button>
-										{/* <button className={`${isNav == 6 ? "active" : ""} nav-link pe-5 justify-content-between d-flex`} onClick={() => handleNav(6)} id="v-pills-start-up-tab" data-bs-toggle="pill" data-bs-target="#v-pills-start-up" type="button" role="tab" aria-controls="v-pills-start-up" aria-selected="false">
+        <section className="section-services-4 position-relative fix section-padding">
+          <div className="container position-relative z-2">
+            <div className="text-center">
+              <div
+                className="d-flex align-items-center justify-content-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-4 py-2"
+                data-aos="zoom-in"
+                data-aos-delay={100}
+              >
+                <img src="/assets/imgs/features-1/dots.png" alt="limpiar" />
+                <span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">
+                  What we offer
+                </span>
+              </div>
+              <h3 className="ds-3 my-3 fw-regular">
+                Building{" "}
+                <span className=" fw-bold">
+                  enduring value <br className="d-none d-md-inline" />{" "}
+                </span>
+                through <span className="fw-bold">bold</span> strategies
+              </h3>
+            </div>
+            <div className="row pt-8">
+              <div className="col-lg-4">
+                <div className="d-flex align-items-start">
+                  <div
+                    className="nav w-100 flex-column nav-pills"
+                    id="v-pills-tab"
+                    role="tablist"
+                    aria-orientation="vertical"
+                  >
+                    <button
+                      className={`${
+                        isNav == 1 ? "active" : ""
+                      } nav-link pe-5 justify-content-between d-flex`}
+                      onClick={() => handleNav(1)}
+                      id="v-pills-financial-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#v-pills-financial"
+                      type="button"
+                      role="tab"
+                      aria-controls="v-pills-financial"
+                      aria-selected="true"
+                    >
+                      AI-Driven Workflows
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width={24}
+                        height={24}
+                        viewBox="0 0 24 24"
+                        fill="none"
+                      >
+                        <path
+                          className="fill-white"
+                          d="M17.4177 5.41772L16.3487 6.48681L21.1059 11.244H0V12.756H21.1059L16.3487 17.5132L17.4177 18.5822L24 12L17.4177 5.41772Z"
+                          fill="white"
+                        />
+                      </svg>
+                    </button>
+                    <button
+                      className={`${
+                        isNav == 2 ? "active" : ""
+                      } nav-link pe-5 justify-content-between d-flex`}
+                      onClick={() => handleNav(2)}
+                      id="v-pills-business-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#v-pills-business"
+                      type="button"
+                      role="tab"
+                      aria-controls="v-pills-business"
+                      aria-selected="false"
+                    >
+                      Predictive Maintenance
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width={24}
+                        height={24}
+                        viewBox="0 0 24 24"
+                        fill="none"
+                      >
+                        <path
+                          className="fill-white"
+                          d="M17.4177 5.41772L16.3487 6.48681L21.1059 11.244H0V12.756H21.1059L16.3487 17.5132L17.4177 18.5822L24 12L17.4177 5.41772Z"
+                          fill="white"
+                        />
+                      </svg>
+                    </button>
+                    <button
+                      className={`${
+                        isNav == 3 ? "active" : ""
+                      } nav-link pe-5 justify-content-between d-flex`}
+                      onClick={() => handleNav(3)}
+                      id="v-pills-solicitory-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#v-pills-solicitory"
+                      type="button"
+                      role="tab"
+                      aria-controls="v-pills-solicitory"
+                      aria-selected="false"
+                    >
+                      Vendor Intelligence
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width={24}
+                        height={24}
+                        viewBox="0 0 24 24"
+                        fill="none"
+                      >
+                        <path
+                          className="fill-white"
+                          d="M17.4177 5.41772L16.3487 6.48681L21.1059 11.244H0V12.756H21.1059L16.3487 17.5132L17.4177 18.5822L24 12L17.4177 5.41772Z"
+                          fill="white"
+                        />
+                      </svg>
+                    </button>
+                    <button
+                      className={`${
+                        isNav == 4 ? "active" : ""
+                      } nav-link pe-5 justify-content-between d-flex`}
+                      onClick={() => handleNav(4)}
+                      id="v-pills-hr-consultancy-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#v-pills-hr-consultancy"
+                      type="button"
+                      role="tab"
+                      aria-controls="v-pills-hr-consultancy"
+                      aria-selected="false"
+                    >
+                      Sustainability Tracking
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width={24}
+                        height={24}
+                        viewBox="0 0 24 24"
+                        fill="none"
+                      >
+                        <path
+                          className="fill-white"
+                          d="M17.4177 5.41772L16.3487 6.48681L21.1059 11.244H0V12.756H21.1059L16.3487 17.5132L17.4177 18.5822L24 12L17.4177 5.41772Z"
+                          fill="white"
+                        />
+                      </svg>
+                    </button>
+                    <button
+                      className={`${
+                        isNav == 5 ? "active" : ""
+                      } nav-link pe-5 justify-content-between d-flex`}
+                      onClick={() => handleNav(5)}
+                      id="v-pills-strategy-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#v-pills-strategy"
+                      type="button"
+                      role="tab"
+                      aria-controls="v-pills-strategy"
+                      aria-selected="false"
+                    >
+                      Centralized Dashboard
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width={24}
+                        height={24}
+                        viewBox="0 0 24 24"
+                        fill="none"
+                      >
+                        <path
+                          className="fill-white"
+                          d="M17.4177 5.41772L16.3487 6.48681L21.1059 11.244H0V12.756H21.1059L16.3487 17.5132L17.4177 18.5822L24 12L17.4177 5.41772Z"
+                          fill="white"
+                        />
+                      </svg>
+                    </button>
+                    {/* <button className={`${isNav == 6 ? "active" : ""} nav-link pe-5 justify-content-between d-flex`} onClick={() => handleNav(6)} id="v-pills-start-up-tab" data-bs-toggle="pill" data-bs-target="#v-pills-start-up" type="button" role="tab" aria-controls="v-pills-start-up" aria-selected="false">
 											Start Ups
 											<svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
 												<path className="fill-white" d="M17.4177 5.41772L16.3487 6.48681L21.1059 11.244H0V12.756H21.1059L16.3487 17.5132L17.4177 18.5822L24 12L17.4177 5.41772Z" fill="white" />
 											</svg>
 										</button> */}
-									</div>
-								</div>
-							</div>
-							<div className="col-lg-8">
-								<div className="tab-content" id="v-pills-tabContent">
-									<div className={`${isNav == 1 ? "show active" : ""} tab-pane fade`} id="v-pills-financial" role="tabpanel" aria-labelledby="v-pills-financial-tab" tabIndex={0}>
-										<div className="row align-items-center rounded-3 bg-white p-5">
-											<div className="col-lg-5 mb-lg-0 mb-5">
-												<img className="rounded-3" src="/assets/imgs/service-4/img-1.png" alt="" />
-											</div>
-											<div className="col-lg-7">
-												<div className="p-lg-3">
-													<h4 className="fw-regular">Enhanced <span className="fw-bold">Workflow Automation</span></h4>
-													<p> From request to resolution, streamline every step with automation that eliminates delays and manual effort.</p>
-													<div className="d-flex pt-5">
-														<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
-															<div className="icon">
-																<img src="/assets/imgs/service-4/icon-1.svg" alt="limpiar" />
-															</div>
-														</div>
-														<div className="ps-5">
-															<h6>Faster Resolution</h6>
-															<p>Automatically route tasks to the right <br/> team or vendor.</p>
-														</div>
-													</div>
-													<div className="d-flex">
-														<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
-															<div className="icon">
-																<img src="/assets/imgs/service-4/icon-2.svg" alt="limpiar" />
-															</div>
-														</div>
-														<div className="ps-5">
-															<h6>Consistency</h6>
-															<p>Standardized workflows reduce errors and missed steps.</p>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-8">
+                <div className="tab-content" id="v-pills-tabContent">
+                  <div
+                    className={`${
+                      isNav == 1 ? "show active" : ""
+                    } tab-pane fade`}
+                    id="v-pills-financial"
+                    role="tabpanel"
+                    aria-labelledby="v-pills-financial-tab"
+                    tabIndex={0}
+                  >
+                    <div className="row align-items-center rounded-3 bg-white p-5">
+                      <div className="col-lg-5 mb-lg-0 mb-5">
+                        <img
+                          className="rounded-3"
+                          src="/assets/imgs/service-4/img-1.png"
+                          alt=""
+                        />
+                      </div>
+                      <div className="col-lg-7">
+                        <div className="p-lg-3">
+                          <h4 className="fw-regular">
+                            Enhanced{" "}
+                            <span className="fw-bold">Workflow Automation</span>
+                          </h4>
+                          <p>
+                            {" "}
+                            From request to resolution, streamline every step
+                            with automation that eliminates delays and manual
+                            effort.
+                          </p>
+                          <div className="d-flex pt-5">
+                            <div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
+                              <div className="icon">
+                                <img
+                                  src="/assets/imgs/service-4/icon-1.svg"
+                                  alt="limpiar"
+                                />
+                              </div>
+                            </div>
+                            <div className="ps-5">
+                              <h6>Faster Resolution</h6>
+                              <p>
+                                Automatically route tasks to the right <br />{" "}
+                                team or vendor.
+                              </p>
+                            </div>
+                          </div>
+                          <div className="d-flex">
+                            <div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
+                              <div className="icon">
+                                <img
+                                  src="/assets/imgs/service-4/icon-2.svg"
+                                  alt="limpiar"
+                                />
+                              </div>
+                            </div>
+                            <div className="ps-5">
+                              <h6>Consistency</h6>
+                              <p>
+                                Standardized workflows reduce errors and missed
+                                steps.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
-									<div className={`${isNav == 2 ? "show active" : ""} tab-pane fade`} id="v-pills-business" role="tabpanel" aria-labelledby="v-pills-business-tab" tabIndex={0}>
-										<div className="row align-items-center rounded-3 bg-white p-5">
-											<div className="col-lg-5 mb-lg-0 mb-5">
-												<img className="rounded-3" src="/assets/imgs/service-4/img-2.png" alt="" />
-											</div>
-											<div className="col-lg-7">
-												<div className="p-lg-3">
-													<h4 className="fw-regular">Predictive <span className="fw-bold">Asset Monitoring</span></h4>
-													<p> Stay ahead of costly breakdowns with AI that monitors asset health and predicts failures before they happen..</p>
-													<div className="d-flex pt-5">
-														<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
-															<div className="icon">
-																<img src="/assets/imgs/service-4/icon-1.svg" alt="limpiar" />
-															</div>
-														</div>
-														<div className="ps-5">
-															<h6>Reduced Downtime</h6>
-															<p>Resolve issues before they disrupt operations.</p>
-														</div>
-													</div>
-													<div className="d-flex">
-														<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
-															<div className="icon">
-																<img src="/assets/imgs/service-4/icon-2.svg" alt="limpiar" />
-															</div>
-														</div>
-														<div className="ps-5">
-															<h6>Cost Savings</h6>
-															<p>Extend equipment life with proactive maintenance.</p>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
+                  <div
+                    className={`${
+                      isNav == 2 ? "show active" : ""
+                    } tab-pane fade`}
+                    id="v-pills-business"
+                    role="tabpanel"
+                    aria-labelledby="v-pills-business-tab"
+                    tabIndex={0}
+                  >
+                    <div className="row align-items-center rounded-3 bg-white p-5">
+                      <div className="col-lg-5 mb-lg-0 mb-5">
+                        <img
+                          className="rounded-3"
+                          src="/assets/imgs/service-4/img-2.png"
+                          alt=""
+                        />
+                      </div>
+                      <div className="col-lg-7">
+                        <div className="p-lg-3">
+                          <h4 className="fw-regular">
+                            Predictive{" "}
+                            <span className="fw-bold">Asset Monitoring</span>
+                          </h4>
+                          <p>
+                            {" "}
+                            Stay ahead of costly breakdowns with AI that
+                            monitors asset health and predicts failures before
+                            they happen..
+                          </p>
+                          <div className="d-flex pt-5">
+                            <div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
+                              <div className="icon">
+                                <img
+                                  src="/assets/imgs/service-4/icon-1.svg"
+                                  alt="limpiar"
+                                />
+                              </div>
+                            </div>
+                            <div className="ps-5">
+                              <h6>Reduced Downtime</h6>
+                              <p>
+                                Resolve issues before they disrupt operations.
+                              </p>
+                            </div>
+                          </div>
+                          <div className="d-flex">
+                            <div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
+                              <div className="icon">
+                                <img
+                                  src="/assets/imgs/service-4/icon-2.svg"
+                                  alt="limpiar"
+                                />
+                              </div>
+                            </div>
+                            <div className="ps-5">
+                              <h6>Cost Savings</h6>
+                              <p>
+                                Extend equipment life with proactive
+                                maintenance.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
-									<div className={`${isNav == 3 ? "show active" : ""} tab-pane fade`} id="v-pills-solicitory" role="tabpanel" aria-labelledby="v-pills-solicitory-tab" tabIndex={0}>
-										<div className="row align-items-center rounded-3 bg-white p-5">
-											<div className="col-lg-5 mb-lg-0 mb-5">
-												<img className="rounded-3" src="/assets/imgs/service-4/img-3.png" alt="" />
-											</div>
-											<div className="col-lg-7">
-												<div className="p-lg-3">
-													<h4 className="fw-regular">vendor <span className="fw-bold">Management</span></h4>
-													<p>Easily manage vendors with transparency into performance, compliance, and costs..</p>
-													<div className="d-flex pt-5">
-														<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
-															<div className="icon">
-																<img src="/assets/imgs/service-4/icon-1.svg" alt="limpiar" />
-															</div>
-														</div>
-														<div className="ps-5">
-															<h6>Smart Dispatching</h6>
-															<p>Send jobs to the best vendor instantly.</p>
-														</div>
-													</div>
-													<div className="d-flex">
-														<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
-															<div className="icon">
-																<img src="/assets/imgs/service-4/icon-2.svg" alt="limpiar" />
-															</div>
-														</div>
-														<div className="ps-5">
-															<h6>Performance Tracking</h6>
-															<p> Monitor quality, speed, and compliance in real time.</p>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
+                  <div
+                    className={`${
+                      isNav == 3 ? "show active" : ""
+                    } tab-pane fade`}
+                    id="v-pills-solicitory"
+                    role="tabpanel"
+                    aria-labelledby="v-pills-solicitory-tab"
+                    tabIndex={0}
+                  >
+                    <div className="row align-items-center rounded-3 bg-white p-5">
+                      <div className="col-lg-5 mb-lg-0 mb-5">
+                        <img
+                          className="rounded-3"
+                          src="/assets/imgs/service-4/img-3.png"
+                          alt=""
+                        />
+                      </div>
+                      <div className="col-lg-7">
+                        <div className="p-lg-3">
+                          <h4 className="fw-regular">
+                            vendor <span className="fw-bold">Management</span>
+                          </h4>
+                          <p>
+                            Easily manage vendors with transparency into
+                            performance, compliance, and costs..
+                          </p>
+                          <div className="d-flex pt-5">
+                            <div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
+                              <div className="icon">
+                                <img
+                                  src="/assets/imgs/service-4/icon-1.svg"
+                                  alt="limpiar"
+                                />
+                              </div>
+                            </div>
+                            <div className="ps-5">
+                              <h6>Smart Dispatching</h6>
+                              <p>Send jobs to the best vendor instantly.</p>
+                            </div>
+                          </div>
+                          <div className="d-flex">
+                            <div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
+                              <div className="icon">
+                                <img
+                                  src="/assets/imgs/service-4/icon-2.svg"
+                                  alt="limpiar"
+                                />
+                              </div>
+                            </div>
+                            <div className="ps-5">
+                              <h6>Performance Tracking</h6>
+                              <p>
+                                {" "}
+                                Monitor quality, speed, and compliance in real
+                                time.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
+                  <div
+                    className={`${
+                      isNav == 4 ? "show active" : ""
+                    } tab-pane fade`}
+                    id="v-pills-hr-consultancy"
+                    role="tabpanel"
+                    aria-labelledby="v-pills-hr-consultancy-tab"
+                    tabIndex={0}
+                  >
+                    <div className="row align-items-center rounded-3 bg-white p-5">
+                      <div className="col-lg-5 mb-lg-0 mb-5">
+                        <img
+                          className="rounded-3"
+                          src="/assets/imgs/service-4/img-4.png"
+                          alt=""
+                        />
+                      </div>
+                      <div className="col-lg-7">
+                        <div className="p-lg-3">
+                          <h4 className="fw-regular">
+                            Sustainable{" "}
+                            <span className="fw-bold">Property Management</span>
+                          </h4>
+                          <p>
+                            {" "}
+                            Measure, report, and improve sustainability metrics
+                            across your properties.
+                          </p>
+                          <div className="d-flex pt-5">
+                            <div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
+                              <div className="icon">
+                                <img
+                                  src="/assets/imgs/service-4/icon-1.svg"
+                                  alt="limpiar"
+                                />
+                              </div>
+                            </div>
+                            <div className="ps-5">
+                              <h6>Waste Diversion</h6>
+                              <p>Track recycling and landfill reduction.</p>
+                            </div>
+                          </div>
+                          <div className="d-flex">
+                            <div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
+                              <div className="icon">
+                                <img
+                                  src="/assets/imgs/service-4/icon-2.svg"
+                                  alt="limpiar"
+                                />
+                              </div>
+                            </div>
+                            <div className="ps-5">
+                              <h6>Eco Impact Reports</h6>
+                              <p>
+                                {" "}
+                                Show progress toward ESG and green
+                                certifications.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
 
-									<div className={`${isNav == 4 ? "show active" : ""} tab-pane fade`} id="v-pills-hr-consultancy" role="tabpanel" aria-labelledby="v-pills-hr-consultancy-tab" tabIndex={0}>
-										<div className="row align-items-center rounded-3 bg-white p-5">
-											<div className="col-lg-5 mb-lg-0 mb-5">
-												<img className="rounded-3" src="/assets/imgs/service-4/img-4.png" alt="" />
-											</div>
-											<div className="col-lg-7">
-												<div className="p-lg-3">
-													<h4 className="fw-regular">Sustainable <span className="fw-bold">Property Management</span></h4>
-													<p> Measure, report, and improve sustainability metrics across your properties.</p>
-													<div className="d-flex pt-5">
-														<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
-															<div className="icon">
-																<img src="/assets/imgs/service-4/icon-1.svg" alt="limpiar" />
-															</div>
-														</div>
-														<div className="ps-5">
-															<h6>Waste Diversion</h6>
-															<p>Track recycling and landfill reduction.</p>
-														</div>
-													</div>
-													<div className="d-flex">
-														<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
-															<div className="icon">
-																<img src="/assets/imgs/service-4/icon-2.svg" alt="limpiar" />
-															</div>
-														</div>
-														<div className="ps-5">
-															<h6>Eco Impact Reports</h6>
-															<p> Show progress toward ESG and green certifications.</p>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-
-									<div className={`${isNav == 5 ? "show active" : ""} tab-pane fade`} id="v-pills-strategy" role="tabpanel" aria-labelledby="v-pills-strategy-tab" tabIndex={0}>
-										<div className="row align-items-center rounded-3 bg-white p-5">
-											<div className="col-lg-5 mb-lg-0 mb-5">
-												<img className="rounded-3" src="/assets/imgs/service-4/img-5.png" alt="" />
-											</div>
-											<div className="col-lg-7">
-												<div className="p-lg-3">
-													<h4 className="fw-regular">Unified Property <span className="fw-bold">Management</span></h4>
-													<p> All your property operations, in one simple view.</p>
-													<div className="d-flex pt-5">
-														<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
-															<div className="icon">
-																<img src="/assets/imgs/service-4/icon-1.svg" alt="limpiar" />
-															</div>
-														</div>
-														<div className="ps-5">
-															<h6>Real-Time Visibility </h6>
-															<p>See open tasks, work orders, and vendor status instantly..</p>
-														</div>
-													</div>
-													<div className="d-flex">
-														<div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
-															<div className="icon">
-																<img src="/assets/imgs/service-4/icon-2.svg" alt="limpiar" />
-															</div>
-														</div>
-														<div className="ps-5">
-															<h6>Data-Driven Insights</h6>
-															<p>Analytics and reporting for smarter decisions.</p>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-							
-								</div>
-							</div>
-						</div>
-						<div className="text-center mt-6">
-							<Link href="https://api.leadconnectorhq.com/widget/booking/N59Uzph3F1P9QB1CfZLS" className="btn btn-gradient">
-								Get Started
-								<svg className="ms-2" xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
-									<path className="stroke-white" d="M17.25 15.25V6.75H8.75" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-									<path className="stroke-white" d="M17 7L6.75 17.25" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-								</svg>
-							</Link>
-							{/* <Link href="#" className="ms-md-3 mt-md-0 mt-3 btn btn-outline-secondary hover-up">
+                  <div
+                    className={`${
+                      isNav == 5 ? "show active" : ""
+                    } tab-pane fade`}
+                    id="v-pills-strategy"
+                    role="tabpanel"
+                    aria-labelledby="v-pills-strategy-tab"
+                    tabIndex={0}
+                  >
+                    <div className="row align-items-center rounded-3 bg-white p-5">
+                      <div className="col-lg-5 mb-lg-0 mb-5">
+                        <img
+                          className="rounded-3"
+                          src="/assets/imgs/service-4/img-5.png"
+                          alt=""
+                        />
+                      </div>
+                      <div className="col-lg-7">
+                        <div className="p-lg-3">
+                          <h4 className="fw-regular">
+                            Unified Property{" "}
+                            <span className="fw-bold">Management</span>
+                          </h4>
+                          <p>
+                            {" "}
+                            All your property operations, in one simple view.
+                          </p>
+                          <div className="d-flex pt-5">
+                            <div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
+                              <div className="icon">
+                                <img
+                                  src="/assets/imgs/service-4/icon-1.svg"
+                                  alt="limpiar"
+                                />
+                              </div>
+                            </div>
+                            <div className="ps-5">
+                              <h6>Real-Time Visibility </h6>
+                              <p>
+                                See open tasks, work orders, and vendor status
+                                instantly..
+                              </p>
+                            </div>
+                          </div>
+                          <div className="d-flex">
+                            <div className="bg-primary-soft icon-flip position-relative icon-shape icon-xxl rounded-3">
+                              <div className="icon">
+                                <img
+                                  src="/assets/imgs/service-4/icon-2.svg"
+                                  alt="limpiar"
+                                />
+                              </div>
+                            </div>
+                            <div className="ps-5">
+                              <h6>Data-Driven Insights</h6>
+                              <p>
+                                Analytics and reporting for smarter decisions.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="text-center mt-6">
+              <Link
+                href="https://api.leadconnectorhq.com/widget/booking/N59Uzph3F1P9QB1CfZLS"
+                className="btn btn-gradient"
+              >
+                Get Started
+                <svg
+                  className="ms-2"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width={24}
+                  height={24}
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    className="stroke-white"
+                    d="M17.25 15.25V6.75H8.75"
+                    stroke="white"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                  <path
+                    className="stroke-white"
+                    d="M17 7L6.75 17.25"
+                    stroke="white"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </Link>
+              {/* <Link href="#" className="ms-md-3 mt-md-0 mt-3 btn btn-outline-secondary hover-up">
 								<svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
 									<path className="stroke-dark" d="M8.89286 4.75H6.06818C5.34017 4.75 4.75 5.34017 4.75 6.06818C4.75 13.3483 10.6517 19.25 17.9318 19.25C18.6598 19.25 19.25 18.6598 19.25 17.9318V15.1071L16.1429 13.0357L14.5317 14.6468C14.2519 14.9267 13.8337 15.0137 13.4821 14.8321C12.8858 14.524 11.9181 13.9452 10.9643 13.0357C9.98768 12.1045 9.41548 11.1011 9.12829 10.494C8.96734 10.1537 9.06052 9.76091 9.32669 9.49474L10.9643 7.85714L8.89286 4.75Z" stroke="#111827" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
 								</svg>
 								Our Help Center
 							</Link> */}
-						</div>
-					</div>
-					<div className="position-absolute top-0 start-50 translate-middle-x z-0">
-						<img src="/assets/imgs/blog-1/img-bg-line.png" alt="limpiar" />
-					</div>
-					<div className="bouncing-blobs-container">
-						<div className="bouncing-blobs-glass" />
-						<div className="bouncing-blobs">
-							<div className="bouncing-blob bouncing-blob--green" />
-							<div className="bouncing-blob bouncing-blob--primary" />
-						</div>
-					</div>
-				</section>
+            </div>
+          </div>
+          <div className="position-absolute top-0 start-50 translate-middle-x z-0">
+            <img src="/assets/imgs/blog-1/img-bg-line.png" alt="limpiar" />
+          </div>
+          <div className="bouncing-blobs-container">
+            <div className="bouncing-blobs-glass" />
+            <div className="bouncing-blobs">
+              <div className="bouncing-blob bouncing-blob--green" />
+              <div className="bouncing-blob bouncing-blob--primary" />
+            </div>
+          </div>
+        </section>
 
-
-
-
-					{/* <section className="section-feature-11 border-bottom">
+        {/* <section className="section-feature-11 border-bottom">
 					<div className="container-fluid position-relative section-padding">
 						<div className="container">
 							<div className="row">
@@ -385,11 +738,8 @@ export default function PageFeatures2() {
 					</div>
 				</section> */}
 
-
-
-
-	{/*Features 2*/}
-				{/* <section>
+        {/*Features 2*/}
+        {/* <section>
 					<div className="container-fluid position-relative bg-primary section-padding">
 						<div className="container">
 							<div className="row align-items-center">
@@ -473,13 +823,8 @@ export default function PageFeatures2() {
 					</div>
 				</section> */}
 
-	
-
-
-
-
-				{/* FAQs 1 */}
-				{/* <section className="section-faqs-1 section-padding position-relative">
+        {/* FAQs 1 */}
+        {/* <section className="section-faqs-1 section-padding position-relative">
 					<div className="container position-relative z-2">
 						<div className="row align-items-center">
 							<div className="col-lg-6">
@@ -600,69 +945,155 @@ export default function PageFeatures2() {
 					</div>
 					<img className="position-absolute top-0 end-0 z-0" src="/assets/imgs/faqs-1/img-bg-line.png" alt="limpiar" />
 				</section> */}
-		
 
-			
-
-				{/* Newsletter 1 */}
-				<section className="section-newsletter-1 pb-120 pt-120 fix position-relative">
-					<div className="container position-relative fix">
-						<div className="row align-items-center fix text-center border rounded-4 position-relative z-1">
-							<div className="col-lg-6 my-4">
-								<div className="row">
-									<div className="ms-lg-4">
-										<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/newsletter-1/img-1.png" alt="limpiar" />
-										<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/newsletter-1/img-2.png" alt="limpiar" data-aos="fade-zoom-in" data-aos-delay={50} />
-										<img className="rounded-4 border border-3 border-white me-3 mb-3 d-none d-md-inline" src="/assets/imgs/newsletter-1/img-3.png" alt="limpiar" />
-									</div>
-								</div>
-								<div className="row">
-									<div>
-										<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/newsletter-1/img-4.png" alt="limpiar" />
-										<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/newsletter-1/img-5.png" alt="limpiar" data-aos="fade-zoom-in" data-aos-delay={100} />
-										<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/newsletter-1/img-6.png" alt="limpiar" />
-										<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/newsletter-1/img-7.png" alt="limpiar" data-aos="fade-zoom-in" data-aos-delay={100} />
-									</div>
-								</div>
-								<div className="row d-none d-lg-flex">
-									<div className="me-lg-0">
-										<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/newsletter-1/img-8.png" alt="limpiar" data-aos="fade-zoom-in" data-aos-delay={50} />
-										<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/newsletter-1/img-9.png" alt="limpiar" data-aos="fade-zoom-in" data-aos-delay={100} />
-										<img className="rounded-4 border border-3 border-white me-3 mb-3 d-none d-md-inline" src="/assets/imgs/newsletter-1/img-10.png" alt="limpiar" />
-									</div>
-								</div>
-							</div>
-							<div className="col-lg-6 mt-lg-0 mt-5">
-								<div className="px-lg-5 text-lg-start text-center">
-									<div className="d-flex align-items-center justify-content-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-4 py-2" data-aos="zoom-in" data-aos-delay={100}>
-										<img src="/assets/imgs/features-1/dots.png" alt="limpiar" />
-										<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Stay Updated</span>
-									</div>
-									<h4 className="mt-3 mb-3" data-aos="fade-zoom-in" data-aos-delay={100}>Subscribe to our Newsletter!</h4>
-									<span className="fs-6 fw-medium" data-aos="fade-zoom-in" data-aos-delay={200}>Join 52,000+ people on our newsletter</span>
-									<div className="input-group mb-3 mt-4 position-relative">
-										<input type="text" className="ps-5 py-3 form-control bg-neutral-100 rounded-start-pill border-2 border-end-0 border-white" name="name" placeholder="Enter your mail .." />
-										<div className="bg-neutral-100 border-2 border border-start-0 border-white rounded-end-pill">
-											<button className="btn btn-gradient px-3 py-3 m-3 fs-7 fw-bold border-0 rounded-pill" type="button" data-aos="fade-zoom-in" data-aos-delay={100}>Join Now</button>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div className="position-absolute top-50 start-50 translate-middle z-0">
-							<img src="/assets/imgs/newsletter-1/bg-line.png" alt="limpiar" />
-						</div>
-						<div className="bouncing-blobs-container rounded-4 fix">
-							<div className="bouncing-blobs-glass rounded-4" />
-							<div className="bouncing-blobs">
-								<div className="bouncing-blob bouncing-blob--green" />
-								<div className="bouncing-blob bouncing-blob--primary" />
-							</div>
-						</div>
-					</div>
-				</section>
-
-			</Layout>
-		</>
-	)
+        {/* Newsletter 1 */}
+        <section className="section-newsletter-1 pb-120 pt-120 fix position-relative">
+          <div className="container position-relative fix">
+            <div className="row align-items-center fix text-center border rounded-4 position-relative z-1">
+              <div className="col-lg-6 my-4">
+                <div className="row">
+                  <div className="ms-lg-4">
+                    <img
+                      className="rounded-4 border border-3 border-white me-3 mb-3"
+                      src="/assets/imgs/newsletter-1/img-1.png"
+                      alt="limpiar"
+                    />
+                    <img
+                      className="rounded-4 border border-3 border-white me-3 mb-3"
+                      src="/assets/imgs/newsletter-1/img-2.png"
+                      alt="limpiar"
+                      data-aos="fade-zoom-in"
+                      data-aos-delay={50}
+                    />
+                    <img
+                      className="rounded-4 border border-3 border-white me-3 mb-3 d-none d-md-inline"
+                      src="/assets/imgs/newsletter-1/img-3.png"
+                      alt="limpiar"
+                    />
+                  </div>
+                </div>
+                <div className="row">
+                  <div>
+                    <img
+                      className="rounded-4 border border-3 border-white me-3 mb-3"
+                      src="/assets/imgs/newsletter-1/img-4.png"
+                      alt="limpiar"
+                    />
+                    <img
+                      className="rounded-4 border border-3 border-white me-3 mb-3"
+                      src="/assets/imgs/newsletter-1/img-5.png"
+                      alt="limpiar"
+                      data-aos="fade-zoom-in"
+                      data-aos-delay={100}
+                    />
+                    <img
+                      className="rounded-4 border border-3 border-white me-3 mb-3"
+                      src="/assets/imgs/newsletter-1/img-6.png"
+                      alt="limpiar"
+                    />
+                    <img
+                      className="rounded-4 border border-3 border-white me-3 mb-3"
+                      src="/assets/imgs/newsletter-1/img-7.png"
+                      alt="limpiar"
+                      data-aos="fade-zoom-in"
+                      data-aos-delay={100}
+                    />
+                  </div>
+                </div>
+                <div className="row d-none d-lg-flex">
+                  <div className="me-lg-0">
+                    <img
+                      className="rounded-4 border border-3 border-white me-3 mb-3"
+                      src="/assets/imgs/newsletter-1/img-8.png"
+                      alt="limpiar"
+                      data-aos="fade-zoom-in"
+                      data-aos-delay={50}
+                    />
+                    <img
+                      className="rounded-4 border border-3 border-white me-3 mb-3"
+                      src="/assets/imgs/newsletter-1/img-9.png"
+                      alt="limpiar"
+                      data-aos="fade-zoom-in"
+                      data-aos-delay={100}
+                    />
+                    <img
+                      className="rounded-4 border border-3 border-white me-3 mb-3 d-none d-md-inline"
+                      src="/assets/imgs/newsletter-1/img-10.png"
+                      alt="limpiar"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6 mt-lg-0 mt-5">
+                <div className="px-lg-5 text-lg-start text-center">
+                  <div
+                    className="d-flex align-items-center justify-content-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-4 py-2"
+                    data-aos="zoom-in"
+                    data-aos-delay={100}
+                  >
+                    <img src="/assets/imgs/features-1/dots.png" alt="limpiar" />
+                    <span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">
+                      Stay Updated
+                    </span>
+                  </div>
+                  <h4
+                    className="mt-3 mb-3"
+                    data-aos="fade-zoom-in"
+                    data-aos-delay={100}
+                  >
+                    Subscribe to our Newsletter!
+                  </h4>
+                  <span
+                    className="fs-6 fw-medium"
+                    data-aos="fade-zoom-in"
+                    data-aos-delay={200}
+                  >
+                    Join 52,000+ people on our newsletter
+                  </span>
+                  <form
+                    className="input-group mb-3 mt-4 position-relative"
+                    // onSubmit={(e) => {
+                    //   e.preventDefault();
+                    //   handleSubmitToGHL();
+                    // }}
+                  >
+                    <input
+                      type="email"
+                      className="ps-5 py-3 form-control bg-neutral-100 rounded-start-pill border-2 border-end-0 border-white"
+                      name="email"
+                      placeholder="Enter your mail .."
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                      required
+                    />
+                    <div className="bg-neutral-100 border-2 border border-start-0 border-white rounded-end-pill">
+                      <button
+                        className="btn btn-gradient px-3 py-3 m-3 fs-7 fw-bold border-0 rounded-pill"
+                        type="submit"
+                        data-aos="fade-zoom-in"
+						    onClick={handleSubmitToGHL}
+                        data-aos-delay={100}
+                      >
+                        Join Now
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div className="position-absolute top-50 start-50 translate-middle z-0">
+              <img src="/assets/imgs/newsletter-1/bg-line.png" alt="limpiar" />
+            </div>
+            <div className="bouncing-blobs-container rounded-4 fix">
+              <div className="bouncing-blobs-glass rounded-4" />
+              <div className="bouncing-blobs">
+                <div className="bouncing-blob bouncing-blob--green" />
+                <div className="bouncing-blob bouncing-blob--primary" />
+              </div>
+            </div>
+          </div>
+        </section>
+      </Layout>
+    </>
+  );
 }

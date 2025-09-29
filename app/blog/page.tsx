@@ -1,15 +1,50 @@
+"use client";
+import Layout from "@/components/layout/Layout";
+import Link from "next/link";
+import { useState } from "react";
 
-import Layout from "@/components/layout/Layout"
-import Link from "next/link"
 export default function PageBlog1() {
+  const [email, setEmail] = useState("");
 
-	return (
-		<>
+  const handleSubmitToGHL = async (e: any) => {
+    e.preventDefault();
+    let data = JSON.stringify({
+      email,
+      locationId: process.env.NEXT_PUBLIC_GHL_LOCATION_ID,
+      tags: ["newsletter"],
+    });
 
-			<Layout >
+    let config = {
+      method: "POST",
+      url: "https://services.leadconnectorhq.com/contacts/upsert",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+        Authorization: `Bearer ${process.env.NEXT_PUBLIC_GHL_API_KEY}`,
+        Version: "2021-07-28",
+      },
+      data: data,
+    };
 
-				{/*Blog 5*/}
-				{/* <section className="section-blog-1 section-padding position-relative border-top border-bottom mt-10">
+    const res = await fetch(config.url, {
+      method: config.method,
+      headers: config.headers,
+      body: config.data,
+    });
+    console.log("Res>>", res);
+
+    if (res.ok) {
+      alert("Thank you for subscribing to our newsletter!");
+    } else {
+      alert("There was an issue. Please try again later.");
+    }
+  };
+
+  return (
+    <>
+      <Layout>
+        {/*Blog 5*/}
+        {/* <section className="section-blog-1 section-padding position-relative border-top border-bottom mt-10">
 					<div className="container position-relative z-2">
 						<div className="row align-items-end">
 							<div className="col-lg-7 me-auto">
@@ -81,18 +116,20 @@ export default function PageBlog1() {
 						</div>
 					</div>
 				</section> */}
-				{/*Blog 6*/}
-				<section className="section-blog-6 section-padding mt-10 border-bottom">
-					<div className="container">
-						<div className="row align-items-end">
-							<div className="col">
-								<h5 className="ds-5 mt-3 mb-3">Trending News</h5>
-								<span className="fs-5 fw-medium">Explore the insights and trends shaping our industry</span>
-							</div>
-						</div>
-						<div className="row">
-							{/* prettier-ignore */}
-							<div className="col-lg-4 col-md-6 text-start">
+        {/*Blog 6*/}
+        <section className="section-blog-6 section-padding mt-10 border-bottom">
+          <div className="container">
+            <div className="row align-items-end">
+              <div className="col">
+                <h5 className="ds-5 mt-3 mb-3">Trending News</h5>
+                <span className="fs-5 fw-medium">
+                  Explore the insights and trends shaping our industry
+                </span>
+              </div>
+            </div>
+            <div className="row">
+              {/* prettier-ignore */}
+              <div className="col-lg-4 col-md-6 text-start">
 								<div className="card border-0 rounded-3 mt-4 position-relative d-inline-flex">
 									<img className="rounded-top-3" src="/commercial.webp" alt="limpiar" />
 									<div className="card-body bg-white p-0">
@@ -105,86 +142,180 @@ export default function PageBlog1() {
 									<Link href="https://blogs.limpiar.online/post/best-commercial-building-maintenance-checklist-of-2025" className="position-absolute bottom-0 start-0 end-0 top-0 z-0" />
 								</div>
 							</div>
-							<div className="col-lg-4 col-md-6 text-start">
-								<div className="card border-0 rounded-3 mt-4 position-relative d-inline-flex">
-									<img className="rounded-top-3" src="/fms.webp" alt="limpiar" />
-									<div className="card-body bg-white p-0">
-										<Link href="https://blogs.limpiar.online/post/what-is-facility-management-software" className="bg-primary-soft position-relative z-1 d-inline-flex rounded-pill px-3 py-2 mt-3">
-											<span className="tag-spacing fs-7 fw-bold text-linear-2 text-uppercase">software</span>
-										</Link>
-										<h6 className="my-3">What is a Facility Management Software?</h6>
-										<p>    What can facilities management software do for your
-                          buildings and teams? Schedule a consultation today to
-                          streamline your operations and save costs.</p>
-									</div>
-									<Link href="https://blogs.limpiar.online/post/what-is-facility-management-software" className="position-absolute bottom-0 start-0 end-0 top-0 z-0" />
-								</div>
-							</div>
+              <div className="col-lg-4 col-md-6 text-start">
+                <div className="card border-0 rounded-3 mt-4 position-relative d-inline-flex">
+                  <img
+                    className="rounded-top-3"
+                    src="/fms.webp"
+                    alt="limpiar"
+                  />
+                  <div className="card-body bg-white p-0">
+                    <Link
+                      href="https://blogs.limpiar.online/post/what-is-facility-management-software"
+                      className="bg-primary-soft position-relative z-1 d-inline-flex rounded-pill px-3 py-2 mt-3"
+                    >
+                      <span className="tag-spacing fs-7 fw-bold text-linear-2 text-uppercase">
+                        software
+                      </span>
+                    </Link>
+                    <h6 className="my-3">
+                      What is a Facility Management Software?
+                    </h6>
+                    <p>
+                      {" "}
+                      What can facilities management software do for your
+                      buildings and teams? Schedule a consultation today to
+                      streamline your operations and save costs.
+                    </p>
+                  </div>
+                  <Link
+                    href="https://blogs.limpiar.online/post/what-is-facility-management-software"
+                    className="position-absolute bottom-0 start-0 end-0 top-0 z-0"
+                  />
+                </div>
+              </div>
 
+              <div className="col-lg-4 col-md-6 text-start">
+                <div className="card border-0 rounded-3 mt-4 position-relative d-inline-flex">
+                  <img
+                    className="rounded-top-3"
+                    src="/house-sold.webp"
+                    alt="limpiar"
+                  />
+                  <div className="card-body bg-white p-0">
+                    <Link
+                      href="https://blogs.limpiar.online/post/5-things-to-consider-when-hiring-a-service-provider-company-as-a-property-manager"
+                      className="bg-primary-soft position-relative z-1 d-inline-flex rounded-pill px-3 py-2 mt-3"
+                    >
+                      <span className="tag-spacing fs-7 fw-bold text-linear-2 text-uppercase">
+                        Facility Management
+                      </span>
+                    </Link>
+                    <h6 className="my-3">
+                      5 Things to Consider When Hiring a Service Provider
+                      Company as a Property Manager
+                    </h6>
+                    <p>
+                      {" "}
+                      Hiring the right service provider can make or break your
+                      property operations. Discover 5 key things every property
+                      manager must check before signing a contract.
+                    </p>
+                  </div>
+                  <Link
+                    href="https://blogs.limpiar.online/post/5-things-to-consider-when-hiring-a-service-provider-company-as-a-property-manager"
+                    className="position-absolute bottom-0 start-0 end-0 top-0 z-0"
+                  />
+                </div>
+              </div>
 
+              <div className="col-lg-4 col-md-6 text-start">
+                <div className="card border-0 rounded-3 mt-4 position-relative d-inline-flex">
+                  <img
+                    className="rounded-top-3"
+                    src="/estate.webp"
+                    alt="limpiar"
+                  />
+                  <div className="card-body bg-white p-0">
+                    <Link
+                      href="https://blogs.limpiar.online/post/technology-in-facility-management-is-it-worth-the-investment"
+                      className="bg-primary-soft position-relative z-1 d-inline-flex rounded-pill px-3 py-2 mt-3"
+                    >
+                      <span className="tag-spacing fs-7 fw-bold text-linear-2 text-uppercase">
+                        {" "}
+                        Facility Management
+                      </span>
+                    </Link>
+                    <h6 className="my-3">
+                      Technology in Facility Management: Is it Worth the
+                      Investment?{" "}
+                    </h6>
+                    <p>
+                      {" "}
+                      Discover how modern technology is transforming facility
+                      management. Learn the costs, benefits, and real ROI
+                      including how platforms like Limpiar help property
+                      managers save time, reduce costs, and improve tenant
+                      satisfaction...
+                    </p>
+                  </div>
+                  <Link
+                    href="https://blogs.limpiar.online/post/technology-in-facility-management-is-it-worth-the-investment"
+                    className="position-absolute bottom-0 start-0 end-0 top-0 z-0"
+                  />
+                </div>
+              </div>
 
-							<div className="col-lg-4 col-md-6 text-start">
-								<div className="card border-0 rounded-3 mt-4 position-relative d-inline-flex">
-									<img className="rounded-top-3" src="/house-sold.webp" alt="limpiar" />
-									<div className="card-body bg-white p-0">
-										<Link href="https://blogs.limpiar.online/post/5-things-to-consider-when-hiring-a-service-provider-company-as-a-property-manager" className="bg-primary-soft position-relative z-1 d-inline-flex rounded-pill px-3 py-2 mt-3">
-											<span className="tag-spacing fs-7 fw-bold text-linear-2 text-uppercase">Facility Management</span>
-										</Link>
-										<h6 className="my-3">5 Things to Consider When Hiring a Service Provider Company as a Property Manager</h6>
-										<p> Hiring the right service provider can make or break your property operations. Discover 5 key things every property manager must check before signing a contract.</p>
-									</div>
-									<Link href="https://blogs.limpiar.online/post/5-things-to-consider-when-hiring-a-service-provider-company-as-a-property-manager" className="position-absolute bottom-0 start-0 end-0 top-0 z-0" />
-								</div>
-							</div>
+              <div className="col-lg-4 col-md-6 text-start">
+                <div className="card border-0 rounded-3 mt-4 position-relative d-inline-flex">
+                  <img
+                    className="rounded-top-3"
+                    src="/choose.webp"
+                    alt="limpiar"
+                  />
+                  <div className="card-body bg-white p-0">
+                    <Link
+                      href="https://blogs.limpiar.online/post/how-to-choose-and-manage-service-providers-as-a-property-manager"
+                      className="bg-primary-soft position-relative z-1 d-inline-flex rounded-pill px-3 py-2 mt-3"
+                    >
+                      <span className="tag-spacing fs-7 fw-bold text-linear-2 text-uppercase">
+                        Education
+                      </span>
+                    </Link>
+                    <h6 className="my-3">
+                      How to Choose and Manage Service Providers as a Property
+                      Manager | Limpiar
+                    </h6>
+                    <p>
+                      {" "}
+                      Learn how to find, vet, and manage reliable service
+                      providers as a property manager. Discover practical tips
+                      for booking, tracking, and ensuring transparency without
+                      the usual stress.
+                    </p>
+                  </div>
+                  <Link
+                    href="https://blogs.limpiar.online/post/how-to-choose-and-manage-service-providers-as-a-property-manager"
+                    className="position-absolute bottom-0 start-0 end-0 top-0 z-0"
+                  />
+                </div>
+              </div>
 
-
-
-							<div className="col-lg-4 col-md-6 text-start">
-								<div className="card border-0 rounded-3 mt-4 position-relative d-inline-flex">
-									<img className="rounded-top-3" src="/estate.webp" alt="limpiar" />
-									<div className="card-body bg-white p-0">
-										<Link href="https://blogs.limpiar.online/post/technology-in-facility-management-is-it-worth-the-investment" className="bg-primary-soft position-relative z-1 d-inline-flex rounded-pill px-3 py-2 mt-3">
-											<span className="tag-spacing fs-7 fw-bold text-linear-2 text-uppercase"> Facility Management</span>
-										</Link>
-										<h6 className="my-3">Technology in Facility Management: Is it Worth the Investment? </h6>
-										<p> Discover how modern technology is transforming facility management. Learn the costs, benefits, and real ROI including how platforms like Limpiar help property managers save time, reduce costs, and improve tenant satisfaction...</p>
-									</div>
-									<Link href="https://blogs.limpiar.online/post/technology-in-facility-management-is-it-worth-the-investment" className="position-absolute bottom-0 start-0 end-0 top-0 z-0" />
-								</div>
-							</div>
-
-
-
-							<div className="col-lg-4 col-md-6 text-start">
-								<div className="card border-0 rounded-3 mt-4 position-relative d-inline-flex">
-									<img className="rounded-top-3" src="/choose.webp" alt="limpiar" />
-									<div className="card-body bg-white p-0">
-										<Link href="https://blogs.limpiar.online/post/how-to-choose-and-manage-service-providers-as-a-property-manager" className="bg-primary-soft position-relative z-1 d-inline-flex rounded-pill px-3 py-2 mt-3">
-											<span className="tag-spacing fs-7 fw-bold text-linear-2 text-uppercase">Education</span>
-										</Link>
-										<h6 className="my-3">How to Choose and Manage Service Providers as a Property Manager | Limpiar</h6>
-										<p> Learn how to find, vet, and manage reliable service providers as a property manager. Discover practical tips for booking, tracking, and ensuring transparency without the usual stress.</p>
-									</div>
-									<Link href="https://blogs.limpiar.online/post/how-to-choose-and-manage-service-providers-as-a-property-manager" className="position-absolute bottom-0 start-0 end-0 top-0 z-0" />
-								</div>
-							</div>
-
-
-
-							<div className="col-lg-4 col-md-6 text-start">
-								<div className="card border-0 rounded-3 mt-4 position-relative d-inline-flex">
-									<img className="rounded-top-3" src="/sustain.webp" alt="limpiar" />
-									<div className="card-body bg-white p-0">
-										<Link href="https://blogs.limpiar.online/post/sustainability-as-a-business-advantage-for-service-providers" className="bg-primary-soft position-relative z-1 d-inline-flex rounded-pill px-3 py-2 mt-3">
-											<span className="tag-spacing fs-7 fw-bold text-linear-2 text-uppercase">Sustainability</span>
-										</Link>
-										<h6 className="my-3">Sustainability as a Business Advantage for Service Providers</h6>
-										<p>Discover how adopting sustainable practices gives service providers a competitive edge boosting profits, attracting clients, and future-proofing their businesses. Learn why sustainability isn’t just good for the planet, but also good for business.</p>
-									</div>
-									<Link href="https://blogs.limpiar.online/post/sustainability-as-a-business-advantage-for-service-providers" className="position-absolute bottom-0 start-0 end-0 top-0 z-0" />
-								</div>
-							</div>
-							{/* <div className="col-lg-4 col-md-6 text-start">
+              <div className="col-lg-4 col-md-6 text-start">
+                <div className="card border-0 rounded-3 mt-4 position-relative d-inline-flex">
+                  <img
+                    className="rounded-top-3"
+                    src="/sustain.webp"
+                    alt="limpiar"
+                  />
+                  <div className="card-body bg-white p-0">
+                    <Link
+                      href="https://blogs.limpiar.online/post/sustainability-as-a-business-advantage-for-service-providers"
+                      className="bg-primary-soft position-relative z-1 d-inline-flex rounded-pill px-3 py-2 mt-3"
+                    >
+                      <span className="tag-spacing fs-7 fw-bold text-linear-2 text-uppercase">
+                        Sustainability
+                      </span>
+                    </Link>
+                    <h6 className="my-3">
+                      Sustainability as a Business Advantage for Service
+                      Providers
+                    </h6>
+                    <p>
+                      Discover how adopting sustainable practices gives service
+                      providers a competitive edge boosting profits, attracting
+                      clients, and future-proofing their businesses. Learn why
+                      sustainability isn’t just good for the planet, but also
+                      good for business.
+                    </p>
+                  </div>
+                  <Link
+                    href="https://blogs.limpiar.online/post/sustainability-as-a-business-advantage-for-service-providers"
+                    className="position-absolute bottom-0 start-0 end-0 top-0 z-0"
+                  />
+                </div>
+              </div>
+              {/* <div className="col-lg-4 col-md-6 text-start">
 								<div className="card border-0 rounded-3 mt-4 position-relative d-inline-flex">
 									<img className="rounded-top-3" src="/assets/imgs/blog-6/img-7.png" alt="limpiar" />
 									<div className="card-body bg-white p-0">
@@ -197,7 +328,7 @@ export default function PageBlog1() {
 									<Link href="#" className="position-absolute bottom-0 start-0 end-0 top-0 z-0" />
 								</div>
 							</div> */}
-							{/* <div className="col-lg-4 col-md-6 text-start">
+              {/* <div className="col-lg-4 col-md-6 text-start">
 								<div className="card border-0 rounded-3 mt-4 position-relative d-inline-flex">
 									<img className="rounded-top-3" src="/assets/imgs/blog-6/img-8.png" alt="limpiar" />
 									<div className="card-body bg-white p-0">
@@ -210,7 +341,7 @@ export default function PageBlog1() {
 									<Link href="#" className="position-absolute bottom-0 start-0 end-0 top-0 z-0" />
 								</div>
 							</div> */}
-							{/* <div className="col-lg-4 col-md-6 text-start">
+              {/* <div className="col-lg-4 col-md-6 text-start">
 								<div className="card border-0 rounded-3 mt-4 position-relative d-inline-flex">
 									<img className="rounded-top-3" src="/assets/imgs/blog-6/img-9.png" alt="limpiar" />
 									<div className="card-body bg-white p-0">
@@ -223,7 +354,7 @@ export default function PageBlog1() {
 									<Link href="#" className="position-absolute bottom-0 start-0 end-0 top-0 z-0" />
 								</div>
 							</div> */}
-							{/* <div className="col-lg-4 col-md-6 text-start">
+              {/* <div className="col-lg-4 col-md-6 text-start">
 								<div className="card border-0 rounded-3 mt-4 position-relative d-inline-flex">
 									<img className="rounded-top-3" src="/assets/imgs/blog-6/img-10.png" alt="limpiar" />
 									<div className="card-body bg-white p-0">
@@ -236,7 +367,7 @@ export default function PageBlog1() {
 									<Link href="#" className="position-absolute bottom-0 start-0 end-0 top-0 z-0" />
 								</div>
 							</div> */}
-							{/* <div className="col-lg-4 col-md-6 text-start">
+              {/* <div className="col-lg-4 col-md-6 text-start">
 								<div className="card border-0 rounded-3 mt-4 position-relative d-inline-flex">
 									<img className="rounded-top-3" src="/assets/imgs/blog-6/img-11.png" alt="limpiar" />
 									<div className="card-body bg-white p-0">
@@ -249,7 +380,7 @@ export default function PageBlog1() {
 									<Link href="#" className="position-absolute bottom-0 start-0 end-0 top-0 z-0" />
 								</div>
 							</div> */}
-							{/* <div className="col-lg-4 col-md-6 text-start">
+              {/* <div className="col-lg-4 col-md-6 text-start">
 								<div className="card border-0 rounded-3 mt-4 position-relative d-inline-flex">
 									<img className="rounded-top-3" src="/assets/imgs/blog-6/img-12.png" alt="limpiar" />
 									<div className="card-body bg-white p-0">
@@ -262,12 +393,12 @@ export default function PageBlog1() {
 									<Link href="#" className="position-absolute bottom-0 start-0 end-0 top-0 z-0" />
 								</div>
 							</div> */}
-						</div>
-					</div>
+            </div>
+          </div>
 
-					{/* Pagination */}
+          {/* Pagination */}
 
-					{/* <div className="container">
+          {/* <div className="container">
 						<div className="row pt-5 text-start">
 							<div className="d-flex justify-content-start align-items-center">
 								<nav aria-label="Page navigation example">
@@ -305,66 +436,149 @@ export default function PageBlog1() {
 							</div>
 						</div>
 					</div> */}
-				</section>
-				{/* Newsletter 1 */}
-				<section className="section-newsletter-1 pb-120 pt-120 fix position-relative">
-					<div className="container position-relative fix">
-						<div className="row align-items-center fix text-center border rounded-4 position-relative z-1">
-							<div className="col-lg-6 my-4">
-								<div className="row">
-									<div className="ms-lg-4">
-										<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/newsletter-1/img-1.png" alt="limpiar" />
-										<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/newsletter-1/img-2.png" alt="limpiar" data-aos="fade-zoom-in" data-aos-delay={50} />
-										<img className="rounded-4 border border-3 border-white me-3 mb-3 d-none d-md-inline" src="/assets/imgs/newsletter-1/img-3.png" alt="limpiar" />
-									</div>
-								</div>
-								<div className="row">
-									<div>
-										<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/newsletter-1/img-4.png" alt="limpiar" />
-										<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/newsletter-1/img-5.png" alt="limpiar" data-aos="fade-zoom-in" data-aos-delay={100} />
-										<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/newsletter-1/img-6.png" alt="limpiar" />
-										<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/newsletter-1/img-7.png" alt="limpiar" data-aos="fade-zoom-in" data-aos-delay={100} />
-									</div>
-								</div>
-								<div className="row d-none d-lg-flex">
-									<div className="me-lg-0">
-										<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/newsletter-1/img-8.png" alt="limpiar" data-aos="fade-zoom-in" data-aos-delay={50} />
-										<img className="rounded-4 border border-3 border-white me-3 mb-3" src="/assets/imgs/newsletter-1/img-9.png" alt="limpiar" data-aos="fade-zoom-in" data-aos-delay={100} />
-										<img className="rounded-4 border border-3 border-white me-3 mb-3 d-none d-md-inline" src="/assets/imgs/newsletter-1/img-10.png" alt="limpiar" />
-									</div>
-								</div>
-							</div>
-							<div className="col-lg-6 mt-lg-0 mt-5">
-								<div className="px-lg-5 text-lg-start text-center">
-									<div className="d-flex align-items-center justify-content-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-4 py-2" data-aos="zoom-in" data-aos-delay={100}>
-										<img src="/assets/imgs/features-1/dots.png" alt="limpiar" />
-										<span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">Stay Updated</span>
-									</div>
-									<h4 className="mt-3 mb-3" data-aos="fade-zoom-in" data-aos-delay={100}>Subscribe to our Newsletter!</h4>
-									<span className="fs-6 fw-medium" data-aos="fade-zoom-in" data-aos-delay={200}>Join 52,000+ people on our newsletter</span>
-									<div className="input-group mb-3 mt-4 position-relative">
-										<input type="text" className="ps-5 py-3 form-control bg-neutral-100 rounded-start-pill border-2 border-end-0 border-white" name="name" placeholder="Enter your mail .." />
-										<div className="bg-neutral-100 border-2 border border-start-0 border-white rounded-end-pill">
-											<button className="btn btn-gradient px-3 py-3 m-3 fs-7 fw-bold border-0 rounded-pill" type="button" data-aos="fade-zoom-in" data-aos-delay={100}>Join Now</button>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div className="position-absolute top-50 start-50 translate-middle z-0">
-							<img src="/assets/imgs/newsletter-1/bg-line.png" alt="limpiar" />
-						</div>
-						<div className="bouncing-blobs-container rounded-4 fix">
-							<div className="bouncing-blobs-glass rounded-4" />
-							<div className="bouncing-blobs">
-								<div className="bouncing-blob bouncing-blob--green" />
-								<div className="bouncing-blob bouncing-blob--primary" />
-							</div>
-						</div>
-					</div>
-				</section>
-
-			</Layout>
-		</>
-	)
+        </section>
+        {/* Newsletter 1 */}
+        <section className="section-newsletter-1 pb-120 pt-120 fix position-relative">
+          <div className="container position-relative fix">
+            <div className="row align-items-center fix text-center border rounded-4 position-relative z-1">
+              <div className="col-lg-6 my-4">
+                <div className="row">
+                  <div className="ms-lg-4">
+                    <img
+                      className="rounded-4 border border-3 border-white me-3 mb-3"
+                      src="/assets/imgs/newsletter-1/img-1.png"
+                      alt="limpiar"
+                    />
+                    <img
+                      className="rounded-4 border border-3 border-white me-3 mb-3"
+                      src="/assets/imgs/newsletter-1/img-2.png"
+                      alt="limpiar"
+                      data-aos="fade-zoom-in"
+                      data-aos-delay={50}
+                    />
+                    <img
+                      className="rounded-4 border border-3 border-white me-3 mb-3 d-none d-md-inline"
+                      src="/assets/imgs/newsletter-1/img-3.png"
+                      alt="limpiar"
+                    />
+                  </div>
+                </div>
+                <div className="row">
+                  <div>
+                    <img
+                      className="rounded-4 border border-3 border-white me-3 mb-3"
+                      src="/assets/imgs/newsletter-1/img-4.png"
+                      alt="limpiar"
+                    />
+                    <img
+                      className="rounded-4 border border-3 border-white me-3 mb-3"
+                      src="/assets/imgs/newsletter-1/img-5.png"
+                      alt="limpiar"
+                      data-aos="fade-zoom-in"
+                      data-aos-delay={100}
+                    />
+                    <img
+                      className="rounded-4 border border-3 border-white me-3 mb-3"
+                      src="/assets/imgs/newsletter-1/img-6.png"
+                      alt="limpiar"
+                    />
+                    <img
+                      className="rounded-4 border border-3 border-white me-3 mb-3"
+                      src="/assets/imgs/newsletter-1/img-7.png"
+                      alt="limpiar"
+                      data-aos="fade-zoom-in"
+                      data-aos-delay={100}
+                    />
+                  </div>
+                </div>
+                <div className="row d-none d-lg-flex">
+                  <div className="me-lg-0">
+                    <img
+                      className="rounded-4 border border-3 border-white me-3 mb-3"
+                      src="/assets/imgs/newsletter-1/img-8.png"
+                      alt="limpiar"
+                      data-aos="fade-zoom-in"
+                      data-aos-delay={50}
+                    />
+                    <img
+                      className="rounded-4 border border-3 border-white me-3 mb-3"
+                      src="/assets/imgs/newsletter-1/img-9.png"
+                      alt="limpiar"
+                      data-aos="fade-zoom-in"
+                      data-aos-delay={100}
+                    />
+                    <img
+                      className="rounded-4 border border-3 border-white me-3 mb-3 d-none d-md-inline"
+                      src="/assets/imgs/newsletter-1/img-10.png"
+                      alt="limpiar"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-6 mt-lg-0 mt-5">
+                <div className="px-lg-5 text-lg-start text-center">
+                  <div
+                    className="d-flex align-items-center justify-content-center bg-primary-soft border border-2 border-white d-inline-flex rounded-pill px-4 py-2"
+                    data-aos="zoom-in"
+                    data-aos-delay={100}
+                  >
+                    <img src="/assets/imgs/features-1/dots.png" alt="limpiar" />
+                    <span className="tag-spacing fs-7 fw-bold text-linear-2 ms-2 text-uppercase">
+                      Stay Updated
+                    </span>
+                  </div>
+                  <h4
+                    className="mt-3 mb-3"
+                    data-aos="fade-zoom-in"
+                    data-aos-delay={100}
+                  >
+                    Subscribe to our Newsletter!
+                  </h4>
+                  <span
+                    className="fs-6 fw-medium"
+                    data-aos="fade-zoom-in"
+                    data-aos-delay={200}
+                  >
+                    Join 52,000+ people on our newsletter
+                  </span>
+                  <form className="input-group mb-3 mt-4 position-relative">
+                    <input
+                      type="email"
+                      className="ps-5 py-3 form-control bg-neutral-100 rounded-start-pill border-2 border-end-0 border-white"
+                      name="email"
+                      placeholder="Enter your mail .."
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
+                      required
+                    />
+                    <div className="bg-neutral-100 border-2 border border-start-0 border-white rounded-end-pill">
+                      <button
+                        className="btn btn-gradient px-3 py-3 m-3 fs-7 fw-bold border-0 rounded-pill"
+                        type="submit"
+                        data-aos="fade-zoom-in"
+                        data-aos-delay={100}
+                        onClick={handleSubmitToGHL}
+                      >
+                        Join Now
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div className="position-absolute top-50 start-50 translate-middle z-0">
+              <img src="/assets/imgs/newsletter-1/bg-line.png" alt="limpiar" />
+            </div>
+            <div className="bouncing-blobs-container rounded-4 fix">
+              <div className="bouncing-blobs-glass rounded-4" />
+              <div className="bouncing-blobs">
+                <div className="bouncing-blob bouncing-blob--green" />
+                <div className="bouncing-blob bouncing-blob--primary" />
+              </div>
+            </div>
+          </div>
+        </section>
+      </Layout>
+    </>
+  );
 }
