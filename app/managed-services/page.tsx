@@ -40,7 +40,7 @@ const page = () => {
 								<img src="/hero-2.png" alt="limpiar" data-aos="fade-up" data-aos-delay={100} />
 								<img className="alltuchtopdown d-none d-md-block position-absolute bottom-0 end-0 pe-10 me-lg-10 mb-lg-10" src="/assets/imgs/hero-2/vector.png" alt="limpiar" />
 								<div className="position-md-absolute d-inline-block pt-10 pt-md-5 top-50 start-0 translate-middle-y mt-10">
-									<div className="alltuchtopdown backdrop-filter rounded-4 p-4">
+									{/* <div className="alltuchtopdown backdrop-filter rounded-4 p-4">
 										<h6 className="text-900">Features</h6>
 										<p className="fs-6 text-900">
 											Discover why hundreds of millions <br />
@@ -69,7 +69,7 @@ const page = () => {
 												<span className="ms-2">Call recording</span>
 											</li>
 										</ul>
-									</div>
+									</div> */}
 								</div>
 							</div>
 							<div className="position-absolute top-0 start-0 ms-10 mt-10 pt-10">

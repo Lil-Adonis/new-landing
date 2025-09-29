@@ -97,8 +97,7 @@ export default function PageContact1() {
 									<h6>Call Us</h6>
 									<p className="text-500">
 										Call us to speak to a member of our team. <br />
-										(+01) 234 567 89 <br />
-										(+01) 456 789 21
+										(833) 546 - 7427
 									</p>
 								</div>
 							</div>

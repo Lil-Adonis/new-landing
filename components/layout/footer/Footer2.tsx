@@ -108,7 +108,7 @@ export default function Footer2() {
 									<div className="d-flex">
 										<Link href="/privacy-policy" className="text-900 me-3"> Privacy policy </Link>
 										{/* <Link href="/#" className="text-900 me-3"> Cookies </Link> */}
-										<Link href="/#" className="text-900 me-3"> Terms of service </Link>
+										{/* <Link href="/#" className="text-900 me-3"> Terms of service </Link> */}
 									</div>
 								</div>
 							</div>
