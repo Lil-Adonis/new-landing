@@ -1,74 +1,109 @@
-'use client'
-import Link from "next/link"
-import CountUp from 'react-countup'
-import { Autoplay, Keyboard, Navigation, Pagination } from 'swiper/modules'
-import { Swiper, SwiperSlide } from 'swiper/react'
+"use client";
+import Link from "next/link";
+import CountUp from "react-countup";
+import { Autoplay, Keyboard, Navigation, Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 import Marquee from "react-fast-marquee";
 
 export default function Hero4() {
+  const swiperOptions = {
+    slidesPerView: 1,
+    // spaceBetween: 20,
+    slidesPerGroup: 1,
+    centeredSlides: false,
+    loop: true,
+    autoplay: {
+      delay: 4000,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  };
 
-	const swiperOptions = {
-		slidesPerView: 1,
-		// spaceBetween: 20,
-		slidesPerGroup: 1,
-		centeredSlides: false,
-		loop: true,
-		autoplay: {
-			delay: 4000,
-		},
-		pagination: {
-			el: '.swiper-pagination',
-		},
-		navigation: {
-			nextEl: '.swiper-button-next',
-			prevEl: '.swiper-button-prev',
-		},
-	}
-
-	return (
-		<>
-
-			<section className="section-hero-4 position-relative fix pt-150">
-				<div className="container">
-					<div className="row position-relative z-1">
-						<div className="col-lg-6 text-center text-lg-start">
-							<div className="position-relative d-inline-block">
-								<img className="rounded-5 border border-5 border-white" src="/hero-2.png" alt="limpiar" />
-								<div className="alltuchtopdown backdrop-filter rounded-4 text-center d-inline-block px-6 py-4 m-5 position-absolute bottom-0 end-0">
-									{/* <h2 className="count text-900 fw-black">+<span className="odometer" /><CountUp end={23} enableScrollSpy={true} /><span>k</span></h2> */}
-									{/* <h6 className="text-500">Professionals</h6>
+  return (
+    <>
+      <section className="section-hero-4 position-relative fix pt-150">
+        <div className="container">
+          <div className="row position-relative z-1">
+            <div className="col-lg-6 text-center text-lg-start">
+              <div className="position-relative d-inline-block">
+                <img
+                  className="rounded-5 border border-5 border-white"
+                  src="/hero-2.png"
+                  alt="limpiar"
+                />
+                <div className="alltuchtopdown backdrop-filter rounded-4 text-center d-inline-block px-6 py-4 m-5 position-absolute bottom-0 end-0">
+                  {/* <h2 className="count text-900 fw-black">+<span className="odometer" /><CountUp end={23} enableScrollSpy={true} /><span>k</span></h2> */}
+                  {/* <h6 className="text-500">Professionals</h6>
 									<p className="text-500 fs-7">Love Our System</p> */}
-									<p>Trusted by leading National brands</p>
-									<Link href="#" className="shadow-sm d-flex align-items-center bg-white d-inline-flex rounded-pill px-2 py-1 mb-3">
-										<span className=" fs-9 fw-bold rounded-pill px-2 py-1 text-white" style={{ backgroundColor: '#0d6efd' }}>Get</span>
-										<span className="fs-7 fw-medium mx-2" style={{ color: '#0d6efd' }}>Free Update</span>
-									</Link>
-								</div>
-								<div className="position-absolute start-0 bottom-50 translate-middle-x">
-									<div className="alltuchtopdown">
-										<img src="/assets/imgs/hero-4/vector-1.svg" alt="limpiar" />
-									</div>
-								</div>
-							</div>
-						</div>
-						<div className="col-lg-6">
-							<div className="position-relative align-self-end mt-10">
-								<h3 className="ds-3 fw-regular">
-									Automated operations. Autonomous properties.
-									{/* Complex
+                  <p>Trusted by leading National brands</p>
+                  <Link
+                    href="#"
+                    className="shadow-sm d-flex align-items-center bg-white d-inline-flex rounded-pill px-2 py-1 mb-3"
+                  >
+                    <span
+                      className=" fs-9 fw-bold rounded-pill px-2 py-1 text-white"
+                      style={{ backgroundColor: "#0d6efd" }}
+                    >
+                      Get
+                    </span>
+                    <span
+                      className="fs-7 fw-medium mx-2"
+                      style={{ color: "#0d6efd" }}
+                    >
+                      Free Update
+                    </span>
+                  </Link>
+                </div>
+                <div className="position-absolute start-0 bottom-50 translate-middle-x">
+                  <div className="alltuchtopdown">
+                    <img src="/assets/imgs/hero-4/vector-1.svg" alt="limpiar" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <div className="position-relative align-self-end mt-10">
+                <h3 className="ds-3 fw-regular">
+                  Automated operations. Autonomous properties.
+                  {/* Complex
 									<span className=" fw-bold">IT <br />Solution</span>
 									For <span className=" fw-bold">Grow <br /></span> Your <span className=" fw-bold">Business</span> */}
-								</h3>
-								<p className="fs-5  py-3 responsive-text">Limpiar’s AI platform transforms buildings into self-optimizing assets,  automating cleaning, maintenance, and vendor management to cut costs, increase uptime, and set a new standard for facility management.</p>
-								<Link href="https://api.leadconnectorhq.com/widget/booking/N59Uzph3F1P9QB1CfZLS" className="fw-bold btn bg-neutral-100 d-inline-flex align-items-center text-900 hover-up">
-									<span className="me-5">Get started</span>
-									<svg xmlns="http://www.w3.org/2000/svg" width={24} height={24} viewBox="0 0 24 24" fill="none">
-										<path className="fill-dark" d="M17.4177 5.41776L16.3487 6.48684L21.1059 11.2441H0V12.756H21.1059L16.3487 17.5132L17.4177 18.5823L24 12L17.4177 5.41776Z" fill="black" />
-									</svg>
-								</Link>
-								<p className="text-900 fs-8 pt-3 pb-8 ">No Card Required. Cancel Anytime.</p>
-								<div className="row">
-									{/* <div className="row position-relative align-items-center justify-content-between">
+                </h3>
+                <p className="fs-5  py-3 responsive-text">
+                  Limpiar’s AI platform transforms buildings into
+                  self-optimizing assets, automating cleaning, maintenance, and
+                  vendor management to cut costs, increase uptime, and set a new
+                  standard for facility management.
+                </p>
+                <Link
+                  href="https://api.leadconnectorhq.com/widget/booking/N59Uzph3F1P9QB1CfZLS"
+                  className="fw-bold btn bg-neutral-100 d-inline-flex align-items-center text-900 hover-up"
+                >
+                  <span className="me-5">Get started</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width={24}
+                    height={24}
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <path
+                      className="fill-dark"
+                      d="M17.4177 5.41776L16.3487 6.48684L21.1059 11.2441H0V12.756H21.1059L16.3487 17.5132L17.4177 18.5823L24 12L17.4177 5.41776Z"
+                      fill="black"
+                    />
+                  </svg>
+                </Link>
+                <p className="text-900 fs-8 pt-3 pb-8 ">
+                  No Card Required. Cancel Anytime.
+                </p>
+                <div className="row">
+                  {/* <div className="row position-relative align-items-center justify-content-between">
 										<div className="col d-flex align-items-center">
 											<div className="counter-item-cover counter-item">
 												<div className="content text-center mx-auto">
@@ -94,8 +129,8 @@ export default function Hero4() {
 											</p>
 										</div>
 									</div> */}
-									<div className="row mt- mb-10">
-										{/* <Swiper {...swiperOptions}
+                  <div className="row mt- mb-10">
+                    {/* <Swiper {...swiperOptions}
 											className="swiper slider-two pb-5 mt-lg-0 mt-5"
 											modules={[Keyboard, Autoplay, Pagination, Navigation]}
 										>
@@ -188,7 +223,7 @@ export default function Hero4() {
 											<div className="swiper-pagination" />
 										</Swiper> */}
 
-											{/* <div className="mt- pt-4 max-w-300px">
+                    {/* <div className="mt- pt-4 max-w-300px">
 									<p className="text-uppercase mb-2">Trusted by the best</p>
 									<div className="carouselTicker carouselTicker-right">
 										<ul className="carouselTicker__list">
@@ -207,45 +242,68 @@ export default function Hero4() {
 									</div>
 								</div> */}
 
-
-									<div className="col">
-							{/* Carausel Scroll */}
-							<div className="carouselTicker carouselTicker-left position-relative z-1 mt-lg-0 mt-8">
-								<ul className="carouselTicker__list">
-									<Marquee>
-										<li className="carouselTicker__item">
-											<img className="rounded-4" src="/rimberio-fit.webp" alt="limpiar" style={{ height: 100, width: 100 }} />
-										</li>
-										<li className="carouselTicker__item">
-											<img className="rounded-4" src="/rimberio-rest.webp" alt="limpiar" style={{ height: 80, width: 80 }} />
-										</li>
-										<li className="carouselTicker__item">
-											<img className="rounded-4" src="/restaurant.webp" alt="limpiar" style={{ height: 80, width: 90 }} />
-										</li>
-										<li className="carouselTicker__item">
-											<img className="rounded-4" src="/underground.png" alt="limpiar" style={{ height: 100, width: 100 }} />
-										</li>
-									</Marquee>
-								</ul>
-							</div>
-						</div>
-									</div>
-								</div>
-								<div className="position-absolute top-0 end-0 z-1 flickering pt-9 pe-4">
-									<img src="/assets/imgs/hero-4/star-1.svg" alt="limpiar" />
-								</div>
-							</div>
-						</div>
-					</div>
-					<div className="position-absolute top-0 start-0 bottom-0 mb-5 bg-2 rounded-4 fix">
-						<img style={{ backgroundColor: '#0d6efd' }} className="h-100" src="/assets/imgs/hero-4/line-bg.png" alt="limpiar" />
-					</div>
-					{/* <div className="position-absolute bg-rotate d-none d-lg-block pb-10 ps-9 mb-8 z-0">
+                    <div className="col">
+                      {/* Carausel Scroll */}
+                      <div className="carouselTicker carouselTicker-left position-relative z-1 mt-lg-0 mt-8">
+                        <ul className="carouselTicker__list">
+                          <Marquee>
+                            <li className="carouselTicker__item">
+                              <img
+                                className="rounded-4"
+                                src="/rimberio-fit.webp"
+                                alt="limpiar"
+                                style={{ height: 100, width: 100 }}
+                              />
+                            </li>
+							<li className="carouselTicker__item">
+							  <img
+								className="rounded-circle"
+								src="/rimberio-rest.webp"
+								alt="limpiar"
+								style={{ height: 80, width: 80 }}
+							  />
+							</li>
+                            <li className="carouselTicker__item">
+                              <img
+                                className="rounded-4"
+                                src="/restaurant.webp"
+                                alt="limpiar"
+                                style={{ height: 90, width: 120 }}
+                              />
+                            </li>
+                            <li className="carouselTicker__item">
+                              <img
+                                className="rounded-4"
+                                src="/underground.png"
+                                alt="limpiar"
+                                style={{ height: 100, width: 100 }}
+                              />
+                            </li>
+                          </Marquee>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="position-absolute top-0 end-0 z-1 flickering pt-9 pe-4">
+                  <img src="/assets/imgs/hero-4/star-1.svg" alt="limpiar" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="position-absolute top-0 start-0 bottom-0 mb-5 bg-2 rounded-4 fix">
+            <img
+              style={{ backgroundColor: "#0d6efd" }}
+              className="h-100"
+              src="/assets/imgs/hero-4/line-bg.png"
+              alt="limpiar"
+            />
+          </div>
+          {/* <div className="position-absolute bg-rotate d-none d-lg-block pb-10 ps-9 mb-8 z-0">
 						<img src="/assets/imgs/hero-4/favicon.svg" alt="limpiar" />
 					</div> */}
-				</div>
-			</section>
-
-		</>
-	)
+        </div>
+      </section>
+    </>
+  );
 }
